@@ -1,0 +1,15 @@
+[SEQUENCE 13 — First strike (lightning) — END FRAME]
+[Movement III palette: storm-dark with pale gold light transitioning to Movement IV crimson + white + ash-grey]
+
+Karuppar raises the vel spear to the torn sky. A SINGLE BOLT OF SHAKTI-LIGHTNING answers, striking the spear-tip. The moment is a detonation of light and power. The broken war-horn from the cold open now sounds again, WHOLE and TRIUMPHANT. The white horse screams and plunges off the ridge into the sea of asuras below. Sound erupts back to full chaos — the carnage begins.
+
+Karuppar: a towering muscular Tamil folk guardian deity, 8.5 heads tall, deep obsidian-black skin slick and glistening, fierce intense face, glowing amber-orange eyes, thick curved black handlebar moustache, three horizontal white sacred ash (vibhuti) stripes across the forehead with a single red vertical tilak between the brows, long matted black hair bound under a dark cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing thin smoke, heavy layered black iron chains draped across the bare torso and coiled around both forearms and wrists, a black-and-deep-crimson layered dhoti (veshti), beaded ornaments, bare feet, an aura of righteous wrath.
+
+The War Horse: a divine pure-white war horse, powerful and muscular, glowing amber eyes, flowing white mane, draped with black iron chain barding and red cloth, a moonlight sheen on its coat, breath steaming, fierce and noble.
+
+The vel spear is crackling with Shakti-lightning. The moment is the threshold — from silence to detonation, from hope to action, from the still point to the unstoppable force.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png, Character-Sheets/War-Horse/War-horse.png

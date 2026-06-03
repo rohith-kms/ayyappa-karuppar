@@ -1,0 +1,13 @@
+[SEQUENCE 05 — Ayyappa eyes close->black — END FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+Extreme close-up on Ayyappa's radiant face. His luminous divine aura is fading. His eyes are CLOSING in a gesture of release, not defeat. The moment is one of profound peace — a decision made, a burden released. His face transitions from serene light to shadow as his eyes shut completely.
+
+Lord Ayyappa, a youthful radiant warrior god, serene and fearless face, luminous golden divine aura, smooth dark complexion, a simple gold ornament and bell, warrior's cloth and beads, calm composed expression even amid carnage, soft warm rim-light separating him from the dark battlefield.
+
+The background has gone to near-total black. All color drains. His divine glow is the last light in the frame. This is the moment before the cut to pure black silence.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Ayyappa/Ayappa.png

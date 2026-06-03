@@ -1,0 +1,15 @@
+[SEQUENCE 21 — Mahishi's Fear — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, white fire]
+
+Mahishi HURLS a fistful of hair to spawn more asuras — but Karuppar's CHAIN WHIPS OUT OF THE SMOKE and SCATTERS them before they can fully form, BLOWING the half-born asuras apart in mid-birth. Her boon — the ability to multiply — has been NEGATED. Her power source is being destroyed faster than she can replenish it.
+
+Her eyes are WIDENING: arrogance meeting its end. Fear taking root.
+
+Mahishi: immense, but now visibly vulnerable. The realization of defeat.
+
+Karuppar's chains: glowing white-hot, sweeping through the newly-spawned asuras and scattering them like ash before they can even fully materialize.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi.png, Character-Sheets/Karuppar/KS.png

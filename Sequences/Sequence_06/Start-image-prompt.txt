@@ -1,0 +1,13 @@
+[SEQUENCE 06 — Kailash stillness — START FRAME]
+[Movement II palette: cool blue-white, cosmic, clean, un-bloodied]
+
+A cosmic realm utterly different from the battlefield. Shiva sits in absolute stillness and meditation, the cosmos turning slowly behind him in a vast, ethereal backdrop. The scene is silent and clean — a visual breath after the horror of Movement I. Blue-white light, cool and serene, bathes the composition.
+
+Lord Shiva, serene ascetic deity seated in deep meditation, pale ash-smeared blue-grey skin, matted jata hair piled high with a crescent moon and the holy Ganga, a closed vertical third eye on the forehead, a serpent around the neck, rudraksha beads, calm transcendent face, cool blue-white cosmic glow, the turning cosmos behind him.
+
+The palette shifts dramatically — clean, cosmic, healing. No blood, no fire, no orange. Only blue-white serenity. This is the first un-bloodied frame in the reel. The contrast makes the audience lean in.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Shiva/README.txt

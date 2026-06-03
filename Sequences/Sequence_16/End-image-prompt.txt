@@ -1,0 +1,13 @@
+[SEQUENCE 16 — Dismount — bare-handed — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, hot embers, blood spray, lightning]
+
+He catches an asura's skull in one massive hand and HEADBUTTS it to fragments. Another asura is being grabbed by the jaw, its spine about to be snapped with a wet CRACK you feel in your teeth. Blood is everywhere. No weapon — just the BRUTE STRENGTH OF A DEITY who does not need one.
+
+Karuppar: bare-handed, moving through the crowd with absolute dominance. His hands are massive, powerful, unstoppable. The physical strength on display is inhuman.
+
+The asuras are being destroyed in close, brutal, intimate detail. This is not honorable combat — this is extermination.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png

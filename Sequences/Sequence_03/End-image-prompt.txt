@@ -1,0 +1,15 @@
+[SEQUENCE 03 — Soldier POV -> aerial — END FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+High eagle-eye aerial view, drone perspective, pulled back and rising. Below, a desperately small island of Ayyappa's exhausted forces — compact, dense, fighting shoulder-to-shoulder, a tight knot of armor and spears. Surrounding them on all sides, a vast writhing BLACK SEA of asura warriors, endless and surging inward, the island drowning in the tide. Smoke drifts. Fire flickers in the darkness. The scale is crushing — the Ganas are a matchstick surrounded by an ocean.
+
+Ganas: weary battle-worn divine foot-soldiers loyal to Ayyappa, mud-and-blood spattered armor, exhausted determined faces, spears and shields, outnumbered but unbroken.
+
+Asuras: hulking grey-skinned humanoids with fanged faces, dark sunken eyes, crude bone-and-iron armor and jagged weapons, scarred muscular bodies, born slick and steaming, a snarling endless horde, savage and expendable.
+
+Palette: bruised grey, charcoal, monochromatic dread with only sickly orange firelight. Ash drifts upward. The mood is despair and futility — courage has broken.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/Karuppar_master_sheet.png (for scale reference only; focus on massed asura horde)

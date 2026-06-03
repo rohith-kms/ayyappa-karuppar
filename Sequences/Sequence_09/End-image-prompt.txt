@@ -1,0 +1,11 @@
+[SEQUENCE 09 — Back to hell, lowest point — END FRAME]
+[Movement III palette: storm-dark with one shaft of pale gold light; first crimson + white horse hit hard here]
+
+Wide tactical view of the battlefield from above. Ayyappa's forces are a shrinking island, VISIBLY, PHYSICALLY compressed. The black sea of asuras has pushed in tighter. The Ganas are packed shoulder-to-shoulder, a last-stand formation. The moment is ONE MORE ASURA SURGE and all is finished. Every warrior's face shows exhaustion and the knowledge of imminent defeat.
+
+The lighting has begun to shift — pale gold light is now clearly visible from above, piercing through the storm clouds in a single seam, but it illuminates only the distant horizon. The battlefield itself remains dark, but the audience can sense the light coming. The palette shows the first real crimson — blood on armor, blood on the earth.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: None (tactical overview)

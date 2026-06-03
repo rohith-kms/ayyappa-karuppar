@@ -1,0 +1,17 @@
+[SEQUENCE 20 — The Rally — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, emerging light]
+
+Wide. Ayyappa and Karuppar across the battlefield — a single look exchanged between them, no words. WARRIOR TO WARRIOR. DHARMA TO DHARMA. The Ganas have RISEN and are surging forward in Karuppar's wake. The tide has VISIBLY, PHYSICALLY TURNED. The black sea of asuras is now RECEDING.
+
+Ayyappa: a youthful radiant warrior god, serene and fearless face, luminous golden divine aura, smooth dark complexion, a simple gold ornament and bell, warrior's cloth and beads, calm composed expression, soft warm rim-light separating him from the dark battlefield. Now he is RISING.
+
+Karuppar: moving through asuras, the godlike force unleashed.
+
+Ganas: rising, roaring, surging forward, fear replaced by strength.
+
+The composition shows the physical reversal — the Ganas rising, the asuras being pushed back.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Ayyappa/Ayappa.png, Character-Sheets/Karuppar/KS.png

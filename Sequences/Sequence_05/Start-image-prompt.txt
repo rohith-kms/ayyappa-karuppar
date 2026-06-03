@@ -1,0 +1,13 @@
+[SEQUENCE 05 — Ayyappa eyes close->black — START FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+Close-up on the boy-god Ayyappa at the eye of the storm — serene and radiant even amid the carnage. Mud-spattered, calm, luminous divine aura glowing soft against the dark chaos surrounding him. An asura dies at his feet but he does not flinch. His face is tranquil — the still point in the turning world.
+
+Lord Ayyappa, a youthful radiant warrior god, serene and fearless face, luminous golden divine aura, smooth dark complexion, a simple gold ornament and bell, warrior's cloth and beads, calm composed expression even amid carnage, soft warm rim-light separating him from the dark battlefield.
+
+The composition is intimate and calm. His divine light is the only warm glow in the monochromatic desolation. Asuras rage around him but he is untouched, unmoved.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Ayyappa/Ayappa.png

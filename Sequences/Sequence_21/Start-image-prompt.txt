@@ -1,0 +1,13 @@
+[SEQUENCE 21 — Mahishi's Fear — START FRAME]
+[Movement IV palette: full crimson + black + ash-grey, white fire, wind]
+
+Push in on MAHISHI. For the first time, the laugh is GONE. Fear is visible in her eyes. She is realizing that her army is failing, that numbers have lost their power against this god.
+
+Mahishi: colossal demoness with a fearsome buffalo head, long curved horns, dark leathery hide, glowing red eyes, fanged snarling maw, draped in dark battle ornaments and bone jewelry, immense and menacing, wreathed in smoke, but now her arrogance is CRACKING. Fear is visible beneath.
+
+The moment is the turning point for Mahishi — from dominion to dread.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi.png

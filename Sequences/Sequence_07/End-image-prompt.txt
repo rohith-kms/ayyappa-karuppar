@@ -1,0 +1,13 @@
+[SEQUENCE 07 — Shiva close-up, third eye — END FRAME]
+[Movement II palette: cool blue-white, cosmic, clean, un-bloodied]
+
+Extreme macro close-up on Shiva's face — the corner of his mouth, a single muscle fiber — showing the SMALLEST POSSIBLE MOVEMENT: the faintest furl of the lips. That is ALL. The third eye is in sharp focus in the frame's center. From the inner corner, a SINGLE BEAD OF WHITE FIRE wells up like a tear made of pure lightning — not exploding, but GATHERING, building potential.
+
+Lord Shiva, serene ascetic deity seated in deep meditation, pale ash-smeared blue-grey skin, matted jata hair piled high with a crescent moon and the holy Ganga, a closed vertical third eye on the forehead, a serpent around the neck, rudraksha beads, calm transcendent face, cool blue-white cosmic glow, the turning cosmos behind him.
+
+The bead of fire glows softly at the corner of the third eye. This is the moment before release. The power is in the restraint, the held breath before the storm.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Shiva/README.txt

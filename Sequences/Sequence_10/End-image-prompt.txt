@@ -1,0 +1,15 @@
+[SEQUENCE 10 — The silence, wind, freeze — END FRAME]
+[Movement III palette: storm-dark with pale gold light; first crimson + white]
+
+Everything is FROZEN in a moment of eerie silence. A cold, clean wind has blown BACKWARD across the field, pushing flame and smoke FLAT. The asuras are FROZEN in mid-surge, mouths open, confused. Mahishi's laugh has died in her throat. Even the Ganas have stopped fighting, slowly turning to look toward the horizon where a single shaft of pale gold light is breaking through the storm clouds.
+
+The entire battlefield is a tableau of held breath. No one moves. No one breathes. The wind blows backward. The smoke drifts in an unnatural direction. The light grows brighter on the horizon.
+
+Mahishi and Asuras: as previously defined, but FROZEN mid-attack.
+
+The palette now shows a clear, clean light source from above — pale gold pouring down in a single shaft through parting clouds. The contrast is sharp against the storm-dark and the first real crimson blood.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi.png

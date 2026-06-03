@@ -1,0 +1,13 @@
+[SEQUENCE 02 — Battlefield descending — duration ~6s]
+
+A slow, methodical vertical crane-down from high storm-cloud altitude descending into the battlefield, passing through drifting ash and smoke.
+
+BEGIN (0:00): High altitude, above the storm clouds. The lens is barely visible through heavy grey haze. Ash and smoke drift UPWARD on warm thermals, creating a disorienting, suffocating atmosphere. We are descending but the view is nearly opaque.
+
+GRADUAL DESCENT (2-4s): Slowly, the haze begins to thin. Through the drifting ash, a vast dark plane comes into view below — the color of dried blood and charcoal. Broken shapes emerge: broken chariots, bodies, the dense carpet of the battlefield. The sickly orange glow of guttering fires begins to reveal detail.
+
+END (6s): We have descended enough to see clearly. The full extent of the battlefield unfolds below — an immense, densely packed field of bodies and writhing asuras, broken war machines, guttering fires casting orange light across grey desolation. The scale is overwhelming. The ground appears to BREATHE with movement. Smoke drifts slowly.
+
+Camera motion: One continuous, slow, locked vertical crane-down. No panning, no rotation. Steady descent through opacity into clarity. The mood is dread accumulating as we descend into the nightmare.
+
+Audio note: Low, wet heartbeat (from Sequence_01 cold open) continues faintly, mixed with distant wind and ash drifting.

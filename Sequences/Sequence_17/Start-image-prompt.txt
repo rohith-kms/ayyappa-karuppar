@@ -1,0 +1,15 @@
+[SEQUENCE 17 — The Ashing (close-up) — START FRAME]
+[Movement IV palette: full crimson + black + ash-grey, hot embers, lightning, white fire]
+
+Karuppar plants his feet and hurls the iron chains forward into a cluster of charging asuras. The chains catch — wrapping around necks, torsos, limbs. The moment before ignition.
+
+Karuppar: a towering muscular Tamil folk guardian deity, 8.5 heads tall, deep obsidian-black skin slick and glistening, fierce intense face, glowing amber-orange eyes, thick curved black handlebar moustache, three horizontal white sacred ash (vibhuti) stripes across the forehead with a single red vertical tilak between the brows, long matted black hair bound under a dark cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing thin smoke, heavy layered black iron chains draped across the bare torso and coiled around both forearms and wrists, a black-and-deep-crimson layered dhoti (veshti), beaded ornaments, bare feet, an aura of righteous wrath.
+
+The chains are blazing with white-hot Shakti energy, glowing molten-bright along the links.
+
+The asuras: hulking grey-skinned humanoids, caught in the chains, about to be transformed.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png

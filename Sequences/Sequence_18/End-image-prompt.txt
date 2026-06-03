@@ -1,0 +1,15 @@
+[SEQUENCE 18 — Chain Storm — AERIAL — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, white fire, lightning]
+
+HIGH AERIAL VIEW, pulled straight up to maximum height. Karuppar is a small figure below, the chains whipping outward in an EXPANDING SPIRAL. As they sweep through the horde, HUNDREDS of asuras ash and burst apart at once. The entire ring collapses into drifting grey clouds carried off on the wind. From this height: a PERFECT EXPANDING CIRCLE of bodies turning to ash and VANISHING — clean, blood-dark empty ground where a thousand stood a second ago.
+
+This is the POSTER FRAME: not bodies falling — an ARMY ERASED in a single rotation. The scale is overwhelming. The efficacy is total.
+
+Karuppar is at the center — the source of the white-hot chain spiral.
+
+The palette shows the ash-grey clouds dispersing, the empty dark ground, the white fire of the chains at the center.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png

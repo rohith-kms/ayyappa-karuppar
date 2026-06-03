@@ -1,0 +1,15 @@
+[SEQUENCE 03 — Soldier POV -> aerial — duration ~8s]
+
+One continuous, unbroken camera move from ground-level first-person POV to high aerial pull-back.
+
+BEGIN (0:00): Inside the helmet, ground-level and suffocating. The camera is rocking with each ragged running stride. The Gana's bloodied hand and forearm blur in and out of frame as he runs. Smoke and falling bodies. His breathing dominates — wet, gasping, desperate. 
+
+BEAT (4s in): An asura lunges in from the left, and the POV violently thrusts the aruval forward, driving the curved blade into the chest. We feel the jolt, the blade sinking, weight sagging on the hilt. He rips it free. Through the gap where it fell, two MORE asuras surge up behind it. A wave. The camera whips around — they are EVERYWHERE.
+
+TRANSITION (6s): From that ground-level despair, a single, continuous PULLOUT begins. The POV releases from inside the warrior's body and begins to rise — faster and faster — lifting straight up and back into a drone/eagle-eye perspective.
+
+END (8s): High aerial bird's-eye view, locked off and steady. The island of Ayyappa's forces is now a small knot, surrounded on all sides by an endless writhing BLACK SEA of asura warriors. The island is drowning. Smoke drifts. Ash rises on thermals. Silence falls.
+
+Motion style: handheld and visceral (0-6s), then a single accelerating vertical crane-up into a locked, wide, high aerial shot (6-8s). One move. No cuts.
+
+Audio note: Ragged Gana breathing and clash of weapons (0-6s) → sudden drop to near-silence (6-8s, wind only, as described in Sequence_10 preview).

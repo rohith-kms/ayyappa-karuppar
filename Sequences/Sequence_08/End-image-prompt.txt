@@ -1,0 +1,17 @@
+[SEQUENCE 08 — The forging (vortex) — END FRAME]
+[Movement II palette: cool blue-white, cosmic, clean, un-bloodied (transitioning)]
+
+The bead of white fire has fallen and the frame WHIPS DOWN INTO A CHURNING VORTEX OF BLACK FLAME — not orange, not crimson yet — cool black and white fire. A warrior form ASSEMBLES in FRAGMENTS through the smoke, never shown whole:
+
+— A DARK HAND closing with supernatural strength around the haft of the vel spear, the ornate brass visible
+— IRON CHAINS coiling and THREADING UP a massive forearm like living serpents, glowing faintly
+— The CURVED ARUVAL billhook catching light, the blade stained dark
+— AMBER EYES IGNITING like molten fire, piercing through the smoke
+— A CHEROOT glowing to life between clenched teeth, a curl of smoke
+
+The composition is deliberate chaos and assembly. The power gathers but is WITHHELD — we never see the full figure yet. Only fragments. The vortex swirls. The moment before revelation.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/Karuppar_master_sheet.png

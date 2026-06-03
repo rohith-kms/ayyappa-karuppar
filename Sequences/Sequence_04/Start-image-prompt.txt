@@ -1,0 +1,13 @@
+[SEQUENCE 04 — Mahishi spawns asuras — START FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+Low-angle shot, tilting slowly upward from darkness and smoke. A hill of black smoke and ash rises in the frame. At the peak, backlit against a furnace-orange sky, the SILHOUETTE of Mahishi — colossal, immense, arrogant. She is laughing, a dark laugh echoing across the wasteland.
+
+Mahishi: colossal demoness with a fearsome buffalo head, long curved horns, dark leathery hide, glowing red eyes, fanged snarling maw, draped in dark battle ornaments and bone jewelry, immense and menacing, wreathed in smoke, arrogant cruel expression.
+
+The smoke swirls around her. Her silhouette towers against the dying firelight. The mood is horror and dominion — she is the source, the endless plague, the nightmare made flesh.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi.png

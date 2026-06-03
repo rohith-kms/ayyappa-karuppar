@@ -1,0 +1,13 @@
+[SEQUENCE 06 — Kailash stillness — END FRAME]
+[Movement II palette: cool blue-white, cosmic, clean, un-bloodied]
+
+Identical to the start — Shiva remains in unbroken meditation, the cosmos turning. This is the held frame. No change. The power is in the STILLNESS.
+
+Lord Shiva, serene ascetic deity seated in deep meditation, pale ash-smeared blue-grey skin, matted jata hair piled high with a crescent moon and the holy Ganga, a closed vertical third eye on the forehead, a serpent around the neck, rudraksha beads, calm transcendent face, cool blue-white cosmic glow, the turning cosmos behind him.
+
+The frame is meditative, frozen in divine peace. Kailash. The still point of the turning universe.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Shiva/README.txt

@@ -1,0 +1,15 @@
+[SEQUENCE 15 — The Spear Ride — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, hot embers, blood spray]
+
+He couches the vel like a lance and rides a charging asura straight through the chest. The vel's spearhead bursts out its back in a gout of BLACK BLOOD. He flicks the body off the spear into two others without slowing. The moment is one of momentum and efficiency — no wasted motion, no hesitation. The spear is already being leveled at the next target.
+
+Karuppar mounted, the vel spear dripping: a towering muscular Tamil folk guardian deity, 8.5 heads tall, deep obsidian-black skin slick and glistening, fierce intense face, glowing amber-orange eyes, thick curved black handlebar moustache, three horizontal white sacred ash (vibhuti) stripes across the forehead with a single red vertical tilak between the brows, long matted black hair bound under a dark cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing thin smoke, heavy layered black iron chains draped across the bare torso and coiled around both forearms and wrists, a black-and-deep-crimson layered dhoti (veshti), beaded ornaments, bare feet, an aura of righteous wrath.
+
+The vel: an ornate long golden vel spear, leaf-shaped steel head stained with black blood, brass bells and a red cloth tassel near the blade.
+
+The War Horse and Black Dog: at full gallop/run, part of the unstoppable momentum.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/Karuppar_mounted_poses.png, Character-Sheets/War-Horse/War-horse.png

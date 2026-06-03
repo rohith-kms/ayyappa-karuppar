@@ -1,0 +1,11 @@
+[SEQUENCE 11 — Ridgeline silhouette — START FRAME]
+[Movement III palette: storm-dark with one shaft of pale gold light; first crimson + white horse hit hard]
+
+A high ridge in the distance, silhouetted against the breaking light. The storm clouds are parting along a single seam, and through that seam falls one shaft of pale, impossible light — dawn light, clean and golden. The ridge is empty, dark, waiting. The light catches the peak.
+
+The frame is held here for one beat before the rider appears. The light is THE STORY. The audience leans in, waiting. Every eye on the empty ridge.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: None (ridge and light only)

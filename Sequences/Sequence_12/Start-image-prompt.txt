@@ -1,0 +1,13 @@
+[SEQUENCE 12 — The face, full reveal — START FRAME]
+[Movement III palette: storm-dark with pale gold light; first crimson + white horse hit hard]
+
+The light is catching Karuppar fully now. The transition from silhouette to revelation. We are in the process of seeing him for the first time.
+
+Karuppar: a towering muscular Tamil folk guardian deity, 8.5 heads tall, deep obsidian-black skin slick and glistening, fierce intense face, glowing amber-orange eyes, thick curved black handlebar moustache, three horizontal white sacred ash (vibhuti) stripes across the forehead with a single red vertical tilak between the brows, long matted black hair bound under a dark cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing thin smoke, heavy layered black iron chains draped across the bare torso and coiled around both forearms and wrists, a black-and-deep-crimson layered dhoti (veshti), beaded ornaments, bare feet, an aura of righteous wrath.
+
+The light is catching his features as the full form emerges from the silhouette.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png

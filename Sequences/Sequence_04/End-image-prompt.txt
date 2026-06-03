@@ -1,0 +1,15 @@
+[SEQUENCE 04 — Mahishi spawns asuras — END FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+Wide vista across a vast ridgeline. Mahishi dominates the frame's center — colossal, terrible, her arm outstretched after casting the hair. Behind and below her, the ridgeline is ERUPTING with THOUSANDS of newborn asuras, still glistening wet, mid-scream, unfolding into their full monstrous forms. They rise from the earth like a nightmare blooming, shoulder to shoulder, fanged and furious and fresh-born and ENDLESS.
+
+Mahishi: colossal demoness with a fearsome buffalo head, long curved horns, dark leathery hide, glowing red eyes, fanged snarling maw, draped in dark battle ornaments and bone jewelry, immense and menacing, wreathed in smoke, arrogant cruel expression.
+
+Newborn Asuras: unfoldingfrom the earth, raw glistening muscle knitting into grey skin, mid-scream, still dripping, forming an endless tide.
+
+The palette is monochromatic horror — bruised grey, charcoal, the sickly orange firelight catching the wet flesh of the newborn horde. Smoke and ash everywhere. The composition shows overwhelming numbers multiplying in real-time.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi.png, Character-Sheets/Asuras/README.txt

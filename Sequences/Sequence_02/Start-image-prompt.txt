@@ -1,0 +1,13 @@
+[SEQUENCE 02 — Battlefield descending — START FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+High altitude, approaching from above through a layer of drifting ash. Storm clouds blanket the sky. A single shaft of pale, sickly light filters down through the ash, illuminating nothing yet — we are still too high. The ground below is a dark blur, barely visible through the haze and smoke rising from unseen fires.
+
+The camera is beginning a slow vertical crane-down through grey, smoke-filled air. Ash drifts UPWARD on warm thermals, creating an eerie, suffocating sense of descent. The palette is nearly colorless — monochromatic bruised greys, charcoal blacks, and the faint sickly orange glow of distant fires below.
+
+Mood: approaching dread, slowly descending into a nightmare.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: None (atmospheric, high-altitude, landscape-only)

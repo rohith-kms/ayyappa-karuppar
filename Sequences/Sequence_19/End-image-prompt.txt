@@ -1,0 +1,15 @@
+[SEQUENCE 19 — The Drag & Beheading — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, blood spray, wind]
+
+The moment AFTER the beheading. The aruval has completed its rising motion. The asura's HEAD is SPINNING past the lens, a thread of smoke from Karuppar's cheroot drifting across the frame. The body is falling. The moment is brutal and final.
+
+Karuppar: mounted or standing, the aruval low and dripping after the upward stroke.
+
+The asura head: spinning, mid-air, no longer attached.
+
+The cheroot smoke: a visual element that threads through the violence, a signature of Karuppar's presence.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png

@@ -1,0 +1,15 @@
+[SEQUENCE 19 — The Drag & Beheading — START FRAME]
+[Movement IV palette: full crimson + black + ash-grey, hot embers, blood spray, wind]
+
+He wraps a chain around a fleeing asura's neck. The camera rides low behind the asura as it is dragged screaming across wet stone, painting a thick streak of blood in its wake. The violence is sudden and intimate.
+
+Karuppar: the hand holding the chain, powerful and implacable.
+
+The asura: struggling, fleeing, about to be executed.
+
+The wet stone beneath is being painted with blood.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png

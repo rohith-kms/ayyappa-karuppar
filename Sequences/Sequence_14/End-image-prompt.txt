@@ -1,0 +1,11 @@
+[SEQUENCE 14 — The Plow (mounted slash) — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, hot embers, blood spray, lightning]
+
+The moment AFTER the horizontal slash. The aruval has completed its arc. We see a MACRO SLOW-MO insert of three asura throats opening simultaneously in one pass, a synchronized fan of blood misting into the cold air — crisp, shocking, bright crimson against the dark. The black dog runs the flank, dragging a screaming asura down by the throat. The white horse's hooves crack skulls like eggshells.
+
+The carnage is DISPROPORTIONATE. This is not a fight — it is a slaughter. The power-to-opposition ratio is god-like. The palette is now FULL CRIMSON + BLACK + ASH-GREY. The colors have shifted dramatically from Movement III. This is the blood reel.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/Karuppar_mounted_poses.png, Character-Sheets/War-Horse/War-horse.png, Character-Sheets/Black-Dog/Black-Dog.png

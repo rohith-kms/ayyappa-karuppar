@@ -1,0 +1,25 @@
+[SEQUENCE 22 — Final Frame — the Verdict — END FRAME]
+[Movement IV palette: full crimson + black + emerging gold light above]
+
+THE FINAL IMAGE. Karuppar, REMOUNTED, rears the white horse atop a HILL OF THE SLAIN, aruval lowered and dripping, chains smoking, vel planted. The dog is at his side. Ayyappa's victorious forces are rising behind him, alive, unbroken. The storm is BREAKING. CLEAN LIGHT pours down from above. The moment is TRIUMPH and JUDGMENT RENDERED.
+
+He takes one SLOW DRAW of the cheroot and EXHALES.
+
+Karuppar: the perfect avatar of righteous wrath, now at the peak of victory.
+
+The White Horse: rearing in triumph, pure-white against the dark sky.
+
+The Black Dog: loyal and fierce at his side.
+
+Ayyappa's Ganas: rising in the light, alive, the tide turned, victory assured.
+
+The hill of the slain beneath the horse — the cost, visible, acknowledged.
+
+The breaking storm above — the clearing, the light returning to the world.
+
+SMASH TO BLACK on the title: KARUPPAR — THE GUARDIAN OF DHARMA.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/Karuppar_mounted_poses.png, Character-Sheets/War-Horse/War-horse.png, Character-Sheets/Black-Dog/Black-Dog.png

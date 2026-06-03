@@ -1,0 +1,17 @@
+[SEQUENCE 14 — The Plow (mounted slash) — START FRAME]
+[Movement IV palette: full crimson + black + ash-grey, hot embers, blood spray, lightning]
+
+A tracking shot alongside the galloping white horse, low and fast. Karuppar leans from the saddle, and the aruval sweeps a long horizontal arc. We see the blade itself — curved, massive, stained with blood already. The motion is one smooth cut. The first asuras in his path are cracking like eggshells under the horse's hooves.
+
+Karuppar, mounted on the white horse, leaning from the saddle: a towering muscular Tamil folk guardian deity, deep obsidian-black skin slick and glistening, fierce intense face, glowing amber-orange eyes, thick curved black handlebar moustache, three horizontal white sacred ash (vibhuti) stripes across the forehead with a single red vertical tilak between the brows, long matted black hair bound under a dark cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing thin smoke, heavy layered black iron chains draped across the bare torso and coiled around both forearms and wrists, a black-and-deep-crimson layered dhoti (veshti), beaded ornaments, bare feet, an aura of righteous wrath.
+
+The War Horse: a divine pure-white war horse, powerful and muscular, glowing amber eyes, flowing white mane, draped with black iron chain barding and red cloth, a moonlight sheen on its coat, breath steaming, fierce and noble.
+
+The Black Dog: a large fierce black guardian hound, lean and muscular, short black coat, glowing amber eyes, bared fangs, snarling, a shadow given form, running at the horse's flank.
+
+The aruval is the focus — a massive curved billhook sword, broad single-edged blade stained with blood, ornate hilt.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/Karuppar_mounted_poses.png, Character-Sheets/War-Horse/War-horse.png, Character-Sheets/Black-Dog/Black-Dog.png

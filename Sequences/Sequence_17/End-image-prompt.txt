@@ -1,0 +1,15 @@
+[SEQUENCE 17 — The Ashing (close-up) — END FRAME]
+[Movement IV palette: full crimson + black + ash-grey, white fire, lightning]
+
+SLOW-MO MACRO detail: Where the Shakti-blazing chains touch flesh, a line of white fire RACES across the body. We watch the ENTIRE BODY STRUCTURE turn to grey ash in place — skin first, then muscle, then the standing skeleton, holding its shape for a half-second as a perfect ASH-STATUE mid-scream — then the cold wind takes it and it BURSTS into a cloud, POOF, scattering across the frame.
+
+One asura is shown in full detail in this transformation — the horror and the beauty of it. The white fire is bright, clean, transformative.
+
+Karuppar's chains are the source — glowing with white-hot Shakti energy.
+
+The asura being ashed: hulking grey-skinned humanoid, mid-transformation, its body turning to ash, still holding its shape for a moment, then bursting into a drifting cloud.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/KS.png

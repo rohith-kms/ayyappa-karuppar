@@ -1,0 +1,15 @@
+[SEQUENCE 03 — Soldier POV -> aerial — START FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+Close, claustrophobic ground-level POV — inside the sweating helmet of an exhausted Gana warrior. We see his own bloodied forearm and hand swinging into frame, gripping the aruval. The frame is rocking and unstable, edges fogging with his ragged breath. Around him, smoke and falling bodies blur in the monochrome haze. A single asura lunges in from the left — grotesque, grey-skinned, fanged, born slick and steaming.
+
+Ganas: weary battle-worn divine foot-soldiers loyal to Ayyappa, mud-and-blood spattered armor, exhausted determined faces, spears and shields, outnumbered but unbroken.
+
+Asuras: hulking grey-skinned humanoids with fanged faces, dark sunken eyes, crude bone-and-iron armor and jagged weapons, scarred muscular bodies, born slick and steaming, a snarling endless horde, savage and expendable.
+
+The composition is suffocating and intimate, nearly colorless — bruised greys, charcoal blacks, sickly orange firelight filtering through smoke. Dust and ash hang in the air. Desperation and drowning.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: None (POV frame; focus on armor texture and gana facial detail in closeup)

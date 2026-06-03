@@ -1,0 +1,13 @@
+[SEQUENCE 20 — The Rally — START FRAME]
+[Movement IV palette: full crimson + black + ash-grey, emerging light, hope]
+
+Wide shot. Ayyappa's exhausted Ganas, watching the carnage, their fear visibly draining. They are watching Karuppar's unstoppable slaughter. The moment is the turning of the tide about to become visible. Their eyes are fixed on the god moving through the asura horde.
+
+Ganas: weary battle-worn divine foot-soldiers loyal to Ayyappa, mud-and-blood spattered armor, exhausted determined faces, spears and shields, outnumbered but unbroken. Now they are seeing hope.
+
+Karuppar: in the middle distance, moving through asuras, the chains glowing.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: None (wide battlefield overview)
