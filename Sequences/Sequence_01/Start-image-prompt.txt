@@ -1,0 +1,13 @@
+[SEQUENCE 01 — Cold Open — START FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+A pure black frame. Almost nothing is visible — only the faintest suggestion of
+drifting ash and a single dim ember of dying orange firelight far in the depths
+of the dark, barely lifting the black. No characters, no horizon. The frame is
+99% black, designed to hold on emptiness while sound carries the scene. A whisper
+of grain and the softest volumetric haze.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: (none)

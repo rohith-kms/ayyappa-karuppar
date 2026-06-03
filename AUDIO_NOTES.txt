@@ -1,0 +1,44 @@
+==============================================================================
+AUDIO_NOTES.txt — GLOBAL SOUND ARC  (primarily for the EDITING TEAM)
+==============================================================================
+Per-shot SFX live inside each Sequence's Animation-prompt.txt. This file holds
+the GLOBAL audio design that ties the whole reel together. Build the final mix
+to this arc.
+
+THE BROKEN-HORN MOTIF  (the emotional spine):
+  - 0:00 cold open: a war-horn cracks and FAILS mid-note (despair).
+  - 1:10 first strike: the SAME horn sounds again, WHOLE and triumphant (rescue).
+  This call-and-answer is the single most important audio cue. Do not cut it.
+
+MUSIC ARC:
+  MOVEMENT I  (0:00–0:32) : sparse, low, a slowing heartbeat; dread strings;
+                            almost no melody. Let silence and breath dominate.
+  MOVEMENT II (0:32–0:50) : near silence; a single sustained pure tone; a
+                            building sub-bass under Shiva's close-up.
+  MOVEMENT III(0:50–1:14) : the SILENCE (0:56) must be near-total — drop almost
+                            everything. Then the ridgeline note rises. The first
+                            strike (1:10) is the full orchestral + percussion
+                            DROP. This is the peak emotional release.
+  MOVEMENT IV (1:14–2:00) : relentless war percussion accelerating with the
+                            cuts; choir swells on the aerial chain-storm (1:34);
+                            resolve to a triumphant low drone on the final frame.
+
+VOICE-OVER (VO) LINES — in order (record in a deep, grave, measured voice):
+  1. "For three days... Dharma held the line."
+  2. "They struck them down... and more rose. Courage has a bottom. And they had
+      reached it."
+  3. "Every wound you gave her... she wore as a crown."
+  4. "When Adharma will not stay fallen... Dharma does not answer gently."
+  5. "At the edge of the village. At the border of the world. The one who
+      watches... had come."
+  6. "Enough."  (Karuppar, on-screen, lower/harder than the narrator)
+  7. "He did not come like a helper. He came... like a verdict."
+
+KEY DIEGETIC SFX TO FEATURE:
+  - ragged breathing (0:10 POV), wet blade impacts, chain whips and rings,
+    Shakti-lightning crackle, horse scream + thundering hooves, the ASH "poof"
+    on the wind (1:30+), and the final single dog bark on the smash-to-black.
+
+SILENCE IS A SOUND: the two hard-cut-to-black / near-silence beats (0:26 and
+0:56) are deliberate. Resist the urge to fill them.
+==============================================================================

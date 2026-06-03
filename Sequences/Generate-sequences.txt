@@ -1,0 +1,137 @@
+==============================================================================
+Generate-sequences.txt — THE ENGINE
+How to read Script.txt and generate the sequence prompt files, resumably.
+==============================================================================
+
+>>> TO THE PRODUCER: open the Claude project, attach this file's repo contents,
+    and type:   Read Script.txt and RUN
+    (Optional: "RUN 10" to do ten sequences this session, or "RUN ALL".)
+
+>>> TO CLAUDE: you are the prompt-generation engine for this reel. Follow this
+    procedure EXACTLY. Be deterministic. Never improvise the structure.
+
+------------------------------------------------------------------------------
+INPUTS YOU READ (all in this repo / project knowledge)
+------------------------------------------------------------------------------
+  Script.txt              — the master creative (full beat detail)
+  Sequences/SEQUENCE_MAP.txt   — the fixed 22-sequence list + continuity flags
+  CHARACTER_BIBLE.txt     — locked descriptor blocks (paste verbatim)
+  CONFIG.txt              — aspect ratio, style token, negatives, palette
+  Sequences/generation.log — what is already done; where to resume
+
+------------------------------------------------------------------------------
+THE PROCEDURE  (run every time the producer says RUN)
+------------------------------------------------------------------------------
+STEP 1 — READ THE LOG.
+  Open generation.log. Find the STATUS TABLE. Identify the FIRST sequence whose
+  Status is not "DONE". That is your starting point. If every sequence is DONE,
+  say so and stop.
+
+STEP 2 — DETERMINE BATCH SIZE.
+  "RUN"      -> default batch = 5 sequences.
+  "RUN N"    -> batch = N sequences.
+  "RUN ALL"  -> attempt every remaining sequence (you may be cut off by daily
+                limits; that is fine — see STEP 6, you checkpoint after EACH one).
+
+STEP 3 — FOR EACH SEQUENCE IN THE BATCH, IN ORDER:
+  3a. Look up its row in SEQUENCE_MAP.txt: timecode, beat, START flag, characters.
+  3b. Find the matching beat in Script.txt by timecode. Read it fully.
+  3c. Determine the MOVEMENT (I–IV) and pull that movement's palette from CONFIG.
+  3d. WRITE THESE FILES into Sequences/Sequence_NN/ :
+
+      (A) Animation-prompt.txt   — ALWAYS.
+      (B) End-image-prompt.txt   — ALWAYS.
+      (C) Start-image-prompt.txt — ONLY IF (Sequence is 01) OR (START = FRESH_START).
+                                   If START = CONTINUES, DO NOT write this file;
+                                   the previous sequence's end.png is the start.
+
+  3e. Update the log row for this sequence to DONE immediately (STEP 6). Then
+      move to the next. (Checkpoint per-sequence so a mid-run cutoff loses
+      nothing.)
+
+STEP 4 — HOW TO WRITE AN IMAGE PROMPT  (Start-image-prompt.txt / End-image-prompt.txt)
+  Each image prompt MUST be fully self-contained and paste-ready. Structure:
+
+      [SEQUENCE NN — <beat> — <START or END> FRAME]
+      [Movement <I–IV> palette: <one line from CONFIG>]
+
+      <ONE rich natural-language paragraph describing the single frame: the
+      subject and exact pose/expression, the composition and camera framing
+      (close-up / wide / aerial / low-angle etc.), the setting, the lighting and
+      color, the mood. Weave in the LOCKED BLOCK(s) verbatim for every character
+      present. For the END frame, describe the picture at the END of the shot's
+      motion; for the START frame, the picture at the beginning.>
+
+      STYLE: <paste GLOBAL_STYLE_TOKEN from CONFIG>
+      NEGATIVE: <paste NEGATIVE_PROMPT from CONFIG>
+      PARAMS: <paste IMAGE_PARAMS from CONFIG>
+      IMAGE REFERENCES: <list the Character-Sheets files to attach, per BIBLE>
+
+  RULES:
+   - Copy character LOCKED BLOCKS verbatim — never paraphrase (consistency).
+   - One frame = one moment. Do not describe motion in an image prompt; motion
+     belongs in the Animation prompt.
+   - Respect the movement palette. No Movement-IV crimson inside Movement-I.
+   - Depict Shiva and Ayyappa reverently and with dignity, always.
+
+STEP 5 — HOW TO WRITE Animation-prompt.txt
+  Structure:
+
+      [SEQUENCE NN — <beat> — <timecode>  (duration ~Xs)]
+      START FRAME:  <"start.png (generated from Start-image-prompt.txt)"  OR
+                     "end.png of Sequence_(NN-1) — CONTINUES">
+      END FRAME:    end.png (generated from End-image-prompt.txt)
+
+      MOTION: <detailed description of how the picture moves from start frame to
+      end frame — what the subject does, the speed, slow-mo vs real-time.>
+      CAMERA: <the camera move: push-in, crane-down, whip-pan, aerial pull-up,
+      handheld, locked-off, tracking, etc. — and its speed.>
+      FX: <blood, ash, lightning, smoke, embers, Shakti glow, etc.>
+      SFX (diegetic): <the in-shot sounds — see AUDIO_NOTES.txt for the global mix>
+      VO (if any): <the exact line from the script>
+      DURATION: <2–10 seconds; match the timecode span>
+      NOTES: <continuity reminders, e.g. "this is a hard cut — no carryover", or
+      "match the cheroot smoke direction from the previous shot".>
+
+STEP 6 — UPDATE THE LOG (after EACH sequence).
+  In generation.log:
+   - Set that sequence's Status to DONE and list the files written
+     (e.g. "start,end,anim" or "end,anim").
+   - Update the header: Last updated (date), Completed N/22, Next to generate.
+  At the END of the run, also APPEND one line to the RUN HISTORY section, e.g.
+     [YYYY-MM-DD] RUN 5 -> generated Seq_06..10. Stopped: batch complete.
+
+STEP 7 — OUTPUT TO THE PRODUCER (because the Claude project cannot push to Git).
+  Present, in this order:
+   1. Each generated file clearly, labelled with its full path, e.g.
+        ===== Sequences/Sequence_06/End-image-prompt.txt =====
+        <contents>
+      so the producer can copy each into the matching file in their local repo.
+   2. At the very end, the COMPLETE updated generation.log inside a clearly
+      marked block titled:
+        ===== REPLACE Sequences/generation.log WITH THIS =====
+      so the producer updates the project's copy for next time.
+   3. A one-line summary: "Generated Sequence_06 to Sequence_10. 10/22 done.
+      Next run starts at Sequence_11."
+
+------------------------------------------------------------------------------
+HARD RULES (do not break)
+------------------------------------------------------------------------------
+  - NEVER overwrite or rewrite a sequence already marked DONE (unless the
+    producer explicitly says "REGENERATE Sequence_NN").
+  - NEVER renumber or merge/split sequences. The map is fixed at 22.
+  - NEVER invent a beat that is not in Script.txt. If the map and script
+    disagree, STOP and flag it to the producer.
+  - ALWAYS checkpoint the log per-sequence, not just at the end.
+  - ALWAYS keep image prompts self-contained (style + negative + params +
+    locked character blocks embedded every time).
+  - If the producer changed CONFIG (e.g. aspect ratio), use the NEW values; do
+    not copy old params from earlier sequences.
+
+------------------------------------------------------------------------------
+SINGLE-COMMAND REGENERATION
+------------------------------------------------------------------------------
+  "REGENERATE Sequence_07"        -> rewrite only Seq_07's files, keep log status.
+  "REGENERATE Sequence_07 END"    -> rewrite only its End-image-prompt.txt.
+  "RUN from Sequence_11"          -> ignore log, start at 11 (use with care).
+==============================================================================

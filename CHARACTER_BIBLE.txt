@@ -1,0 +1,116 @@
+==============================================================================
+CHARACTER_BIBLE.txt — LOCKED DESCRIPTORS  (the key to visual consistency)
+==============================================================================
+WHY THIS EXISTS: AI image tools "forget" what a character looks like between
+generations. To keep Karuppar (and everyone else) identical across all 22
+sequences, EVERY image prompt must embed the exact LOCKED BLOCK below for each
+character that appears. Do not paraphrase these blocks — copy them verbatim.
+The reference images live in /Character-Sheets/.
+
+Each block has:
+  LOCKED BLOCK   = paste this verbatim into prompts
+  REFERENCE      = which sheet/image to attach as an image reference (if your
+                   tool supports --cref / image prompts / IP-Adapter)
+
+------------------------------------------------------------------------------
+KARUPPAR  (Sangili Karuppaswamy — the hero, fierce Tamil guardian deity)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Karuppar, a towering muscular Tamil folk guardian deity, 8.5 heads tall, deep
+  obsidian-black skin slick and glistening, fierce intense face, glowing
+  amber-orange eyes, thick curved black handlebar moustache, three horizontal
+  white sacred ash (vibhuti) stripes across the forehead with a single red
+  vertical tilak between the brows, long matted black hair bound under a dark
+  cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing
+  thin smoke, heavy layered black iron chains draped across the bare torso and
+  coiled around both forearms and wrists, a black-and-deep-crimson layered dhoti
+  (veshti), beaded ornaments, bare feet, an aura of righteous wrath"
+REFERENCE: Character-Sheets/Karuppar/Karuppar_master_sheet.png
+WEAPONS (include the relevant one per shot):
+  ARUVAL — "a massive curved aruval billhook sword, broad single-edged blade
+            stained with blood, ornate hilt"
+  VEL    — "an ornate long golden vel spear, leaf-shaped steel head, brass bells
+            and a red cloth tassel near the blade"
+  CHAINS — "heavy black iron chains that blaze with white-hot Shakti energy when
+            swung, glowing molten-bright along the links"
+POSE REFERENCES:
+  Mounted poses    -> Karuppar_mounted_poses.png
+  Beheading/fatal  -> Karuppar_beheading_poses.png
+  Battle stances   -> Karuppar_battle_poses.png
+
+------------------------------------------------------------------------------
+THE WAR HORSE  (Karuppar's divine mount)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "a divine pure-white war horse, powerful and muscular, glowing amber eyes,
+  flowing white mane, draped with black iron chain barding and red cloth, a
+  moonlight sheen on its coat, breath steaming, fierce and noble"
+REFERENCE: Character-Sheets/Karuppar/Karuppar_master_sheet.png (companion panel)
+
+------------------------------------------------------------------------------
+THE BLACK DOG  (Karuppar's guardian hound)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "a large fierce black guardian hound, lean and muscular, short black coat,
+  glowing amber eyes, bared fangs, snarling, a shadow given form"
+REFERENCE: Character-Sheets/Karuppar/Karuppar_master_sheet.png (companion panel)
+
+------------------------------------------------------------------------------
+AYYAPPA  (the boy-warrior god — calm radiant commander)  [DEPICT REVERENTLY]
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Lord Ayyappa, a youthful radiant warrior god, serene and fearless face,
+  luminous golden divine aura, smooth dark complexion, a simple gold ornament
+  and bell, warrior's cloth and beads, calm composed expression even amid
+  carnage, soft warm rim-light separating him from the dark battlefield"
+REFERENCE: (no sheet yet — see Character-Sheets/Ayyappa/README.txt)
+NOTE: Always dignified, divine, never grotesque. He is the still point.
+
+------------------------------------------------------------------------------
+MAHISHI  (the buffalo-headed demoness — the antagonist)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Mahishi, a colossal demoness with a fearsome buffalo head, long curved horns,
+  dark leathery hide, glowing red eyes, fanged snarling maw, draped in dark
+  battle ornaments and bone jewelry, immense and menacing, wreathed in smoke,
+  arrogant cruel expression"
+REFERENCE: (no sheet yet — see Character-Sheets/Mahishi/README.txt)
+SIGNATURE: tears coarse hair from her own arm; each strand becomes a new asura.
+
+------------------------------------------------------------------------------
+SHIVA  (Lord Shiva on Kailash)  [DEPICT REVERENTLY]
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Lord Shiva, serene ascetic deity seated in deep meditation, pale ash-smeared
+  blue-grey skin, matted jata hair piled high with a crescent moon and the holy
+  Ganga, a closed vertical third eye on the forehead, a serpent around the neck,
+  rudraksha beads, calm transcendent face, cool blue-white cosmic glow, the
+  turning cosmos behind him"
+REFERENCE: (no sheet yet — see Character-Sheets/Shiva/README.txt)
+NOTE: Supremely calm and divine. His ONLY movement in this reel is the faint
+furl of one lip and a single bead of white fire from the third eye.
+
+------------------------------------------------------------------------------
+ASURAS  (the demon horde — generic foot-soldiers, endless)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "asura demon warriors, hulking grey-skinned humanoids with fanged faces, dark
+  sunken eyes, crude bone-and-iron armor and jagged weapons, scarred muscular
+  bodies, born slick and steaming, a snarling endless horde, savage and
+  expendable"
+REFERENCE: (no sheet yet — see Character-Sheets/Asuras/README.txt)
+NEWBORN VARIANT (for Mahishi's hair beat): "a newborn asura unfolding from a
+  strand of hair, raw glistening muscle knitting into grey skin, mid-scream"
+ASHING VARIANT (Movement IV): "an asura turning to grey ash in place, a standing
+  ash-statue holding its screaming shape, then bursting into a drifting dust
+  cloud on the wind"
+
+------------------------------------------------------------------------------
+GANAS  (Ayyappa's own soldiers — the exhausted defenders)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Ganas, weary battle-worn divine foot-soldiers loyal to Ayyappa, mud-and-blood
+  spattered armor, exhausted determined faces, spears and shields, outnumbered
+  but unbroken"
+REFERENCE: (no sheet yet)
+==============================================================================

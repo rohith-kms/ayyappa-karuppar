@@ -1,0 +1,13 @@
+[SEQUENCE 01 — Cold Open — END FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+
+Still near-total black, but the single distant ember has flared a touch brighter
+and a thin seam of cold grey light has begun to bleed in at the very bottom edge
+of the frame — the first hint of the battlefield about to be revealed. Ash drifts
+upward through the dark. Still no characters. The darkness is "breathing," on the
+verge of opening. 95% black.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: (none)

@@ -1,0 +1,47 @@
+==============================================================================
+IMAGE TEAM GUIDE
+==============================================================================
+Your job: turn the text prompts into images, two per sequence (a START frame and
+an END frame), so the video team can animate between them.
+
+SETUP: do docs/GITHUB_FOR_BEGINNERS.txt first (one-time).
+
+------------------------------------------------------------------------------
+DAILY WORKFLOW
+------------------------------------------------------------------------------
+1. In GitHub Desktop: Fetch origin, then Pull. (Get the latest prompts.)
+2. Open STATUS.md. Find a sequence whose "Prompts" = DONE but "End img" is blank.
+   Put your name in the WHO column for that row so nobody doubles up. Commit+push
+   that small change so others see you've claimed it.
+3. Open that sequence folder, e.g. Sequences/Sequence_03/.
+4. Open End-image-prompt.txt. Copy the WHOLE prompt into your image tool
+   (Midjourney/Flux/etc.). Generate. Pick the best result.
+   - Save it INTO that same folder as:  end.png
+5. If the folder ALSO has Start-image-prompt.txt, do the same for it and save as:
+   start.png
+   - If there is NO Start-image-prompt.txt, that's intentional: this sequence
+     continues from the previous sequence's end.png. You do NOT make a start
+     image. (The video team handles the carry-over.)
+6. Create/update image-notes.txt in the folder with: the tool + version you used,
+   the SEED number (so we can reproduce/iterate), and any tweak you made to the
+   prompt. Example:
+       tool: Midjourney v6.1
+       end.png  seed: 1234567890
+       note: added "rim light" to separate Ayyappa from background
+7. Update STATUS.md: mark "Start img" and/or "End img" = DONE for that row.
+8. GitHub Desktop: Commit (summary e.g. "Seq 03 images done") -> Push.
+
+------------------------------------------------------------------------------
+QUALITY RULES (important)
+------------------------------------------------------------------------------
+- CONSISTENCY IS EVERYTHING. The prompt already contains the locked character
+  descriptions. Also attach the matching reference image from /Character-Sheets/
+  if your tool supports it (Midjourney --cref, or image prompt / IP-Adapter).
+- Match the ASPECT RATIO in CONFIG.txt (default 9:16 vertical). Don't crop later.
+- Respect the per-movement palette noted at the top of each prompt (e.g.
+  Movement I is near-monochrome; do not make it colourful).
+- Faces: Karuppar must look like the SAME man every time — amber eyes, white ash
+  brow stripes, red tilak, moustache, turban, cheroot. Reject drifting faces.
+- Save as PNG, highest quality your tool offers.
+- If a prompt seems wrong or impossible, DON'T improvise — message the producer
+  to "REGENERATE" that prompt.

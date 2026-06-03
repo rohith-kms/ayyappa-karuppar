@@ -1,0 +1,18 @@
+[SEQUENCE 01 — Cold Open — 0:00–0:04  (duration ~4s)]
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
+
+MOTION: Almost imperceptible. The lone ember pulses faintly; ash motes drift
+slowly upward; the thin grey seam of light at the bottom edge creeps in very
+slightly. The frame stays essentially black — the work here is done by SOUND, not
+image. Do NOT reveal anything yet.
+CAMERA: Locked off, dead still. No move.
+FX: Slow drifting ash particles, one faint ember glow, the faintest haze.
+SFX (diegetic): A low, wet, exhausted HEARTBEAT, slowing down. Over it, a single
+distant WAR-HORN that cracks and FAILS mid-note, like a lung giving out. (This
+broken horn is the reel's motif — it returns healed at 1:10.)
+VO: (none)
+DURATION: 4 seconds.
+NOTES: This is the opening. No logo, no title. Pure black patience. The audience
+should feel dread before they see a single thing. Hard cut OUT of this into
+Sequence_02 (the battlefield reveal).

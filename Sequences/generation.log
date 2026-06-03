@@ -1,0 +1,41 @@
+==============================================================================
+KARUPPAR REEL — PROMPT GENERATION LOG
+==============================================================================
+Last updated:      2026-06-01  (scaffold seeded)
+Total sequences:   22
+Completed:         2 / 22
+Next to generate:  Sequence_03
+
+This log is the resume point. The engine (Generate-sequences.txt) reads it,
+finds the first sequence that is not DONE, and continues from there. It updates
+this file after EVERY sequence so daily-limit cutoffs never lose progress.
+
+=== STATUS TABLE ===
+SEQ          TIMECODE     BEAT                       FILES WRITTEN   STATUS
+Sequence_01  0:00–0:04    Cold Open (black)          start,end,anim  DONE
+Sequence_02  0:04–0:10    Battlefield descending     start,end,anim  DONE
+Sequence_03  0:10–0:18    Soldier POV -> aerial      -               NOT_STARTED
+Sequence_04  0:18–0:26    Mahishi spawns asuras      -               NOT_STARTED
+Sequence_05  0:26–0:32    Ayyappa eyes close->black  -               NOT_STARTED
+Sequence_06  0:32–0:38    Kailash stillness          -               NOT_STARTED
+Sequence_07  0:38–0:46    Shiva close-up, third eye  -               NOT_STARTED
+Sequence_08  0:46–0:50    The forging (vortex)       -               NOT_STARTED
+Sequence_09  0:50–0:56    Back to hell, lowest point -               NOT_STARTED
+Sequence_10  0:56–1:00    The silence, wind, freeze  -               NOT_STARTED
+Sequence_11  1:00–1:06    Ridgeline silhouette       -               NOT_STARTED
+Sequence_12  1:06–1:10    The face — full reveal     -               NOT_STARTED
+Sequence_13  1:10–1:14    First strike (lightning)   -               NOT_STARTED
+Sequence_14  1:14–1:20    The Plow (mounted slash)   -               NOT_STARTED
+Sequence_15  1:20–1:26    The Spear Ride             -               NOT_STARTED
+Sequence_16  1:26–1:30    Dismount — bare-handed     -               NOT_STARTED
+Sequence_17  1:30–1:34    The Ashing (close-up)      -               NOT_STARTED
+Sequence_18  1:34–1:40    Chain Storm — AERIAL       -               NOT_STARTED
+Sequence_19  1:40–1:46    The Drag & Beheading       -               NOT_STARTED
+Sequence_20  1:46–1:52    The Rally                  -               NOT_STARTED
+Sequence_21  1:52–1:56    Mahishi's Fear             -               NOT_STARTED
+Sequence_22  1:56–2:00    Final Frame — the Verdict  -               NOT_STARTED
+
+=== RUN HISTORY ===
+[2026-06-01] SCAFFOLD -> Sequence_01 and Sequence_02 hand-authored as worked
+             examples / quality bar. Engine resumes at Sequence_03.
+==============================================================================

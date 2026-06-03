@@ -1,0 +1,44 @@
+==============================================================================
+VIDEO TEAM GUIDE
+==============================================================================
+Your job: animate each sequence from its START frame to its END frame, following
+the Animation-prompt, and save one video clip per sequence.
+
+SETUP: do docs/GITHUB_FOR_BEGINNERS.txt first (one-time).
+
+------------------------------------------------------------------------------
+DAILY WORKFLOW
+------------------------------------------------------------------------------
+1. GitHub Desktop: Fetch + Pull.
+2. Open STATUS.md. Find a sequence where "End img" = DONE and "Approved" = DONE
+   but "Animation" is blank. (Only animate APPROVED images.) Claim it with your
+   name in WHO; commit+push.
+3. Open that Sequence folder. You will use:
+   - START FRAME:
+       * If start.png exists in the folder -> use it.
+       * If there is NO start.png -> the Animation-prompt will say
+         "CONTINUES from Sequence_(NN-1)". Use the PREVIOUS sequence's end.png as
+         your first frame. (Copy it in as start.png if your tool needs a file.)
+   - END FRAME: end.png in the folder.
+   - Animation-prompt.txt: the exact motion, camera, FX, timing to follow.
+4. In your video tool (Runway/Kling/Luma/etc.), set start + end frames and paste
+   the MOTION + CAMERA description. Match the DURATION stated in the prompt
+   (2–10s). Generate; pick the best take.
+5. Save the clip INTO the folder as:  animation.mp4
+   (mp4 H.264, vertical 9:16 to match CONFIG, same fps as the rest of the team —
+    agree on 24fps unless told otherwise.)
+6. Add notes to image-notes.txt (or make video-notes.txt): tool, seed/settings,
+   any deviation.
+7. Update STATUS.md: "Animation" = DONE. Commit (e.g. "Seq 03 animated") -> Push.
+   (Git LFS stores the mp4 automatically — see the beginners guide.)
+
+------------------------------------------------------------------------------
+QUALITY RULES
+------------------------------------------------------------------------------
+- The Animation-prompt is the boss. Follow its CAMERA move exactly (push-in vs
+  crane vs aerial vs handheld) — the edit depends on these matching.
+- Keep the SUBJECT consistent with the frames; don't let the tool morph faces.
+- Honour slow-mo vs real-time as written (e.g. the macro "ashing" beat is slow).
+- Leave a few frames of handle at the head and tail so editing can trim cleanly.
+- Diegetic SFX are listed for reference, but final sound is the editing team's
+  job — you can deliver clips silent unless told otherwise.

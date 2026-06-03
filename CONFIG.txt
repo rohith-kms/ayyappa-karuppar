@@ -1,0 +1,55 @@
+==============================================================================
+CONFIG.txt — GLOBAL SETTINGS FOR ALL GENERATED PROMPTS
+==============================================================================
+Change a value here and EVERY future prompt the engine writes will use it.
+The producer should confirm the three [CONFIRM] values below before the image
+team starts. Everything else has a sensible default.
+
+------------------------------------------------------------------------------
+[CONFIRM] ASPECT_RATIO        = 9:16   (vertical reel for Instagram / YT Shorts)
+          Alternatives: 16:9 (landscape), 2.39:1 (cinematic scope).
+          If you change this, also change the MJ flag in IMAGE_PARAMS below.
+
+[CONFIRM] IMAGE_TOOL          = Midjourney v6 / Flux  (prompts are written in
+          tool-agnostic natural language so they also work in SDXL, DALL-E, etc.
+          The IMAGE_PARAMS line is the only tool-specific part.)
+
+[CONFIRM] VIDEO_TOOL          = Runway Gen-3 / Kling / Luma  (animation prompts
+          are natural-language motion descriptions that work across all three.)
+
+------------------------------------------------------------------------------
+GLOBAL_STYLE_TOKEN  (prepended/woven into every image prompt):
+  "dark painterly cinematic fantasy, hyper-detailed realism, dramatic
+  chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic
+  mythological scale, photoreal skin and metal textures, moody crimson-charcoal
+  palette, ultra sharp focus, 8k, cinematic color grade"
+
+IMAGE_PARAMS  (append to Midjourney prompts; adapt for other tools):
+  "--ar 9:16 --style raw --stylize 250 --quality 2"
+
+NEGATIVE_PROMPT  (for tools that support it — SDXL/Flux/Runway):
+  "cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+  extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+  modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+  childish, lens flare overload"
+
+------------------------------------------------------------------------------
+PALETTE BY MOVEMENT  (the engine applies the right one per sequence):
+  MOVEMENT I  (Drowning) : near-monochrome, bruised grey + charcoal, sick orange
+                           firelight only. Drained, hopeless.
+  MOVEMENT II (Shiva)    : cool blue-white, cosmic, clean, un-bloodied. Calm.
+  MOVEMENT III(Arrival)  : storm-dark with one shaft of pale gold light; first
+                           crimson + the white horse hit hard here.
+  MOVEMENT IV (Carnage)  : full crimson + black + ash-grey, hot embers, blood
+                           spray, lightning. Maximum saturation of red.
+
+CONTINUITY NOTE:
+  Color must shift gradually WITHIN a sequence only as the script dictates. Do
+  not introduce Movement-III color into a Movement-I prompt, etc.
+
+OUTPUT FILENAMES (what the teams save INTO each Sequence folder):
+  start.png       (image team — only exists if a Start-image-prompt.txt exists)
+  end.png         (image team — every sequence)
+  animation.mp4   (video team)
+  image-notes.txt (image team — record seed, tool, version, any tweaks)
+==============================================================================

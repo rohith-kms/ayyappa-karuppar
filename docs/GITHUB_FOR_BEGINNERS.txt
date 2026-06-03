@@ -1,0 +1,80 @@
+==============================================================================
+GITHUB FOR BEGINNERS  (no coding, no command line — just clicks)
+==============================================================================
+You do NOT need to know how to code. We use a free app called GitHub Desktop
+that turns everything into buttons. Read this once; it takes ~15 minutes to set
+up, and after that your daily work is three clicks.
+
+WHAT IS GOING ON (in plain words)
+  - "GitHub" is a website that stores our shared project folder online.
+  - The online copy is called the "repo" (repository).
+  - You "clone" it = download a live copy to your computer.
+  - You do your work (generate images / videos) and save files into the folders.
+  - You "commit" = save a labelled snapshot of your changes.
+  - You "push" = upload those changes back to the shared online repo.
+  - You "pull" (or "fetch") = download other people's latest changes.
+  GOLDEN RULE: PULL before you start working, PUSH when you finish. This avoids
+  clashes.
+
+------------------------------------------------------------------------------
+ONE-TIME SETUP
+------------------------------------------------------------------------------
+1. MAKE A GITHUB ACCOUNT
+   - Go to https://github.com  ->  "Sign up".
+   - Enter email, pick a username + password. Verify your email.
+   - Tell the producer your username so they can invite you to the repo.
+   - Open the invite email / link and click "Accept invitation".
+
+2. INSTALL GITHUB DESKTOP (the easy app)
+   - Go to https://desktop.github.com  ->  Download  ->  install it.
+   - Open it  ->  "Sign in to GitHub.com"  ->  log in with your account.
+
+3. CLONE THE PROJECT TO YOUR COMPUTER
+   - In GitHub Desktop:  File  ->  Clone repository.
+   - Pick "Karuppar-Reel" from the list (you'll see it after the invite).
+   - Choose where to save it (your Desktop is fine).  ->  Click "Clone".
+   - The whole project folder is now on your computer. Open it like any folder.
+
+   (If asked about "Git LFS", click "Initialize Git LFS" / "Install" — this lets
+    big video files sync. One click, then forget about it.)
+
+------------------------------------------------------------------------------
+YOUR DAILY 3-STEP WORKFLOW
+------------------------------------------------------------------------------
+BEFORE you start:
+   A. Open GitHub Desktop. At the top click "Fetch origin", then "Pull origin"
+      if it appears. (Gets everyone's latest work.)
+
+DO your work:
+   B. Generate your images/videos and SAVE them into the correct Sequence folder
+      with the exact filenames we use (see your team guide). Update STATUS.md if
+      your guide says to.
+
+WHEN you finish (or end of day):
+   C. Back in GitHub Desktop you'll see your changed files listed on the left.
+      1. Bottom-left, type a short "Summary" of what you did
+         (e.g. "Seq 03 end image done").
+      2. Click "Commit to main".
+      3. Top, click "Push origin".
+   Done. Your work is now shared with everyone.
+
+------------------------------------------------------------------------------
+COMMON QUESTIONS
+------------------------------------------------------------------------------
+"I don't see my new images in GitHub Desktop."
+  -> Make sure you saved them INSIDE the cloned project folder, in the right
+     Sequence folder. Files saved anywhere else won't be tracked.
+
+"It says there's a conflict."
+  -> Don't panic. Message the producer. Conflicts are rare because each person
+     works in different sequence folders. Always Pull before starting to prevent
+     them.
+
+"How big can files be?"
+  -> Images: fine. Videos: also fine — Git LFS handles them. Don't commit huge
+     raw project files unless told to.
+
+"I'm scared I'll break something."
+  -> You can't break the shared repo by accident. Anything pushed can be undone
+     by the producer. Just follow PULL -> work -> COMMIT -> PUSH.
+==============================================================================

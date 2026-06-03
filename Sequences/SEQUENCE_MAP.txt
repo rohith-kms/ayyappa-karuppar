@@ -1,0 +1,54 @@
+==============================================================================
+SEQUENCE_MAP.txt — THE DETERMINISTIC MASTER LIST  (do not re-segment)
+==============================================================================
+The reel is split into 22 sequences, one per script beat. The engine fills these
+folders IN ORDER and never re-numbers or re-splits them. This map is the single
+source of truth for "how many sequences" and "what each one is."
+
+COLUMNS:
+  SEQ        folder name (Sequence_NN)
+  TIMECODE   from Script.txt
+  BEAT       short label
+  START      FRESH_START = this is a hard cut / new scene, generate its own
+                           Start-image-prompt.txt
+             CONTINUES   = inherit the PREVIOUS sequence's end.png as the start
+                           frame (NO Start-image-prompt.txt is written)
+  CHARACTERS who appears (which CHARACTER_BIBLE blocks to embed)
+
+NOTE on START rule: Sequence_01 ALWAYS gets both Start + End. After that, only
+FRESH_START sequences get a Start-image-prompt. This is the upgrade to the
+"only Seq 1 has a start" idea — it keeps continuity where the picture is truly
+continuous, and gives a fresh frame at every hard cut (a trailer has many).
+
+------------------------------------------------------------------------------
+SEQ          TIMECODE     BEAT                       START         CHARACTERS
+------------------------------------------------------------------------------
+Sequence_01  0:00–0:04    Cold Open (black)          FRESH_START   (none / black)
+Sequence_02  0:04–0:10    Battlefield descending     FRESH_START   Asuras, Ganas
+Sequence_03  0:10–0:18    Soldier POV -> aerial      FRESH_START   Asuras, Ganas
+Sequence_04  0:18–0:26    Mahishi spawns asuras      FRESH_START   Mahishi, Asuras
+Sequence_05  0:26–0:32    Ayyappa eyes close->black  FRESH_START   Ayyappa, Asuras
+Sequence_06  0:32–0:38    Kailash stillness          FRESH_START   Shiva
+Sequence_07  0:38–0:46    Shiva close-up, third eye  CONTINUES     Shiva
+Sequence_08  0:46–0:50    The forging (vortex)       CONTINUES     Karuppar(frag)
+Sequence_09  0:50–0:56    Back to hell, lowest point FRESH_START   Ganas, Asuras
+Sequence_10  0:56–1:00    The silence, wind, freeze  CONTINUES     Asuras, Mahishi
+Sequence_11  1:00–1:06    Ridgeline silhouette       FRESH_START   Karuppar, Horse, Dog
+Sequence_12  1:06–1:10    The face — full reveal     FRESH_START   Karuppar
+Sequence_13  1:10–1:14    First strike (lightning)   CONTINUES     Karuppar, Horse
+Sequence_14  1:14–1:20    The Plow (mounted slash)   FRESH_START   Karuppar, Horse, Dog, Asuras
+Sequence_15  1:20–1:26    The Spear Ride             CONTINUES     Karuppar, Horse, Asuras
+Sequence_16  1:26–1:30    Dismount — bare-handed     FRESH_START   Karuppar, Asuras
+Sequence_17  1:30–1:34    The Ashing (close-up)      FRESH_START   Karuppar, Asuras(ashing)
+Sequence_18  1:34–1:40    Chain Storm — AERIAL       FRESH_START   Karuppar, Asuras(ashing)
+Sequence_19  1:40–1:46    The Drag & Beheading       FRESH_START   Karuppar, Asuras
+Sequence_20  1:46–1:52    The Rally                  FRESH_START   Ganas, Ayyappa, Karuppar, Asuras
+Sequence_21  1:52–1:56    Mahishi's Fear             FRESH_START   Mahishi, Karuppar, Asuras
+Sequence_22  1:56–2:00    Final Frame — the Verdict  FRESH_START   Karuppar, Horse, Dog, Ganas
+------------------------------------------------------------------------------
+TOTAL: 22 sequences  ·  ~2:00 runtime
+
+The producer may flip any START flag (FRESH_START <-> CONTINUES) before
+generation if they want a different edit. If you flip one to CONTINUES, delete
+that sequence's Start-image-prompt.txt after regenerating.
+==============================================================================

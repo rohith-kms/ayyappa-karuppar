@@ -1,0 +1,245 @@
+==============================================================================
+KARUPPAR — "THE ONE WHO TURNS THE WAR"
+Cinematic Trailer Reel  ·  Shot-by-Shot Shooting Script  ·  FINAL DRAFT
+Runtime: ~2:00  ·  Four Movements
+"I am the chain of justice. I protect the devotee. I punish the wrongdoer."
+==============================================================================
+
+This is the master creative document. The Sequences pipeline is generated FROM
+this file. If you change a beat here, regenerate that sequence (see
+Sequences/Generate-sequences.txt).
+
+------------------------------------------------------------------------------
+TONAL THESIS
+------------------------------------------------------------------------------
+The two reference scenes work for opposite reasons; the craft is fusing them.
+
+GANDALF at Helm's Deep earns its goosebumps through DEPRIVATION THEN RELEASE —
+grinding hopelessness, a remembered promise, a single horse on a ridgeline
+backlit by dawn, and only then the charge. The emotion is RESCUE.
+
+THOR in Wakanda earns its roar through a HELD BREATH THEN DETONATION — the sky
+goes dark and silent, everyone stops, a single beam of light, and the violence
+arrives all at once with godlike disproportion. The emotion is AWE / DREAD.
+
+We build Karuppar's entrance on Gandalf's HOPE ARCHITECTURE (despair -> promise
+-> silhouette on the ridge) but detonate it with Thor's IMPACT PHYSICS (silence
+-> light -> instant, overwhelming, disproportionate carnage). The cut between
+those two halves is the whole reel.
+
+==============================================================================
+MOVEMENT I — THE DROWNING  (0:00 – 0:32)
+The despair. Steal everything from the audience before you give it back.
+==============================================================================
+
+[0:00 – 0:04]  COLD OPEN — BLACK SCREEN
+No logo. No title. Only sound: the low, wet, exhausted thud of a heartbeat
+slowing down. Over black, a single distant war-horn cracks and FAILS mid-note,
+like a lung giving out.
+SFX NOTE: that broken horn is our motif. It returns, healed, at the climax.
+
+[0:04 – 0:10]  THE BATTLEFIELD — GOD'S-EYE, DESCENDING
+CAMERA: A slow vertical crane-down from high storm-cloud altitude, the lens
+drifting through ash that falls UPWARD on the thermals.
+SCENE: A vast plain the color of dried blood, lit only by guttering fires.
+Broken chariots. A field so densely packed with bodies and writhing asuras that
+the ground itself seems to breathe.
+COLOR/LIGHT: Desaturated to near-monochrome — bruised greys, charcoal, the only
+color the sick orange of dying fires. Deliberate: we drain all color so the
+white horse and crimson blood of Movements III/IV detonate like a gunshot.
+VO: "For three days... Dharma held the line."
+
+[0:10 – 0:18]  SOLDIER'S POV — FIRST PERSON, SUFFOCATING
+CAMERA: True first-person POV, as if inside the helmet — frame rocking with each
+ragged stride, edges of the lens fogging with breath, a blur of his own bloodied
+hand swinging into frame.
+SCENE: Running, stumbling, through smoke and falling bodies. An asura lunges in
+and the POV drives the aruval forward into its chest; we feel the jolt, the
+blade sinking, the weight sagging onto the hilt. He rips it free, chest heaving.
+SOUND: His breathing dominates the mix — wet, gasping, ragged — almost drowning
+out the battle.
+THEN THE DOUBLING BEAT: through the gap where it fell, two more rise behind it.
+He turns — they are everywhere.
+CAMERA MOVE: From that ground-level despair we pull straight up and out of his
+body in one continuous move — POV releasing into a drone / eagle-eye top-down
+shot — revealing the island of Ayyappa's forces shrinking inside an endless
+writhing black sea.
+VO: "They struck them down... and more rose. Courage has a bottom. And they had
+reached it."
+
+[0:18 – 0:26]  MAHISHI — THE SOURCE OF THE NIGHTMARE
+CAMERA: A low, worshipful-then-revolting tilt up a hill of smoke. She stands
+wreathed in it, immense, laughing — a buffalo-headed silhouette against a
+furnace sky.
+SIGNATURE HORROR BEAT: In slow motion she rips a fistful of hair from her own
+arm and casts it to the wind. MACRO INSERT: each strand hits the wet earth,
+swells, splits, and unfolds wetly into a new asura, skin knitting over muscle,
+born screaming. We see ONE strand in gory close-up, then pull back to reveal a
+thousand rising across the ridgeline at once.
+VO: "Every wound you gave her... she wore as a crown."
+
+[0:26 – 0:32]  AYYAPPA — THE EYE OF THE STORM -> BLACK
+CAMERA: Slow, steady push (the only stable shot in the movement) onto the
+boy-god at the center of the carnage. Mud-spattered, radiant, calm. An asura
+dies at his feet; he does not flinch.
+He CLOSES HIS EYES. Not defeat — release.
+SOUND: Everything drops away except one slow, heavy, deliberate breath in...
+and out.
+On the end of that exhale — HARD CUT TO BLACK. Hold black for one full beat
+(1–2 seconds of pure silence and dark). Then, straight into Kailash.
+
+==============================================================================
+MOVEMENT II — THE WRATH OF SHIVA  (0:32 – 0:50)
+The promise. The audience earns the relief.
+==============================================================================
+
+[0:32 – 0:38]  KAILASH — ABSOLUTE STILLNESS
+We open on total silence. The contrast makes the audience lean in.
+COMPOSITION: Shiva, seated, snow-still, the cosmos turning slowly behind him.
+Cool blue-white palette — the first clean, un-bloodied frame in the film. It
+should feel like surfacing from underwater.
+
+[0:38 – 0:46]  THE CLOSE-UP — THE RIPPLE OF DIVINE ANGER
+CAMERA: An extreme, patient push to a macro close-up of Shiva's face. We study
+absolute serenity. Then — held on the lips — the smallest possible movement: the
+corner of his mouth tightens, a single muscle, the faintest furl. That is all.
+THE LIGHT: From the inner corner of his third eye, not a beam but a single bead
+of white fire wells up like a tear made of lightning. It does not blast. It
+gathers.
+SOUND: A sub-bass tone building, almost below hearing.
+VO: "When Adharma will not stay fallen... Dharma does not answer gently."
+
+[0:46 – 0:50]  THE FORGING
+CAMERA: The bead of fire falls and the frame whips down to follow it into a
+churning vortex of black flame. A warrior form ASSEMBLES — glimpsed in fragments
+through the smoke: a dark hand closing around the haft of the vel; iron chains
+uncoiling and threading up a forearm like living serpents; the curved aruval
+catching light; amber eyes igniting; the cheroot glowing to life between
+clenched teeth.
+WITHHOLD: We never show the full figure yet.
+
+==============================================================================
+MOVEMENT III — THE ARRIVAL  (0:50 – 1:14)
+The Gandalf ridgeline, detonated by the Thor silence-then-light. The heart.
+==============================================================================
+
+[0:50 – 0:56]  BACK TO HELL — THE LOWEST MOMENT
+CUT: Back to the battlefield, sound roaring back in. Ayyappa's forces a
+shrinking island in a black sea. A Gana drops to his knees, spent. The asuras
+surge in for the kill. We go right to the edge of defeat.
+
+[0:56 – 1:00]  THE SILENCE  (the Thor beat)
+Everything stops. A cold, clean wind blows BACKWARD across the field, pushing
+flame and smoke flat. The asuras freeze. Mahishi's laugh dies in her throat.
+SOUND: Hard cut to near-total silence — only the cold wind and a single, rising,
+pure note. Every fighter, friend and foe, slowly turns to look toward the
+horizon.
+
+[1:00 – 1:06]  THE RIDGELINE SILHOUETTE  (the Gandalf beat)
+CAMERA: A long lens, locked off, looking across the heads of the frozen army
+toward a high ridge. The black storm-clouds part along a single seam, and
+through it falls one shaft of pale, impossible light.
+SCENE: On the ridge, in that light, a SILHOUETTE: a rider on a rearing white
+horse, motionless against the glow. Backlit — we cannot see his face — only the
+shape: the curve of the aruval, the spear held high, chains hanging from his
+arm, the dog at the horse's flank, a thread of cheroot smoke curling from his
+lips.
+HOLD this frame 2 full seconds. THE goosebump frame. Composition deliberately
+rhymes with the celebrated Gandalf still: one figure, one horse, one ridge, one
+dawn.
+VO: "At the edge of the village. At the border of the world. The one who
+watches... had come."
+
+[1:06 – 1:10]  THE FACE — FIRST FULL REVEAL
+CAMERA: The light catches him fully. WHIP from silhouette to a hero low-angle
+close-up: obsidian skin slick with rain, white sacred ash striped across the
+brow, the red tilak, amber eyes burning beneath the turban, the cheroot clenched
+in a grim jaw. He does not shout. He exhales a slow plume of smoke and his eyes
+narrow at the horde below — a butcher appraising the work ahead.
+The name lands, on screen and in VO, low and final:  KARUPPAR.
+
+[1:10 – 1:14]  THE FIRST STRIKE  (Thor impact physics)
+He raises the vel to the torn sky. A single bolt of Shakti-lightning answers,
+striking the spear-tip — and the broken war-horn from the cold open now sounds
+again, WHOLE and triumphant. The white horse screams and plunges off the ridge
+into the sea of asuras. Sound erupts back to full.
+KARUPPAR: "Enough."
+
+==============================================================================
+MOVEMENT IV — THE CARNAGE OF A GOD  (1:14 – 2:00)
+Spend everything. Gory, inventive, disproportionate. Not a fight — a slaughter.
+Cut as an accelerating montage, each beat faster than the last.
+==============================================================================
+
+[1:14 – 1:20]  THE PLOW
+Tracking shot alongside the galloping horse, low and fast, hooves cracking
+skulls like eggshells. Karuppar leans from the saddle and the aruval sweeps a
+long horizontal arc — MACRO SLOW-MO insert of the curved blade opening three
+asura throats in one pass, a synchronized fan of blood misting into the cold
+air. The black dog runs the flank, dragging a screaming asura down by the throat.
+
+[1:20 – 1:26]  THE SPEAR RIDE
+He couches the vel like a lance and rides a charging asura straight through the
+chest, the spearhead bursting out its back in a gout of black blood; he flicks
+the body off the spear into two others without slowing.
+
+[1:26 – 1:30]  DISMOUNT — BARE-HANDED
+He drops from the saddle into the thick of them. Handheld, brutal, God-of-War
+close. He catches an asura's skull in one massive hand and headbutts it to
+fragments; grabs another by the jaw and tears, snapping its spine with a wet
+crack you feel in your teeth. No weapon — just the brute strength of a deity who
+does not need one.
+
+[1:30 – 1:34]  THE ASHING — ESTABLISH IN CLOSE-UP
+CAMERA: Karuppar plants his feet and hurls the iron chains forward into a
+cluster of charging asuras. They catch — wrapping necks, torsos, limbs.
+SLOW-MO MACRO: Where the Shakti-blazing links touch flesh, a line of white fire
+races across the body, and we watch the ENTIRE BODY STRUCTURE turn to grey ash
+in place — skin, then muscle, then the standing skeleton, holding its shape for
+a half-second as a perfect ash-statue mid-scream — then the cold wind takes it
+and it bursts into a cloud, POOF, scattering across the frame.
+HOLD on one asura doing this in full detail.
+
+[1:34 – 1:40]  THE CHAIN STORM — THE AERIAL / MONEY SHOT
+CAMERA: Cut to a high aerial crane shot, pulling straight up. Karuppar spins,
+and the chains whip outward in an expanding spiral.
+SCENE: As they sweep through the horde, HUNDREDS of asuras ash and burst apart
+at once, the entire ring collapsing into drifting grey clouds carried off on the
+wind. From this height: a perfect expanding circle of bodies turning to ash and
+VANISHING — clean, blood-dark, empty ground where a thousand stood a second ago.
+This is the poster frame: not bodies falling — an army ERASED in a single
+rotation.
+
+[1:40 – 1:46]  THE DRAG & THE BEHEADING
+Back to ground. He wraps a chain around a fleeing asura's neck and drags it
+screaming across the wet stone, the camera riding low behind it through the
+streak of blood it paints — then snaps it up into the air and, in one rising
+motion, the aruval takes its head. SLOW-MO the head spinning past the lens,
+cheroot smoke drifting across the frame.
+
+[1:46 – 1:52]  THE RALLY
+Wide. Ayyappa's exhausted Ganas, watching, RISE. Their fear is gone. They roar
+and surge forward in Karuppar's wake. INTERCUT: Ayyappa and Karuppar across the
+battlefield — a single look exchanged, no words. Warrior to warrior. Dharma to
+Dharma. The tide visibly, physically turns: the black sea of asuras now receding.
+
+[1:52 – 1:56]  MAHISHI'S FEAR
+Push in on Mahishi. For the first time, the laugh is gone. She hurls a fistful
+of hair to spawn more — but Karuppar's chain whips out of the smoke and scatters
+them before they can fully form, blowing the half-born asuras apart in mid-birth.
+Her boon made numbers; he brought terror to the numbers. Hold on her eyes
+widening: arrogance meeting its end.
+
+[1:56 – 2:00]  THE FINAL FRAME — THE VERDICT
+CAMERA: Slow crane up and back. Karuppar, remounted, rears the white horse atop
+a hill of the slain, aruval lowered and dripping, chains smoking, the vel
+planted, the dog at his side, Ayyappa's victorious forces rising behind him, the
+storm breaking to clean light above. He takes one slow draw of the cheroot and
+exhales.
+VO: "He did not come like a helper. He came... like a verdict."
+SMASH TO BLACK on the title:  KARUPPAR — THE GUARDIAN OF DHARMA.
+LAST SOUND: a single distant bark of the black dog. Cut.
+
+==============================================================================
+END OF SCRIPT
+==============================================================================

@@ -1,0 +1,29 @@
+==============================================================================
+START HERE — KARUPPAR REEL PROJECT
+==============================================================================
+This repo is the shared brain of the "Karuppar — The One Who Turns the War"
+trailer reel. Everything flows from Script.txt.
+
+THE PIPELINE (4 stages, in order):
+  1. PRODUCER writes the prompts   -> Sequences/Sequence_NN/*.txt
+  2. IMAGE TEAM generates images   -> start.png / end.png in each folder
+  3. VIDEO TEAM animates each clip -> animation.mp4 in each folder
+  4. EDITING TEAM stitches it all  -> the final reel
+
+WHO READS WHAT:
+  - Everyone: this file + docs/GITHUB_FOR_BEGINNERS.txt
+  - Producer:  Sequences/Generate-sequences.txt (how "RUN" works)
+  - Image team: docs/IMAGE_TEAM_GUIDE.txt
+  - Video team: docs/VIDEO_TEAM_GUIDE.txt
+  - Editing team: docs/EDITING_TEAM_GUIDE.txt
+  - The big board everyone updates: STATUS.md
+
+KEY FILES AT THE ROOT:
+  Script.txt           the master creative (the whole reel in words)
+  CONFIG.txt           global settings (aspect ratio, style, etc.) — confirm first
+  CHARACTER_BIBLE.txt  locked character descriptions (consistency)
+  AUDIO_NOTES.txt      global sound/music/VO plan (for editing)
+  STATUS.md            who's done what, and the final assembly order
+
+GOLDEN RULE for everyone: in GitHub Desktop, PULL before you start, PUSH when
+you finish.
