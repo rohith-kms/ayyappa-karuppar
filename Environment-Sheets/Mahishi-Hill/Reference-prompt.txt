@@ -1,0 +1,39 @@
+==============================================================================
+REFERENCE PLATE — MAHISHI'S HILL  (the spawning hill)
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for Mahishi's smoke-wreathed hill. Used in sequence 04
+(spawning beat) and sequence 21 (her fear).
+
+Generate as a wide establishing shot of the hill itself, no characters
+(Mahishi is added in sequence prompts that use this location). The plate locks
+the hill's shape, the smoke, the furnace sky, and the slick/wet-dark texture.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from ENVIRONMENT_BIBLE.txt):
+a low cursed black hill rising from the battlefield, wreathed in roiling thick smoke, the slopes slick and wet with dark fluid, a furnace-red sky behind it tinged with sulfurous orange and bruised purple, fires burning at the hill's base, the ground around it churning with the slick wet birth of newborn asuras from cast hair, an evil pulpit of myth, no architectural features, no European geography references
+
+REFERENCE COMPOSITION (this is a base plate, not a sequence frame):
+Wide cinematic establishing shot, low-angle worshipful-then-revolting tilt up the hill — camera at the hill's base looking up. The hill dominates the center frame; smoke wreaths the upper slopes; a furnace-red sulfurous sky burns behind it; small dim fires glow at the base. No characters in frame (no Mahishi yet — she is added in sequence prompts). The slopes look slick and wet with dark fluid (foreshadowing the spawning). No European, Greek, or Norse architectural features anywhere. The hill is a natural mound, not a built structure.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal terrain and smoke textures, ultra sharp focus, 8k, cinematic color grade, oppressive evil grandeur
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT Mount Doom (no lava river, no Eye-of-Sauron on top), NOT a volcano with visible cone and lava, NOT a witch's tor with standing stones, NOT a Druidic henge hill, NOT a generic D&D evil mountain with a fortress, NOT Bald Mountain (Fantasia), NOT a tar pit, NOT a swamp mound. The hill must read as a cursed pulpit of Hindu mythology — atmospheric and evil through smoke + fluid + sky, NOT through Western fantasy props.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt (adapt for environments).
+2. Save approved image here as: Mahishi-Hill_master_plate.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /ENVIRONMENT_BIBLE.txt.

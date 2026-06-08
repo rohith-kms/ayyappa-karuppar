@@ -1,0 +1,34 @@
+==============================================================================
+REFERENCE PLATE — ASURA FOOT-SOLDIER
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for the basic asura foot-soldier (the wave, the horde).
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, crude leather-and-bone armor wrapped over a scarred muscular torso, jagged iron sickle or crude curved blade, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+Single isolated asura foot-soldier standing in a snarling weapon-ready stance, full body visible from head to clawed feet, front-facing with a slight 3/4 turn, even diffuse lighting, simple neutral deep-grey background, no other characters. Skin: ashen grey-charcoal with mottling, NOT green (avoid orc-green). Build: hulking but lean — not a brute (those are a separate variant). Weapon: jagged crude iron sickle or short curved blade — Indian/Asian aesthetic, NOT a Western scimitar, NOT a longsword. Armor: crude leather strapping and bone fragments — NOT plate, NOT chainmail. Face: clearly Hindu-mythology asura (think south-Indian temple-relief asura iconography), NOT a Tolkien orc, NOT a generic D&D goblin.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal skin and metal textures, ultra sharp focus, 8k, cinematic color grade
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a Tolkien orc (no orc-green skin, no Uruk-hai face paint), NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin (asura is hulking, NOT small), NOT a generic D&D monster, NOT a Western demon with bat wings, NOT a zombie (skin is grey but alive, not rotting), NOT a Roman legionary, NOT a comic-book mutant, NOT a Klingon warrior.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt — Section A is critical.
+2. Save approved image here as: Asura_Foot-Soldier_master_sheet.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /CHARACTER_BIBLE.txt.

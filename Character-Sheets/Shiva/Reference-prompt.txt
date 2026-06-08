@@ -1,0 +1,41 @@
+==============================================================================
+REFERENCE PLATE — SHIVA
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for Lord Shiva. After approval, save the result in this folder
+as Shiva_master_sheet.png and run reconciliation (see
+/Character-Sheets/RECONCILIATION_GUIDE.txt).
+
+DEPICT REVERENTLY. This is a divine being.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+Lord Shiva, serene ascetic deity seated in deep meditation, pale ash-smeared blue-grey skin, matted jata hair piled high with a crescent moon and the holy Ganga, a closed vertical third eye on the forehead, a serpent around the neck, rudraksha beads, calm transcendent face, cool blue-white cosmic glow, the turning cosmos behind him
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+Single isolated figure of Lord Shiva, seated in padmasana lotus pose, full body visible from crown to feet, front-facing with a slight 3/4 turn, cool blue-white diffuse lighting evenly across the figure, simple deep cosmic dark background with a faint suggestion of stars and the turning galaxy (not a busy scene), no other characters, no environment details beyond the suggestion of cosmos. The body language is one of absolute stillness and divinity. Skin tone: the iconographically correct pale ash-smeared blue-grey (think Tanjore-painting Shiva, NOT a Western bodybuilder painted blue).
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal skin and metal textures, ultra sharp focus, 8k, cinematic color grade, devotional sanctity, soft luminous rim-light
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a Western pagan god (NOT Odin, NOT Zeus), NOT a yogi as orientalist caricature, NOT a New-Age fantasy mystic, NOT a hippie guru, NOT a Buddha, NOT a Greek philosopher statue, NOT a Western "wise wizard" archetype. Always reverent and divine. The crescent moon and Ganga must be in the matted jata. The closed third eye on the forehead must be vertical, not horizontal.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick every box in /Character-Sheets/QA-CHECKLIST.txt before approving.
+   Pay extra attention to Section D (Reverence).
+2. Save approved image here as: Shiva_master_sheet.png
+3. Update /STATUS.md Stage 0 row.
+4. Run reconciliation: drop the plate + the LOCKED BLOCK above into a Claude
+   chat and ask for an updated LOCKED BLOCK that matches what was drawn.
+   Apply the update to /CHARACTER_BIBLE.txt.

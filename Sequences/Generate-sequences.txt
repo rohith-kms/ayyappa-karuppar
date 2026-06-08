@@ -4,8 +4,20 @@ How to read Script.txt and generate the sequence prompt files, resumably.
 ==============================================================================
 
 >>> TO THE PRODUCER: open the Claude project, attach this file's repo contents,
-    and type:   Read Script.txt and RUN
-    (Optional: "RUN 10" to do ten sequences this session, or "RUN ALL".)
+    and type one of:
+
+      "Read Script.txt and RUN"           — generate the NEXT batch (default 5)
+      "RUN 10"                            — generate the next 10
+      "RUN ALL"                           — attempt every remaining sequence
+
+    THIS ENGINE IS FOR GENERATING NEW SEQUENCE PROMPTS. It is NOT for:
+      - Updating existing prompts after a global change → use
+        /SEQUENCE_BACKPATCH_SPEC.txt instead: "Read SEQUENCE_BACKPATCH_SPEC.txt
+        and RUN"
+      - Updating BIBLE locked blocks from generated plates → use
+        /RECONCILIATION_SPEC.txt instead: "Read RECONCILIATION_SPEC.txt and RUN"
+
+    The three specs and their triggers are summarized in /docs/00_START_HERE.txt.
 
 >>> TO CLAUDE: you are the prompt-generation engine for this reel. Follow this
     procedure EXACTLY. Be deterministic. Never improvise the structure.
@@ -13,11 +25,14 @@ How to read Script.txt and generate the sequence prompt files, resumably.
 ------------------------------------------------------------------------------
 INPUTS YOU READ (all in this repo / project knowledge)
 ------------------------------------------------------------------------------
-  Script.txt              — the master creative (full beat detail)
-  Sequences/SEQUENCE_MAP.txt   — the fixed 22-sequence list + continuity flags
-  CHARACTER_BIBLE.txt     — locked descriptor blocks (paste verbatim)
-  CONFIG.txt              — aspect ratio, style token, negatives, palette
-  Sequences/generation.log — what is already done; where to resume
+  Script.txt                — the master creative (full beat detail)
+  Sequences/SEQUENCE_MAP.txt — the fixed 22-sequence list + continuity flags
+  CHARACTER_BIBLE.txt       — locked character descriptors (paste verbatim)
+  ENVIRONMENT_BIBLE.txt     — locked location descriptors (paste verbatim)
+  CONFIG.txt                — aspect ratio, cultural anchor, style token,
+                              negatives, palette
+  SEQUENCE_BACKPATCH_SPEC.txt — per-beat asura variant map + environment map
+  Sequences/generation.log  — what is already done; where to resume
 
 ------------------------------------------------------------------------------
 THE PROCEDURE  (run every time the producer says RUN)
@@ -55,17 +70,36 @@ STEP 4 — HOW TO WRITE AN IMAGE PROMPT  (Start-image-prompt.txt / End-image-pro
       [SEQUENCE NN — <beat> — <START or END> FRAME]
       [Movement <I–IV> palette: <one line from CONFIG>]
 
+      CULTURAL ANCHOR:
+      <paste GLOBAL_CULTURAL_TOKEN from CONFIG verbatim — every prompt>
+
+      ENVIRONMENT LOCKED BLOCK (if the beat establishes a location, per the
+      environment map in SEQUENCE_BACKPATCH_SPEC.txt):
+      <paste the matching LOCKED BLOCK from ENVIRONMENT_BIBLE.txt verbatim>
+
+      CHARACTER LOCKED BLOCKS (one per character present, per BIBLE):
+      <paste each verbatim>
+
+      ASURA VARIANT LOCKED BLOCKS (if asuras present, per the variant map in
+      SEQUENCE_BACKPATCH_SPEC.txt — embed each variant's LOCKED BLOCK):
+      <paste each verbatim>
+
       <ONE rich natural-language paragraph describing the single frame: the
       subject and exact pose/expression, the composition and camera framing
       (close-up / wide / aerial / low-angle etc.), the setting, the lighting and
-      color, the mood. Weave in the LOCKED BLOCK(s) verbatim for every character
-      present. For the END frame, describe the picture at the END of the shot's
-      motion; for the START frame, the picture at the beginning.>
+      color, the mood. The locked blocks above describe the WHAT; this paragraph
+      describes HOW they are arranged in this specific frame. For the END frame,
+      describe the picture at the END of the shot's motion; for the START frame,
+      the picture at the beginning.>
 
       STYLE: <paste GLOBAL_STYLE_TOKEN from CONFIG>
-      NEGATIVE: <paste NEGATIVE_PROMPT from CONFIG>
-      PARAMS: <paste IMAGE_PARAMS from CONFIG>
-      IMAGE REFERENCES: <list the Character-Sheets files to attach, per BIBLE>
+      NEGATIVE: <paste full NEGATIVE_PROMPT from CONFIG — do not abbreviate>
+      SUBJECT-SPECIFIC NEGATIVES:
+      <one line per subject present, paste its NEGATIVES (specific) from BIBLE>
+      PARAMS: <paste IMAGE_PARAMS from CONFIG — sequence frames stay 9:16>
+      IMAGE REFERENCES:
+      <list every reference plate to attach: character master sheets +
+       environment master plate(s)>
 
   RULES:
    - Copy character LOCKED BLOCKS verbatim — never paraphrase (consistency).
@@ -117,6 +151,13 @@ STEP 7 — OUTPUT TO THE PRODUCER (because the Claude project cannot push to Git
 ------------------------------------------------------------------------------
 HARD RULES (do not break)
 ------------------------------------------------------------------------------
+  - ALWAYS include CULTURAL ANCHOR section in every prompt — without it the
+    model defaults to Western martial imagery (Vikings, knights, generic
+    D&D demons). This is the most common failure mode of this project.
+  - ALWAYS use the per-beat asura variant from the table in
+    SEQUENCE_BACKPATCH_SPEC.txt — never generic "asuras".
+  - ALWAYS embed ENVIRONMENT_BIBLE.txt locked block when the beat establishes
+    a location.
   - NEVER overwrite or rewrite a sequence already marked DONE (unless the
     producer explicitly says "REGENERATE Sequence_NN").
   - NEVER renumber or merge/split sequences. The map is fixed at 22.

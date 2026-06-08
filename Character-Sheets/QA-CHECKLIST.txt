@@ -1,0 +1,89 @@
+==============================================================================
+QA CHECKLIST — REFERENCE PLATE APPROVAL
+==============================================================================
+Tick every box before approving a master reference plate. Reject and regenerate
+if any box fails. This is the front line against Western drift — catch it here
+and you don't fight it across 22 sequences later.
+
+------------------------------------------------------------------------------
+SECTION A — CULTURAL ANCHOR  (the highest-stakes section)
+------------------------------------------------------------------------------
+[ ]  Skin tones look South Indian / Dravidian. NOT European, NOT generic "warm
+     tan", NOT olive Mediterranean, NOT pale Northern European.
+[ ]  Garments are dhoti / veshti / angavastram. NOT tunics, NOT togas, NOT
+     kilts, NOT chainmail hauberks, NOT plate armor over surcoats.
+[ ]  Weapons are aruval, vel, kattar, curved Indian blades, leaf-shaped spear
+     heads. NOT longswords, NOT broadswords, NOT claymores, NOT katanas, NOT
+     Roman gladii, NOT Viking axes (unless asura — even then check the asura
+     locked block).
+[ ]  Armor (where present) is bronze-banded leather with brass studs, bone-and-
+     leather, or temple-warrior style. NOT plate mail, NOT chainmail, NOT
+     gambeson + tabard, NOT Spartan-style.
+[ ]  Headgear is turbans, simple cloth wraps, or temple-iconography helms. NOT
+     horned helmets, NOT knight visor helms, NOT Spartan crested helms, NOT
+     samurai kabuto, NOT Norse mail coifs.
+[ ]  Facial markings (vibhuti, tilak) are correctly placed where the locked
+     block specifies them. Karuppar: three horizontal white ash stripes +
+     single red vertical tilak. Ganas: white ash markings.
+
+------------------------------------------------------------------------------
+SECTION B — IDENTITY  (does it match the locked block?)
+------------------------------------------------------------------------------
+[ ]  Skin tone matches the locked block (e.g., Karuppar = deep obsidian-black
+     and slick; Ayyappa = smooth dark; Shiva = pale ash-smeared blue-grey).
+[ ]  Body proportions match (e.g., Karuppar 8.5 heads tall and towering;
+     Ayyappa youthful; Asura Brute 9-10ft slab-muscled).
+[ ]  Eyes match (Karuppar amber-orange; War-Horse amber; Black-Dog amber;
+     Mahishi red; Asura Foot-Soldier sunken dark).
+[ ]  Signature features are present (Karuppar's cheroot, moustache, turban,
+     chains; Mahishi's buffalo head and horns; Shiva's crescent moon and Ganga
+     in the jata; Black-Dog's bared fangs).
+[ ]  Weapons are the correct ones for that subject (Karuppar gets aruval +
+     vel + chains; Asura Commander gets curved scimitar-like khanda; Ganas
+     get spears + small round shields).
+
+------------------------------------------------------------------------------
+SECTION C — COMPOSITION  (reference plate, not cinematic frame)
+------------------------------------------------------------------------------
+[ ]  Single isolated subject, clean neutral background (or simple grey). For
+     environment plates: clean wide establishing shot with no characters.
+[ ]  Full body / full subject visible in frame (no cropped legs, no cut heads
+     unless intentional close-up reference).
+[ ]  Even, diffuse lighting that shows the subject clearly. NOT dramatic
+     chiaroscuro for plates (save that for sequence frames).
+[ ]  Aspect ratio is 1:1 (square). Sequence frames switch back to 9:16.
+[ ]  Front-facing OR 3/4 view (the most useful angle for later --cref).
+[ ]  No motion blur, no flames or smoke obscuring the subject (unless that's
+     part of the subject's iconography — e.g., Mahishi can be partially
+     smoke-wreathed).
+
+------------------------------------------------------------------------------
+SECTION D — REVERENCE  (for Shiva, Ayyappa)
+------------------------------------------------------------------------------
+[ ]  Expression is serene, dignified, divine. NOT grotesque, NOT comedic, NOT
+     "edgy".
+[ ]  Iconography is correctly placed (crescent moon for Shiva, golden aura for
+     Ayyappa).
+[ ]  No sexualization, no Western new-age caricature, no orientalist trope.
+
+------------------------------------------------------------------------------
+SECTION E — TECHNICAL
+------------------------------------------------------------------------------
+[ ]  Anatomy is correct (no extra/missing fingers, no fused limbs, no off
+     proportions).
+[ ]  Image is high resolution (≥ 1024×1024 or what your tool outputs at
+     "quality 2").
+[ ]  No watermarks, no signatures, no AI-tool branding in the image.
+[ ]  Saved as PNG (not JPG) at full quality.
+[ ]  Filename matches the convention:
+       Characters:    <Subject>_master_sheet.png
+       Environments:  <Place>_master_plate.png
+[ ]  STATUS.md Stage 0 row updated, committed, and pushed.
+
+------------------------------------------------------------------------------
+SECTION F — NEXT STEP
+------------------------------------------------------------------------------
+[ ]  After approval, run RECONCILIATION (see RECONCILIATION_GUIDE.txt in this
+     same folder) — drop the plate into a chat with Claude alongside the
+     locked block, and update the BIBLE entry to describe what was ACTUALLY
+     drawn. The plate is now ground truth; the text must catch up.

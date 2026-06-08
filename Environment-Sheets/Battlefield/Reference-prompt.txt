@@ -1,0 +1,42 @@
+==============================================================================
+REFERENCE PLATE — BATTLEFIELD  (the cursed plain)
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for the battlefield. This is the most-used location plate —
+it appears in Movements I, III, and IV across the majority of sequences.
+
+Generate this as a CLEAN ESTABLISHING WIDE, no characters in frame. The plate
+locks the geography, palette baseline, and texture vocabulary. Movement-specific
+color tints (I = grey-orange, III = pale gold accent, IV = crimson) are applied
+later per-sequence — not in this base plate.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from ENVIRONMENT_BIBLE.txt):
+a vast ancient South Indian battlefield plain at dusk, ground the color of dried blood and cracked black earth, broken Tamil war-chariots and shattered spears half-buried in churned mud, guttering low fires casting sick orange light, towering pillars of black smoke rising into a storm-dark sky, ash drifting upward on the thermals, a desolate plateau ringed by distant jagged hills, the field densely packed with the dead and the dying, the ground itself seeming to breathe, no European or Mediterranean architecture anywhere in frame, the scale epic and mythological
+
+REFERENCE COMPOSITION (this is a base plate, not a sequence frame):
+Wide cinematic establishing shot at slightly elevated angle, taking in the full plain from horizon to foreground, no characters or living figures in frame (the dead and broken equipment are scenery), even moody dusk lighting that shows the ground texture, smoke pillars, broken chariots and weapons clearly. Use the BASELINE palette of the location — bruised grey/charcoal earth with sick orange fire-glow — NOT yet tinted toward Movement III's gold or Movement IV's crimson (those tints are applied per-sequence). The horizon should show distant jagged hill country, no Western mountains, no architecture.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal landscape and terrain textures, ultra sharp focus, 8k, cinematic color grade
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT Helm's Deep, NOT Minas Tirith, NOT Pelennor Fields, NOT a Roman colosseum, NOT a Greek battlefield, NOT a Viking shore, NOT Western siege equipment (catapults, trebuchets, ballistae, mangonels), NOT stone castle walls in frame, NOT a desert dune sea, NOT a forest clearing, NOT a snowy field, NOT a Mesoamerican pyramid, NOT a Mongolian steppe. The hills on the horizon are Indian subcontinent geography (Western Ghats / Deccan plateau aesthetic), NOT Alps, NOT Rockies.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt — adapt Sections A and C (the
+   subject-identity sections are character-focused; treat them as "does this
+   plate match the locked block?").
+2. Save approved image here as: Battlefield_master_plate.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /ENVIRONMENT_BIBLE.txt.

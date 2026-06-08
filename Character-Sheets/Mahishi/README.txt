@@ -1,6 +1,11 @@
-Mahishi — REFERENCE SHEET NEEDED
-=====================================
-No reference sheet yet. Use the LOCKED BLOCK for "Mahishi" in /CHARACTER_BIBLE.txt
-when generating prompts. To create a sheet: generate one clean full-body image
-using that locked block, approve it, save it here as Mahishi_master_sheet.png, and
-attach it as an image reference in future prompts for tighter consistency.
+Mahishi — REFERENCE PLATE
+=========================
+Full prompt: Reference-prompt.txt in this folder.
+Existing Mahishi.png is iteration history; master plate replaces it.
+
+Workflow:
+1. Paste Reference-prompt.txt into the image tool.
+2. Tick /Character-Sheets/QA-CHECKLIST.txt.
+3. Save as Mahishi_master_sheet.png.
+4. Reconcile (see /Character-Sheets/RECONCILIATION_GUIDE.txt).
+5. Update /STATUS.md.

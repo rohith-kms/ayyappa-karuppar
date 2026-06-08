@@ -1,0 +1,41 @@
+==============================================================================
+REFERENCE PLATE — AYYAPPA
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for Lord Ayyappa. After approval, save as
+Ayyappa_master_sheet.png in this folder and run reconciliation.
+
+DEPICT REVERENTLY. This is a divine youthful warrior god.
+
+NOTE: there are existing partial sketches in this folder (Ayappa.png,
+Ayappa1.png, Combat pose.png). The master plate replaces them as canonical;
+keep the older files as iteration history.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+Lord Ayyappa, a youthful radiant warrior god in the iconography of Sabarimala tradition, serene fearless face, smooth dark South Indian complexion, luminous golden divine aura, simple gold ornaments, a single bell on a string around the neck, warrior's dhoti and beaded mala, calm composed expression even amid carnage, soft warm rim-light separating him from the dark battlefield, the still point at the center of the storm
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+Single isolated figure of Lord Ayyappa standing in a relaxed warrior's stance, full body visible from head to bare feet, front-facing with a slight 3/4 turn, even diffuse lighting with a soft golden divine aura around the figure, simple neutral deep-grey background with no environment details, no other characters. Approximate age 14-16 — the boy-warrior god, not a child and not a full adult. Skin tone: smooth dark South Indian complexion (NOT pale European child). The expression must be serene, composed, fearless — the still point.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal skin and metal textures, ultra sharp focus, 8k, cinematic color grade, devotional sanctity, soft golden rim-light
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a Western child knight, NOT armored crusader child, NOT cherubic Renaissance angel, NOT chibi/anime child, NOT a Roman boy emperor, NOT a fair-skinned European child, NOT a Disney prince, NOT shirtless gym-rat youth. Always reverent, dignified, divine — never grotesque, never sexualized.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt — Section D (Reverence) is critical.
+2. Save approved image here as: Ayyappa_master_sheet.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /CHARACTER_BIBLE.txt.

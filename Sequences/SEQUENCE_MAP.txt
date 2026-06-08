@@ -29,7 +29,7 @@ Sequence_03  0:10–0:18    Soldier POV -> aerial      FRESH_START   Asuras, Gan
 Sequence_04  0:18–0:26    Mahishi spawns asuras      FRESH_START   Mahishi, Asuras
 Sequence_05  0:26–0:32    Ayyappa eyes close->black  FRESH_START   Ayyappa, Asuras
 Sequence_06  0:32–0:38    Kailash stillness          FRESH_START   Shiva
-Sequence_07  0:38–0:46    Shiva close-up, third eye  CONTINUES     Shiva
+Sequence_07  0:38–0:46    Shiva — thigh-strike       CONTINUES     Shiva
 Sequence_08  0:46–0:50    The forging (vortex)       CONTINUES     Karuppar(frag)
 Sequence_09  0:50–0:56    Back to hell, lowest point FRESH_START   Ganas, Asuras
 Sequence_10  0:56–1:00    The silence, wind, freeze  CONTINUES     Asuras, Mahishi

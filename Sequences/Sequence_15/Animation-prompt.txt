@@ -1,5 +1,11 @@
 [SEQUENCE 15 — The Spear Ride — duration ~6s]
 
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
 He couches the vel like a lance and rides a charging asura straight through the chest. Spearhead bursts out its back in a gout of black blood. He flicks the body off the spear into two others without slowing. Momentum is absolute.
 
 ACTION (0-6s): Karuppar on horseback, vel couched like a lance. He charges a cluster of asuras head-on. The vel's spear-point drives straight through the first asura's chest. The spearhead BURSTS out its back, spattering black blood. In one smooth motion, he FLICKS the body off the spear like a rider discarding an empty lance, and the corpse tumbles into two others, tangling them up. The horse never slows. He's already leveling the vel at the next target. One smooth, unstoppable motion.
@@ -7,3 +13,37 @@ ACTION (0-6s): Karuppar on horseback, vel couched like a lance. He charges a clu
 This establishes the PATTERN: charge, pierce, discard, continue. No hesitation. No wasted motion. The efficiency of divine slaughter.
 
 Audio: Horse thundering, vel whoosh, wet puncture sound, the flick and impact of the body, asura screams.
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+Asura Commander: "an asura warlord commander of Mahishi's army, 7-8ft demon of fearsome bearing, dark obsidian-grey skin streaked with ritual ash markings, long curved horns wrapped in red cloth and trophy bones, a skull or fanged-mask helm of dark bronze, ornate dark-bronze and lacquered-bone armor with inscribed war-glyphs, a heavy curved scimitar-like khanda or long-bladed asura sword, a war-banner of black cloth and bone at the back, fierce intelligent eyes, the bearing of a war chief, jeweled with skulls and blackened gold, fewer of these in any scene"
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Commander: NOT a Sauron-style Dark Lord, NOT a Death Knight, NOT a Witch-King of Angmar, NOT a Stormcast, NOT a generic boss monster, NOT a Klingon warrior, NOT a samurai daimyo
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Environment-Sheets/Battlefield/Battlefield_master_plate.png
+- Character-Sheets/Asuras/Asura_Commander/Asura_Commander_master_sheet.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+- Character-Sheets/War-Horse/War-Horse_master_sheet.png

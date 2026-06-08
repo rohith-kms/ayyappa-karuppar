@@ -1,17 +1,37 @@
 CHARACTER SHEETS
 ================
-Reference art for each character. The text descriptors that MUST go into every
-image prompt live in /CHARACTER_BIBLE.txt — these images are the visual
-companion the image team attaches as references (--cref / image prompt /
-IP-Adapter) to keep faces and costumes consistent.
+Reference plates for every character (and asura variant). Each subject folder
+contains:
+  Reference-prompt.txt   — paste-ready generation prompt for the master plate
+  README.txt             — short workflow note
+  <Subject>_master_sheet.png — the approved plate (once generated)
 
-Karuppar/   -> DONE: 4 master sheets supplied (master, mounted, battle, beheading)
-Ayyappa/    -> TODO: needs a reference sheet (see folder README)
-Mahishi/    -> TODO
-Shiva/      -> TODO
-Asuras/     -> TODO
-War-Horse/  -> on the Karuppar master sheet (companion panel); standalone TODO
-Black-Dog/  -> on the Karuppar master sheet (companion panel); standalone TODO
+The text LOCKED BLOCKS that must go into every later sequence prompt live in
+/CHARACTER_BIBLE.txt. The plate is the visual companion attached as a reference
+(--cref / image prompt / IP-Adapter).
 
-Until a TODO sheet exists, the LOCKED BLOCK text in CHARACTER_BIBLE.txt is enough
-to generate consistent images. Generate a sheet later if you want tighter control.
+Files at this level:
+  QA-CHECKLIST.txt         — tick every box before approving a plate
+  RECONCILIATION_GUIDE.txt — after approval, sync the locked block to the plate
+
+------------------------------------------------------------------------------
+STATUS  (also tracked in /STATUS.md Stage 0)
+------------------------------------------------------------------------------
+Karuppar/                       DONE — 4 master sheets supplied
+Karuppar/War-Horse panel        DONE (also: standalone in War-Horse/)
+Karuppar/Black-Dog panel        DONE (also: standalone in Black-Dog/)
+Shiva/                          TODO — Reference-prompt.txt ready
+Ayyappa/                        TODO — Reference-prompt.txt ready (partial art exists)
+Mahishi/                        TODO — Reference-prompt.txt ready (partial art exists)
+Ganas/                          TODO — Reference-prompt.txt ready
+Asuras/                         TODO — 3 variants (Foot-Soldier, Brute, Commander)
+
+------------------------------------------------------------------------------
+WORKFLOW  (Stage 0 — must complete before sequence generation)
+------------------------------------------------------------------------------
+1. Open a subject's folder, read Reference-prompt.txt
+2. Paste the prompt into your image tool (Midjourney/Flux/SDXL)
+3. Run QA-CHECKLIST.txt against the output
+4. Save approved image as <Subject>_master_sheet.png in that folder
+5. Run RECONCILIATION_GUIDE.txt — update the LOCKED BLOCK to match the plate
+6. Update STATUS.md, commit + push

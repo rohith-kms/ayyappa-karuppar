@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / OS junk
+*~
+.swp
+.swo
+.idea/
+.vscode/
+
+# Generated artifacts that should stay local until pushed deliberately
+# (Uncomment if you want to keep big binary outputs out of the repo)
+# *.mp4
+# *.mov

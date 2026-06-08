@@ -1,10 +1,46 @@
 # KARUPPAR REEL — PIPELINE STATUS BOARD
 
-Single source of truth for every sequence across all stages. Each team updates
-its own column when done, then commits + pushes. Also serves as the editing
-team's final assembly order (top to bottom = reel order).
+Single source of truth for every stage of the production. Each team updates its
+own column when done, then commits + pushes.
 
-**Stage flow:** Prompts (producer) → Start/End images (image team) → Animation
+============================================================================
+STAGE 0 — REFERENCE LIBRARY  (must be done before sequence generation begins)
+============================================================================
+Generate the master reference plate for each subject. Workflow per subject:
+  1. Open the subject's folder, read `Reference-prompt.txt`.
+  2. Paste the prompt into Midjourney/Flux/SDXL.
+  3. Run the `Character-Sheets/QA-CHECKLIST.txt` against the output.
+  4. Save the approved image into that folder as `<Subject>_master_sheet.png`
+     (or `_master_plate.png` for environments).
+  5. Reconcile the LOCKED BLOCK in the BIBLE to match what was actually drawn —
+     see `Character-Sheets/RECONCILIATION_GUIDE.txt`.
+  6. Mark DONE in the table below, commit + push.
+
+| Subject                 | Type        | Folder                                     | Plate | Reconciled | WHO |
+|-------------------------|-------------|--------------------------------------------|-------|------------|-----|
+| Karuppar                | Character   | Character-Sheets/Karuppar/                 | DONE  | DONE       |     |
+| War-Horse (standalone)  | Character   | Character-Sheets/War-Horse/                | DONE  |            |     |
+| Black-Dog (standalone)  | Character   | Character-Sheets/Black-Dog/                | DONE  |            |     |
+| Shiva                   | Character   | Character-Sheets/Shiva/                    |       |            |     |
+| Ayyappa                 | Character   | Character-Sheets/Ayyappa/                  | partial |          |     |
+| Mahishi                 | Character   | Character-Sheets/Mahishi/                  | partial |          |     |
+| Ganas                   | Character   | Character-Sheets/Ganas/                    |       |            |     |
+| Asura — Foot-Soldier    | Character   | Character-Sheets/Asuras/Asura_Foot-Soldier/|       |            |     |
+| Asura — Brute           | Character   | Character-Sheets/Asuras/Asura_Brute/       |       |            |     |
+| Asura — Commander       | Character   | Character-Sheets/Asuras/Asura_Commander/   |       |            |     |
+| Battlefield             | Environment | Environment-Sheets/Battlefield/            |       |            |     |
+| Kailash                 | Environment | Environment-Sheets/Kailash/                |       |            |     |
+| Mahishi's Hill          | Environment | Environment-Sheets/Mahishi-Hill/           |       |            |     |
+| Ridgeline               | Environment | Environment-Sheets/Ridgeline/              |       |            |     |
+
+Legend: blank = not started · partial = some artwork exists, not a clean
+master plate · DONE = approved master plate saved in the folder · Reconciled
+= LOCKED BLOCK in the relevant BIBLE file has been updated to match the plate.
+
+============================================================================
+STAGES 1-4 — SEQUENCES  (assembly order top to bottom)
+============================================================================
+Stage flow: Prompts (producer) → Start/End images (image team) → Animation
 (video team) → Approved (producer) → Stitch (editing team).
 
 Mark a cell `DONE` (or `N/A` where a start image isn't needed). "Claim" a
@@ -19,7 +55,7 @@ the same one.
 | 04 | Mahishi spawns asuras | | | | | | |
 | 05 | Ayyappa eyes close → black | | | | | | |
 | 06 | Kailash stillness | | | | | | |
-| 07 | Shiva close-up, third eye | | N/A (continues) | | | | |
+| 07 | Shiva — thigh-strike | | N/A (continues) | | | | |
 | 08 | The forging (vortex) | | N/A (continues) | | | | |
 | 09 | Back to hell | | | | | | |
 | 10 | The silence, freeze | | N/A (continues) | | | | |

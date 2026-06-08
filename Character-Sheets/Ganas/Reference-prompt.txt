@@ -1,0 +1,37 @@
+==============================================================================
+REFERENCE PLATE — GANAS  (Ayyappa's Tamil-Hindu foot-soldiers)
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for the Ganas. This plate is HIGH-PRIORITY because Ganas appear
+in many sequences and are the single biggest source of Western drift (they
+render as Roman legionaries / Greek hoplites / Viking warriors by default).
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+Ganas, weary battle-worn Tamil-Hindu warriors loyal to Lord Ayyappa, divine foot-soldiers of Sanatan Dharma, dark South Indian complexions, mud-and-blood spattered dhoti and angavastram, bronze-banded leather chest armor with brass-studded shoulder guards, white sacred ash markings across foreheads, rudraksha beads, carrying ancient Tamil-Hindu weapons — kattar daggers, curved aruval blades, wooden-shafted spears with leaf-shaped steel heads, small round shields of hide-over-wood, exhausted determined faces, outnumbered but unbroken
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+A small group of THREE Gana warriors standing side-by-side (so we can show variation in pose, weapon, and rank), full bodies visible from head to bare or sandaled feet, three-quarter view, even diffuse warm lighting, simple neutral deep-grey background with no environment, no other characters. The three should show: (1) a spearman with the leaf-shaped steel spear and a small round shield, (2) an aruval-wielder with the curved billhook, (3) a kattar-dagger warrior. All three have dark South Indian complexions, white ash markings on the forehead, rudraksha beads, dhoti / angavastram garments — clearly Tamil-Hindu in iconography. Mud-and-blood spattered showing battle wear. Armor is bronze-banded leather with brass studs — NOT plate mail, NOT chainmail, NOT Roman lorica.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal skin and metal textures, ultra sharp focus, 8k, cinematic color grade
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT Roman legionaries, NOT Greek hoplites, NOT Viking warriors, NOT European knights, NOT samurai, NOT generic "fantasy soldiers", NOT plate mail, NOT chainmail hauberks, NOT longswords, NOT Spartan helmets, NOT Persian Immortals, NOT Ottoman janissaries, NOT 300-movie-style abs-bare-Spartans. Garments are dhoti/angavastram, NOT togas, NOT kilts, NOT tunics. Headgear is cloth wrap, simple temple-warrior helm, or bare head — NOT crested helm, NOT horned helm, NOT visor helm.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt — this is the plate most likely to
+   fail Section A (cultural anchor). Be strict.
+2. Save approved image here as: Ganas_master_sheet.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /CHARACTER_BIBLE.txt.

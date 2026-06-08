@@ -1,5 +1,11 @@
 [SEQUENCE 12 — The face, full reveal — duration ~4s]
 
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
 The light catches Karuppar fully. A WHIP from silhouette to a hero low-angle close-up: obsidian skin slick with rain, white sacred ash across the brow, red tilak, amber eyes burning, cheroot clenched and glowing. He does not shout. He exhales smoke. His eyes narrow at the horde below — a butcher appraising the work ahead.
 
 BEGIN: Still silhouetted on the ridge.
@@ -11,3 +17,33 @@ HOLD (1-4s): He does not shout. He does not roar. He simply EXHALES A SLOW PLUME
 Camera: Rapid whip from silhouette to extreme close-up, then locked on the face.
 
 Audio: Pure note crescendos → whip-cut sound effect → silence except for the softest wind → the name: KARUPPAR (low, final).
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Environment-Sheets/Ridgeline/Ridgeline_master_plate.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+- Character-Sheets/Karuppar/Karuppar_master_sheet.png

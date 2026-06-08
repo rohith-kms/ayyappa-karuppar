@@ -4,26 +4,62 @@ START HERE — KARUPPAR REEL PROJECT
 This repo is the shared brain of the "Karuppar — The One Who Turns the War"
 trailer reel. Everything flows from Script.txt.
 
-THE PIPELINE (4 stages, in order):
+THE PIPELINE (5 stages, in order):
+  0. REFERENCE LIBRARY            -> generate master plates for every character
+                                     and environment (Character-Sheets/,
+                                     Environment-Sheets/). Lock these FIRST.
   1. PRODUCER writes the prompts   -> Sequences/Sequence_NN/*.txt
   2. IMAGE TEAM generates images   -> start.png / end.png in each folder
   3. VIDEO TEAM animates each clip -> animation.mp4 in each folder
   4. EDITING TEAM stitches it all  -> the final reel
 
+WHY STAGE 0 EXISTS:
+  AI image models default to Western martial imagery — without strong
+  references they render our Tamil-Hindu warriors as Vikings or knights, and
+  our asuras as generic D&D demons. Stage 0 locks an approved reference plate
+  for every subject, and CONFIG.txt's GLOBAL_CULTURAL_TOKEN anchors every later
+  prompt to Sanatan-Dharma iconography. Skip Stage 0 and you'll fight Western
+  drift across all 22 sequences.
+
 WHO READS WHAT:
   - Everyone: this file + docs/GITHUB_FOR_BEGINNERS.txt
-  - Producer:  Sequences/Generate-sequences.txt (how "RUN" works)
-  - Image team: docs/IMAGE_TEAM_GUIDE.txt
+  - Producer:   Sequences/Generate-sequences.txt (how "RUN" works)
+  - Image team: docs/IMAGE_TEAM_GUIDE.txt   +   Character-Sheets/QA-CHECKLIST.txt
   - Video team: docs/VIDEO_TEAM_GUIDE.txt
   - Editing team: docs/EDITING_TEAM_GUIDE.txt
-  - The big board everyone updates: STATUS.md
+  - The big board everyone updates: STATUS.md (note the new Stage 0 section)
 
 KEY FILES AT THE ROOT:
-  Script.txt           the master creative (the whole reel in words)
-  CONFIG.txt           global settings (aspect ratio, style, etc.) — confirm first
-  CHARACTER_BIBLE.txt  locked character descriptions (consistency)
-  AUDIO_NOTES.txt      global sound/music/VO plan (for editing)
-  STATUS.md            who's done what, and the final assembly order
+  Script.txt                   the master creative (the whole reel in words)
+  CONFIG.txt                   global settings (aspect ratio, cultural anchor,
+                               style, negatives) — confirm first
+  CHARACTER_BIBLE.txt          locked character descriptions
+  ENVIRONMENT_BIBLE.txt        locked location descriptions
+  AUDIO_NOTES.txt              global sound/music/VO plan (for editing)
+  STATUS.md                    who's done what, plus reference library tracker
+  SEQUENCE_BACKPATCH_SPEC.txt  spec for retrofitting old sequence prompts when
+                               globals change
+
+THE THREE PRODUCER COMMANDS  (each goes to a separate cheap-model chat):
+
+  Generate NEW sequence prompts (the bulk of sequence work):
+    Attach: Script.txt, SEQUENCE_MAP.txt, CHARACTER_BIBLE.txt,
+            ENVIRONMENT_BIBLE.txt, CONFIG.txt, Sequences/Generate-sequences.txt,
+            Sequences/generation.log, SEQUENCE_BACKPATCH_SPEC.txt
+    Trigger: "Read Script.txt and RUN"
+    Spec file: Sequences/Generate-sequences.txt
+
+  Retrofit EXISTING sequence prompts after a global change:
+    Attach: SEQUENCE_BACKPATCH_SPEC.txt, CONFIG.txt, CHARACTER_BIBLE.txt,
+            ENVIRONMENT_BIBLE.txt, and the Sequence_NN folder(s) to backpatch
+    Trigger: "Read SEQUENCE_BACKPATCH_SPEC.txt and RUN"
+    Spec file: SEQUENCE_BACKPATCH_SPEC.txt
+
+  Reconcile BIBLE locked blocks against generated reference plates (Stage 0):
+    Attach: RECONCILIATION_SPEC.txt, CHARACTER_BIBLE.txt, ENVIRONMENT_BIBLE.txt,
+            and all 14 master plate images
+    Trigger: "Read RECONCILIATION_SPEC.txt and RUN"
+    Spec file: RECONCILIATION_SPEC.txt
 
 GOLDEN RULE for everyone: in GitHub Desktop, PULL before you start, PUSH when
 you finish.

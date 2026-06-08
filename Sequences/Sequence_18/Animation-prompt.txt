@@ -1,5 +1,11 @@
 [SEQUENCE 18 — Chain Storm — AERIAL — duration ~6s]
 
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
 High aerial crane shot pulling straight up. Karuppar spins and chains whip outward in expanding spiral. As they sweep through horde, HUNDREDS of asuras ash and burst apart at once. Entire ring collapses into drifting grey clouds. From this height: perfect expanding circle of bodies turning to ash and VANISHING.
 
 ACTION (0-6s): From aerial view, Karuppar begins a rapid SPIN at the ground level. His chains whip outward in an expanding spiral pattern. As the chains sweep through the horde of asuras surrounding him, HUNDREDS combust into white-hot Shakti fire simultaneously. Each one transforms — skin to ash, muscle to ash, skeleton to ash, then bursting into cloud — but all at once, in a ring pattern.
@@ -9,3 +15,36 @@ THE MONEY SHOT (2-6s): The circle EXPANDS as more and more asuras touch the swee
 Camera: Aerial view, pulling straight up as the action happens below. The perspective shows the totality of the destruction — not individual deaths, but systematic erasure on a massive scale.
 
 Audio: Chains whooshing in spiral, hundreds of Shakti fire ignitions (crackling crescendo), hundreds of screams cutting off simultaneously, then silence and wind carrying the ash away.
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+Asura Brute: "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Environment-Sheets/Battlefield/Battlefield_master_plate.png
+- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+- Character-Sheets/Karuppar/Karuppar_master_sheet.png

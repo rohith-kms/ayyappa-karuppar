@@ -1,0 +1,61 @@
+==============================================================================
+RECONCILIATION GUIDE — SYNC THE BIBLE TO THE PLATE
+==============================================================================
+After a reference plate is approved, the LOCKED BLOCK that describes it in
+CHARACTER_BIBLE.txt (or ENVIRONMENT_BIBLE.txt) must be updated to match what
+was actually drawn. Otherwise the text drifts away from the image, and every
+later sequence prompt will fight the reference plate.
+
+The plate is ground truth. The text catches up.
+
+------------------------------------------------------------------------------
+TWO PATHS — PICK ONE
+------------------------------------------------------------------------------
+
+PATH A — AUTOMATED  (recommended once all plates are generated)
+  Use the spec file at the repo root:
+    /SEQUENCE_BACKPATCH_SPEC.txt ← for sequences
+    /RECONCILIATION_SPEC.txt     ← for the BIBLE files (this is the one you
+                                   want for this step)
+  In a fresh chat with a multimodal cheap model (Haiku):
+    1. Attach: /RECONCILIATION_SPEC.txt
+               /CHARACTER_BIBLE.txt
+               /ENVIRONMENT_BIBLE.txt
+               all 14 master plate images
+    2. Say:   "Read RECONCILIATION_SPEC.txt and RUN"
+    3. The model outputs a replacement LOCKED BLOCK for each subject.
+    4. Paste each replacement block into the matching BIBLE file.
+    5. Commit + push. Mark "Reconciled" = DONE for each subject in STATUS.md.
+
+  To redo a single subject (e.g., after regenerating its plate):
+    "Read RECONCILIATION_SPEC.txt and RUN <Subject Name>"
+
+PATH B — MANUAL  (one subject at a time, hand-walked through a chat)
+  Useful for one-off updates or when reviewing a tricky plate by hand:
+    1. Open the relevant BIBLE file (CHARACTER_BIBLE / ENVIRONMENT_BIBLE).
+    2. Find the subject's LOCKED BLOCK.
+    3. Open a chat (any tier — even the main model is fine for one subject).
+    4. Drop the approved plate (PNG) + paste the current LOCKED BLOCK.
+    5. Ask: "Reconcile this LOCKED BLOCK with this plate per the rules in
+       /RECONCILIATION_SPEC.txt — update wording where the plate differs.
+       Keep cultural-anchor language. Keep paragraph structure. Output a
+       clean replacement block."
+    6. Review the proposed block, paste into the BIBLE file, commit.
+    7. Update STATUS.md Stage 0.
+
+------------------------------------------------------------------------------
+WHY THIS MATTERS
+------------------------------------------------------------------------------
+Each sequence prompt embeds the LOCKED BLOCK as text AND attaches the master
+plate as an image reference. If the two disagree, the model averages them and
+quality degrades. Reconciliation forces them into perfect alignment.
+
+------------------------------------------------------------------------------
+WHEN TO RE-RECONCILE
+------------------------------------------------------------------------------
+- If a plate is regenerated after edits, re-reconcile that subject.
+- If the producer changes the CULTURAL_ANCHOR or movement palettes, the locked
+  blocks may need a light pass to absorb new wording — but the plate stays
+  the truth.
+- If a character's appearance is intentionally changed (rare), regenerate the
+  plate FIRST, then re-reconcile.

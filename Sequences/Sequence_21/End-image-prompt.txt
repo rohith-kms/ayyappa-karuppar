@@ -1,6 +1,14 @@
 [SEQUENCE 21 — Mahishi's Fear — END FRAME]
 [Movement IV palette: full crimson + black + ash-grey, white fire]
 
+CULTURAL ANCHOR:
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+ASURA LOCKED BLOCKS (Asura Foot-Soldier):
+- "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+
+ENVIRONMENT LOCKED BLOCK:
+"a low cursed black hill rising from the battlefield, wreathed in roiling thick smoke, the slopes slick and wet with dark fluid, a furnace-red sky behind it tinged with sulfurous orange and bruised purple, fires burning at the hill's base, the ground around it churning with the slick wet birth of newborn asuras from cast hair, an evil pulpit of myth, no architectural features, no European geography references"
 Mahishi HURLS a fistful of hair to spawn more asuras — but Karuppar's CHAIN WHIPS OUT OF THE SMOKE and SCATTERS them before they can fully form, BLOWING the half-born asuras apart in mid-birth. Her boon — the ability to multiply — has been NEGATED. Her power source is being destroyed faster than she can replenish it.
 
 Her eyes are WIDENING: arrogance meeting its end. Fear taking root.
@@ -9,7 +17,12 @@ Mahishi: immense, but now visibly vulnerable. The realization of defeat.
 
 Karuppar's chains: glowing white-hot, sweeping through the newly-spawned asuras and scattering them like ash before they can even fully materialize.
 
-STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload
-PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
-IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi.png, Character-Sheets/Karuppar/KS.png
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+
+IMAGE REFERENCES:
+- Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+- Character-Sheets/Mahishi/Mahishi_master_sheet.png

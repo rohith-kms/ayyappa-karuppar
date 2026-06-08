@@ -1,0 +1,34 @@
+==============================================================================
+REFERENCE PLATE — ASURA COMMANDER / CHIEFTAIN
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for the asura warlord / chieftain rank.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+an asura warlord commander of Mahishi's army, 7-8ft demon of fearsome bearing, dark obsidian-grey skin streaked with ritual ash markings, long curved horns wrapped in red cloth and trophy bones, a skull or fanged-mask helm of dark bronze, ornate dark-bronze and lacquered-bone armor with inscribed war-glyphs, a heavy curved scimitar-like khanda or long-bladed asura sword, a war-banner of black cloth and bone at the back, fierce intelligent eyes, the bearing of a war chief, jeweled with skulls and blackened gold, fewer of these in any scene
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+Single isolated asura commander standing in a commanding heroic stance with weapon held forward or downward (battle-ready, not mid-swing), full body visible, front-facing with a slight 3/4 turn, even diffuse moody lighting (slightly more dramatic than foot-soldier/brute plates — this is the warlord), simple neutral deep-grey background with a faint suggestion of the war-banner behind, no other characters. Skin: dark obsidian-grey with ritual ash streaks. Horns: long, curved, wrapped in red cloth with bone trophies hanging off them. Helm: skull or fanged-mask of dark bronze, asura-style not knight-style. Armor: ornate dark-bronze and lacquered-bone with inscribed war-glyphs (Indian script-like glyphs, NOT runes, NOT Greek letters). Weapon: heavy curved khanda or long-bladed asura sword — Indian subcontinent aesthetic, NOT a katana, NOT a Western longsword. War-banner of black cloth and bone visible at his back.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal skin and metal textures, ultra sharp focus, 8k, cinematic color grade
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a Sauron-style Dark Lord (no all-black-armor, no flaming eye), NOT a Death Knight, NOT a Witch-King of Angmar, NOT a Stormcast (Warhammer), NOT a generic "boss monster", NOT a Klingon warrior, NOT a samurai daimyo, NOT a Persian satrap, NOT Genghis Khan in costume. The commander reads as a Tamil-mythology asura warlord, distinct from but ranked above the foot-soldier and brute.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt — Section A is critical.
+2. Save approved image here as: Asura_Commander_master_sheet.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /CHARACTER_BIBLE.txt.

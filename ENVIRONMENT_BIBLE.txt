@@ -1,0 +1,92 @@
+==============================================================================
+ENVIRONMENT_BIBLE.txt — LOCKED DESCRIPTORS FOR LOCATIONS
+==============================================================================
+Parallel to CHARACTER_BIBLE.txt, but for places. Every image prompt whose beat
+establishes a location must embed the matching LOCKED BLOCK below verbatim —
+this keeps the battlefield, Kailash, Mahishi's hill, and the ridgeline visually
+consistent across all sequences they appear in.
+
+The reference plates live in /Environment-Sheets/.
+
+CULTURAL ANCHOR REMINDER:
+  Every prompt must also include the GLOBAL_CULTURAL_TOKEN from CONFIG.txt.
+  Environments are MOST prone to Western drift — left to itself the model will
+  render the battlefield as Helm's Deep, Kailash as a Greek mountain, etc.
+
+Each block has:
+  LOCKED BLOCK         = paste this verbatim into prompts
+  NEGATIVES (specific) = per-location negative overlay
+  REFERENCE            = which environment plate to attach as image reference
+
+------------------------------------------------------------------------------
+BATTLEFIELD  (the cursed plain — Movements I, III, IV)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "a vast ancient South Indian battlefield plain at dusk, ground the color of
+  dried blood and cracked black earth, broken Tamil war-chariots and shattered
+  spears half-buried in churned mud, guttering low fires casting sick orange
+  light, towering pillars of black smoke rising into a storm-dark sky, ash
+  drifting upward on the thermals, a desolate plateau ringed by distant
+  jagged hills, the field densely packed with the dead and the dying, the
+  ground itself seeming to breathe, no European or Mediterranean architecture
+  anywhere in frame, the scale epic and mythological"
+NEGATIVES (specific):
+  "NOT Helm's Deep, NOT Minas Tirith, NOT a Roman colosseum, NOT a Greek
+  battlefield, NOT a Viking shore, NOT Western siege equipment (catapults,
+  trebuchets, ballistae), NOT stone castle walls, NOT a desert dune, NOT a
+  forest clearing, NOT a snowy field"
+REFERENCE: Environment-Sheets/Battlefield/Battlefield_master_plate.png (TODO)
+MOVEMENT TINTS:
+  Movement I  — desaturated to near-monochrome, only sick orange firelight
+  Movement III — same plain but with one shaft of pale gold light on the ridge
+  Movement IV — full crimson + ember-orange, blood spray, lightning above
+
+------------------------------------------------------------------------------
+KAILASH  (Shiva's abode — Movement II only)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Mount Kailash of Hindu mythology, a serene icy Himalayan peak rising into
+  a vast cosmic sky, pristine white snow on towering vertical cliff faces,
+  cool blue-white moonlight, the turning galaxies and stars of the cosmos
+  visible behind the peak, an aura of absolute stillness and divinity, no
+  human structures, no Mediterranean architecture, the air thin and silent,
+  ancient and sacred"
+NEGATIVES (specific):
+  "NOT Mount Olympus, NOT a Greek temple on a mountaintop, NOT Tolkien's
+  Lonely Mountain, NOT the Matterhorn iconography, NOT a Buddhist monastery,
+  NOT a Tibetan-tourism photograph, NOT Western fantasy ice castle"
+REFERENCE: Environment-Sheets/Kailash/Kailash_master_plate.png (TODO)
+
+------------------------------------------------------------------------------
+MAHISHI'S HILL  (the smoke-wreathed mound — Movement I sequence 04, and 21)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "a low cursed black hill rising from the battlefield, wreathed in roiling
+  thick smoke, the slopes slick and wet with dark fluid, a furnace-red sky
+  behind it tinged with sulfurous orange and bruised purple, fires burning at
+  the hill's base, the ground around it churning with the slick wet birth of
+  newborn asuras from cast hair, an evil pulpit of myth, no architectural
+  features, no European geography references"
+NEGATIVES (specific):
+  "NOT Mount Doom, NOT a volcano with lava river, NOT a witch's tor, NOT a
+  Druidic standing-stone hill, NOT a generic D&D evil mountain, NOT Bald
+  Mountain (Fantasia)"
+REFERENCE: Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png (TODO)
+
+------------------------------------------------------------------------------
+RIDGELINE  (the high horizon where Karuppar appears — Movement III, beat 11)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "a high jagged ridgeline silhouetted against a torn storm sky, the black
+  thunderheads parted along a single dramatic seam, one shaft of pale
+  impossible light falling through that seam onto the ridge crest, distant
+  South Indian hill country far below, the scale immense and mythological,
+  composition deliberately echoing the iconic Gandalf-at-dawn frame: one
+  ridge, one shaft of light, the promise of arrival, no European castle
+  silhouettes, no Western fantasy landmarks"
+NEGATIVES (specific):
+  "NOT a Western mesa, NOT the Cliffs of Insanity, NOT Helm's Deep ramparts,
+  NOT Pride Rock, NOT a Western mountain pass with pine forests, NOT a
+  Scottish highland"
+REFERENCE: Environment-Sheets/Ridgeline/Ridgeline_master_plate.png (TODO)
+==============================================================================

@@ -1,6 +1,11 @@
-Black-Dog — REFERENCE SHEET NEEDED
-=====================================
-No reference sheet yet. Use the LOCKED BLOCK for "Black-Dog" in /CHARACTER_BIBLE.txt
-when generating prompts. To create a sheet: generate one clean full-body image
-using that locked block, approve it, save it here as Black-Dog_master_sheet.png, and
-attach it as an image reference in future prompts for tighter consistency.
+Black-Dog — REFERENCE PLATE
+===========================
+Existing files: Black-Dog.png (iteration); also on Karuppar master sheet.
+Master plate: Black-Dog_master_sheet.png (to be generated).
+
+Workflow:
+1. Paste Reference-prompt.txt into the image tool.
+2. Tick /Character-Sheets/QA-CHECKLIST.txt.
+3. Save as Black-Dog_master_sheet.png.
+4. Reconcile (see /Character-Sheets/RECONCILIATION_GUIDE.txt).
+5. Update /STATUS.md.

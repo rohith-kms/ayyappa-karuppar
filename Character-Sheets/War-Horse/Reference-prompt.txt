@@ -1,0 +1,39 @@
+==============================================================================
+REFERENCE PLATE — WAR-HORSE  (Karuppar's mount)
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the standalone
+master reference plate for Karuppar's divine war horse.
+
+NOTE: there is an existing War-horse.png in this folder, and the horse also
+appears on the Karuppar_master_sheet.png companion panel. The standalone master
+plate sharpens its visual identity for shots where it appears without Karuppar
+mounted (rare but exist).
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+a divine pure-white war horse of South Indian temple iconography, powerful and muscular, glowing amber eyes, flowing white mane, draped with black iron chain barding and red cloth caparison, brass bells at the bridle, a moonlight sheen on its coat, breath steaming, fierce and noble
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+Single isolated war horse standing in profile (left-facing) with a slight 3/4 turn of the head toward camera, full body visible from nose to tail, even cool diffuse lighting, simple neutral deep-grey background, no rider, no other characters. The chain barding and red cloth caparison must be visible across the body. Brass bells at the bridle should be clearly delineated. Glowing amber eye visible. Coat: pure white with a faint moonlight sheen, NOT cream, NOT grey, NOT spotted. Build: powerful and muscular like an Indian Marwari or Kathiawari war horse, NOT a slender Arabian and NOT a heavy European destrier.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal animal anatomy and fur textures, ultra sharp focus, 8k, cinematic color grade
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a European destrier with plated barding, NOT a knight's charger, NOT cowboy/Western saddle, NOT samurai mount, NOT unicorn (no horn), NOT pegasus (no wings), NOT Shadowfax, NOT a Shire horse, NOT a circus horse, NOT a thoroughbred racehorse.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt.
+2. Save approved image here as: War-Horse_master_sheet.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /CHARACTER_BIBLE.txt.

@@ -1,15 +1,47 @@
-[SEQUENCE 07 — Shiva close-up, third eye — duration ~8s]
+[SEQUENCE 07 — Shiva — thigh-strike — duration ~8s]
 
-A patient, extreme push to macro close-up of Shiva's face, holding on the lips and the third eye as the bead of fire gathers.
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
 
-BEGIN (0:00): Medium shot of Shiva's face. Absolute serenity. The matted jata and crescent moon are visible.
 
-PUSH (0-6s): A slow, patient camera push to an EXTREME MACRO CLOSE-UP. We are studying absolute peace. The camera drifts across his features, finally settling on the corner of his lips and the third eye.
+A patient extreme push to macro close-up of Shiva's serene face, then the eyes opening with banked wrath, then a pull back to wide as the palm comes down on the thigh in a sovereign blow — erupting a column of black fire.
 
-THE BEAT (6-7s): Held on the lips — the smallest possible muscle movement — the faintest furl. That is ALL. A single micro-expression of divine awareness. Simultaneously, from the inner corner of the third eye, a SINGLE BEAD OF WHITE FIRE wells up like a tear made of pure lightning. It does not blast. It GATHERS. It builds.
+BEGIN (0:00): Medium shot of Shiva's face. Absolute serenity. The matted jata and crescent moon are visible. The cosmos turns slowly behind him.
 
-END (8s): Hold on the bead of fire gathering at the eye's corner. The sub-bass tone is building almost below hearing.
+PUSH (0-4s): A slow, patient camera push to an EXTREME MACRO CLOSE-UP. We are studying absolute peace. The camera drifts across his features, finally settling on the closed eyelids. The cosmos behind him slows, then stills entirely — as if the universe has stopped breathing.
 
-Camera: patient push to extreme macro, then locked. The power is in stillness and restraint.
+THE TURN (4-5s): The eyelids PART. Slowly, deliberately. Beneath them the pupils are no longer calm but burning — banked coals catching their own draft. The jaw sets. A single vein rises at the temple. The serenity has not broken; it has armed itself.
 
-Audio: Sub-bass tone building (6-8s), almost below hearing — the frequency of impending cosmic anger. No other sound.
+THE STRIKE (5-7s): Pull back rapidly to a CLEAN WIDE. Shiva, seated, lifts his right hand — the palm massive, ash-pale, scarred — and brings it DOWN on his own right thigh in a single sovereign blow. THE IMPACT lands as a thunderclap: snow sheets off the peaks of Kailash, stars in the cosmos behind him jolt out of their orbits, the serpent at his neck flinches awake. From the point where palm meets thigh, a COLUMN OF BLACK FIRE laced with white lightning erupts upward — silent for one frame, then ROARING.
+
+END (7-8s): Hold on the column of black fire rising from the thigh, churning and violent. Inside it, the first faintest hint of a warrior form beginning to take shape.
+
+Camera: patient macro push (0-4s), then a rapid pull-back to wide for the strike (5s onward), then locked for the eruption.
+
+Audio: Sub-bass tone building below hearing (0-5s) — then THE THIGH-STRIKE detonates through the mix at 5s like a struck bell the size of a mountain. After the strike: the roar of black flame igniting.
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+- Environment-Sheets/Kailash/Kailash_master_plate.png
+- Character-Sheets/Shiva/Shiva_master_sheet.png

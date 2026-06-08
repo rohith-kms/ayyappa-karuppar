@@ -1,0 +1,219 @@
+==============================================================================
+CHARACTER_BIBLE.txt — LOCKED DESCRIPTORS  (the key to visual consistency)
+==============================================================================
+WHY THIS EXISTS: AI image tools "forget" what a character looks like between
+generations. To keep Karuppar (and everyone else) identical across all 22
+sequences, EVERY image prompt must embed the exact LOCKED BLOCK below for each
+character that appears. Do not paraphrase these blocks — copy them verbatim.
+The reference images live in /Character-Sheets/.
+
+CULTURAL ANCHOR REMINDER:
+  Every prompt must also include the GLOBAL_CULTURAL_TOKEN from CONFIG.txt.
+  Without it, the model defaults to Western imagery (Vikings, knights, generic
+  D&D demons). The LOCKED BLOCKS below already use Tamil-Hindu vocabulary —
+  do not "translate" terms like vel, aruval, dhoti, veshti, vibhuti, tilak,
+  jata, rudraksha into Western equivalents.
+
+Each block has:
+  LOCKED BLOCK         = paste this verbatim into prompts
+  NEGATIVES (specific) = per-subject negative overlay, added on top of the
+                         global NEGATIVE_PROMPT in CONFIG.txt
+  REFERENCE            = which sheet/image to attach as an image reference
+                         (--cref / image prompt / IP-Adapter)
+
+------------------------------------------------------------------------------
+KARUPPAR  (Sangili Karuppaswamy — the hero, fierce Tamil guardian deity)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Karuppar, a towering muscular Tamil folk guardian deity, 8.5 heads tall, deep
+  obsidian-black skin slick and glistening, fierce intense face, glowing
+  amber-orange eyes, thick curved black handlebar moustache, three horizontal
+  white sacred ash (vibhuti) stripes across the forehead with a single red
+  vertical tilak between the brows, long matted black hair bound under a dark
+  cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing
+  thin smoke, heavy layered black iron chains draped across the bare torso and
+  coiled around both forearms and wrists, a black-and-deep-crimson layered dhoti
+  (veshti), beaded ornaments, bare feet, an aura of righteous wrath"
+NEGATIVES (specific):
+  "NOT a Western knight, NOT a Viking warrior, NOT a barbarian stereotype,
+  NOT a generic muscle-bound fantasy hero, NOT samurai, NOT African warrior
+  iconography, NOT cowled assassin"
+REFERENCE: Character-Sheets/Karuppar/Karuppar_master_sheet.png
+WEAPONS (include the relevant one per shot):
+  ARUVAL — "a massive curved aruval billhook sword, broad single-edged blade
+            stained with blood, ornate hilt"
+  VEL    — "an ornate long golden vel spear, leaf-shaped steel head, brass bells
+            and a red cloth tassel near the blade"
+  CHAINS — "heavy black iron chains that blaze with white-hot Shakti energy when
+            swung, glowing molten-bright along the links"
+POSE REFERENCES:
+  Mounted poses    -> Karuppar_mounted_poses.png
+  Beheading/fatal  -> Karuppar_beheading_poses.png
+  Battle stances   -> Karuppar_battle_poses.png
+
+------------------------------------------------------------------------------
+THE WAR HORSE  (Karuppar's divine mount)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "a divine pure-white war horse of South Indian temple iconography, powerful
+  and muscular, glowing amber eyes, flowing white mane, draped with black iron
+  chain barding and red cloth caparison, brass bells at the bridle, a moonlight
+  sheen on its coat, breath steaming, fierce and noble"
+NEGATIVES (specific):
+  "NOT a European destrier with plated barding, NOT a knight's charger, NOT
+  cowboy/Western saddle, NOT samurai mount, NOT unicorn, NOT pegasus"
+REFERENCE: Character-Sheets/War-Horse/War-horse.png  +
+           Character-Sheets/Karuppar/Karuppar_master_sheet.png (companion panel)
+
+------------------------------------------------------------------------------
+THE BLACK DOG  (Karuppar's guardian hound)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "a large fierce black guardian hound of South Indian village-deity tradition
+  (a kavalkkaaran nai), lean and muscular, short black coat, glowing amber
+  eyes, bared fangs, snarling, a shadow given form, ribbed with the lean
+  muscle of a hunting dog rather than a bulldog"
+NEGATIVES (specific):
+  "NOT a Cerberus, NOT a hellhound with fire mane, NOT a wolf, NOT a Doberman
+  or Rottweiler in costume, NOT cartoonish"
+REFERENCE: Character-Sheets/Black-Dog/Black-Dog.png  +
+           Character-Sheets/Karuppar/Karuppar_master_sheet.png (companion panel)
+
+------------------------------------------------------------------------------
+AYYAPPA  (the boy-warrior god — calm radiant commander)  [DEPICT REVERENTLY]
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Lord Ayyappa, a youthful radiant warrior god in the iconography of Sabarimala
+  tradition, serene fearless face, smooth dark South Indian complexion,
+  luminous golden divine aura, simple gold ornaments, a single bell on a
+  string around the neck, warrior's dhoti and beaded mala, calm composed
+  expression even amid carnage, soft warm rim-light separating him from the
+  dark battlefield, the still point at the center of the storm"
+NEGATIVES (specific):
+  "NOT a Western child knight, NOT armored crusader child, NOT cherubic
+  Renaissance angel, NOT chibi/anime child, NOT a Roman boy emperor, NOT a
+  fair-skinned European child. Always reverent, never grotesque."
+REFERENCE: Character-Sheets/Ayyappa/Ayappa.png + Combat pose.png  /
+           sheet TODO — see Reference-prompt.txt in that folder
+NOTE: Always dignified, divine, never grotesque. He is the still point.
+
+------------------------------------------------------------------------------
+MAHISHI  (the buffalo-headed demoness — the antagonist)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Mahishi, a colossal demoness of Hindu mythology with a fearsome buffalo
+  head, long curved horns, dark leathery hide, glowing red eyes, fanged
+  snarling maw, draped in dark battle ornaments and bone jewelry of Indian
+  iconography, immense and menacing, wreathed in smoke, arrogant cruel
+  expression"
+NEGATIVES (specific):
+  "NOT a Western Minotaur, NOT a Greek bull-man, NOT a centaur, NOT a generic
+  fantasy bull-demon, NOT a Warcraft tauren, NOT comic-book Beast"
+REFERENCE: Character-Sheets/Mahishi/Mahishi.png  /
+           sheet TODO — see Reference-prompt.txt in that folder
+SIGNATURE: tears coarse hair from her own arm; each strand becomes a new asura.
+
+------------------------------------------------------------------------------
+SHIVA  (Lord Shiva on Kailash)  [DEPICT REVERENTLY]
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Lord Shiva, serene ascetic deity seated in deep meditation, pale ash-smeared
+  blue-grey skin, matted jata hair piled high with a crescent moon and the holy
+  Ganga, a closed vertical third eye on the forehead, a serpent around the neck,
+  rudraksha beads, calm transcendent face, cool blue-white cosmic glow, the
+  turning cosmos behind him"
+NEGATIVES (specific):
+  "NOT a Western pagan god (Odin, Zeus), NOT a yogi as orientalist caricature,
+  NOT a New-Age fantasy mystic, NOT a hippie guru, NOT a Buddha. Always
+  reverent."
+REFERENCE: sheet TODO — see Character-Sheets/Shiva/Reference-prompt.txt
+NOTE: Supremely calm and divine. His one decisive movement in this reel is
+the THIGH-STRIKE: his eyes open from meditation, burning with banked wrath,
+and his open palm comes down on his own thigh in a single sovereign blow — a
+thunderclap that splits Kailash and erupts a column of black fire from the
+point of impact. Karuppar is forged from that fire. Until that moment he is
+absolute stillness; after that moment he returns to it.
+
+==============================================================================
+ASURAS — THREE VARIANTS  (the demon horde — split by rank)
+==============================================================================
+The image team observed that calling everything "asura" makes every demon
+render identical, and the model defaults to Western D&D / Tolkien-orc imagery.
+Three named variants now exist. Use the right one per beat (see
+SEQUENCE_BACKPATCH_SPEC.txt for the per-sequence variant map). Mix variants in
+crowd shots for visual variety.
+
+------------------------------------------------------------------------------
+ASURA FOOT-SOLDIER  (the basic horde — endless, expendable, the wave)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned
+  humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and
+  protruding lower tusks, crude leather-and-bone armor wrapped over a scarred
+  muscular torso, jagged iron sickle or crude curved blade, ash-smeared limbs,
+  born slick and steaming from Mahishi's hair, savage and expendable, part of
+  an endless screaming horde"
+NEGATIVES (specific):
+  "NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a
+  goblin, NOT a generic D&D monster, NOT a Western demon with bat wings,
+  NOT zombie, NOT Roman legionary, NOT a comic-book mutant"
+REFERENCE: Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-Soldier_master_sheet.png (TODO)
+VARIANTS:
+  NEWBORN — "a newborn asura unfolding from a strand of Mahishi's hair, raw
+             glistening muscle knitting into grey skin, mid-scream, half-formed"
+  ASHING  — "an asura turning to grey ash in place, a standing ash-statue
+             holding its screaming shape, then bursting into a drifting dust
+             cloud on the wind"
+
+------------------------------------------------------------------------------
+ASURA BRUTE  (the heavy — slab-muscled, two-handed bludgeons, slower)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon,
+  slab-muscled grey-and-charcoal hide thick with old scars, low forehead,
+  short curved bull-like horns or bone protrusions, jutting fanged underbite,
+  swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy
+  bronze-and-bone armor plates strapped over the chest and shoulders, slower
+  than the foot-soldiers but devastating, breath steaming, eyes small and
+  bloodshot"
+NEGATIVES (specific):
+  "NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a
+  cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon"
+REFERENCE: Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png (TODO)
+
+------------------------------------------------------------------------------
+ASURA COMMANDER / CHIEFTAIN  (the warlord rank — distinctive, fewer per scene)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "an asura warlord commander of Mahishi's army, 7-8ft demon of fearsome
+  bearing, dark obsidian-grey skin streaked with ritual ash markings, long
+  curved horns wrapped in red cloth and trophy bones, a skull or fanged-mask
+  helm of dark bronze, ornate dark-bronze and lacquered-bone armor with
+  inscribed war-glyphs, a heavy curved scimitar-like khanda or long-bladed
+  asura sword, a war-banner of black cloth and bone at the back, fierce
+  intelligent eyes, the bearing of a war chief, jeweled with skulls and
+  blackened gold, fewer of these in any scene"
+NEGATIVES (specific):
+  "NOT a Sauron-style Dark Lord, NOT a Death Knight, NOT a Witch-King of
+  Angmar, NOT a Stormcast, NOT a generic boss monster, NOT a Klingon warrior,
+  NOT a samurai daimyo"
+REFERENCE: Character-Sheets/Asuras/Asura_Commander/Asura_Commander_master_sheet.png (TODO)
+
+------------------------------------------------------------------------------
+GANAS  (Ayyappa's own soldiers — the exhausted Tamil defenders)
+------------------------------------------------------------------------------
+LOCKED BLOCK:
+  "Ganas, weary battle-worn Tamil-Hindu warriors loyal to Lord Ayyappa, divine
+  foot-soldiers of Sanatan Dharma, dark South Indian complexions, mud-and-blood
+  spattered dhoti and angavastram, bronze-banded leather chest armor with
+  brass-studded shoulder guards, white sacred ash markings across foreheads,
+  rudraksha beads, carrying ancient Tamil-Hindu weapons — kattar daggers,
+  curved aruval blades, wooden-shafted spears with leaf-shaped steel heads,
+  small round shields of hide-over-wood, exhausted determined faces,
+  outnumbered but unbroken"
+NEGATIVES (specific):
+  "NOT Roman legionaries, NOT Greek hoplites, NOT Viking warriors, NOT
+  European knights, NOT samurai, NOT generic 'fantasy soldiers', NOT plate
+  mail, NOT chainmail hauberks, NOT longswords, NOT Spartan helmets"
+REFERENCE: Character-Sheets/Ganas/Ganas_master_sheet.png (TODO)
+==============================================================================

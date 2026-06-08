@@ -1,0 +1,38 @@
+==============================================================================
+REFERENCE PLATE — BLACK DOG  (Karuppar's guardian hound)
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the standalone
+master reference plate for Karuppar's guardian hound.
+
+NOTE: there is an existing Black-Dog.png in this folder, and the dog also
+appears on the Karuppar_master_sheet.png companion panel. The standalone master
+plate locks the species and proportions.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+a large fierce black guardian hound of South Indian village-deity tradition (a kavalkkaaran nai), lean and muscular, short black coat, glowing amber eyes, bared fangs, snarling, a shadow given form, ribbed with the lean muscle of a hunting dog rather than a bulldog
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+Single isolated black guardian hound standing in profile (left-facing) with a slight 3/4 turn of the head toward camera, full body visible from nose to tail, head low and snarling with bared fangs, even cool diffuse lighting, simple neutral deep-grey background, no other characters. Build: lean, ribby, muscled like an Indian native hound (think Rajapalayam or Kombai but black) or a black sighthound — NOT a stocky bulldog, NOT a Doberman/Rottweiler, NOT a wolf. Coat: short, deep matte black. Eyes: glowing amber. Glowing should be subtle (not laser-bright, not on fire). The dog is "a shadow given form" — its silhouette should feel dense and intimidating without being supernatural-monster-styled.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal animal anatomy and fur textures, ultra sharp focus, 8k, cinematic color grade
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a Cerberus (single head only), NOT a hellhound with fire mane, NOT a wolf, NOT a Doberman or Rottweiler in costume, NOT cartoonish, NOT a Hound of the Baskervilles, NOT a glowing magical creature, NOT Anubis-style. The dog is intimidating because it is a real-feeling native-breed guardian hound, NOT because it has supernatural prosthetics.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt.
+2. Save approved image here as: Black-Dog_master_sheet.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /CHARACTER_BIBLE.txt.

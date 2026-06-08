@@ -7,15 +7,69 @@ an END frame), so the video team can animate between them.
 SETUP: do docs/GITHUB_FOR_BEGINNERS.txt first (one-time).
 
 ------------------------------------------------------------------------------
-DAILY WORKFLOW
+STAGE 0 COMES FIRST: BUILD THE REFERENCE LIBRARY
+------------------------------------------------------------------------------
+Before you generate any sequence frame, the project needs an approved master
+reference plate for every character and environment. These live in:
+  /Character-Sheets/<Subject>/   (each subject has a Reference-prompt.txt)
+  /Environment-Sheets/<Place>/   (each location has a Reference-prompt.txt)
+
+For each subject:
+  1. Open the folder's Reference-prompt.txt — it is a paste-ready prompt.
+  2. Run it in your image tool.
+  3. Check the result against /Character-Sheets/QA-CHECKLIST.txt.
+  4. Save the approved image in that folder as <Subject>_master_sheet.png
+     (or <Place>_master_plate.png for environments).
+  5. Update the Stage 0 section of /STATUS.md.
+
+Reference plates are square (--ar 1:1) — the override is already in each
+Reference-prompt.txt. Sequence frames go back to --ar 9:16 (set in CONFIG.txt).
+
+------------------------------------------------------------------------------
+WHY YOUR GENERATIONS LOOK WESTERN (read this once)
+------------------------------------------------------------------------------
+Image models are trained on a Western-heavy corpus. Without an explicit anchor
+they will render:
+  - Ayyappa's Ganas as Roman legionaries, Greek hoplites, or Viking warriors
+  - Karuppar as a generic muscle-bound Western fantasy hero
+  - Asuras as Tolkien orcs / Warhammer chaos warriors / D&D goblins
+  - The battlefield as Helm's Deep
+  - Kailash as Mount Olympus
+
+Two things fight this in our pipeline:
+  (A) CONFIG.txt's GLOBAL_CULTURAL_TOKEN is woven into every prompt — it tells
+      the model "ancient Tamil Hindu mythological warriors, Sanatan Dharma
+      iconography, South Indian / Dravidian martial culture, Chola-era warrior
+      styling..."
+  (B) CONFIG.txt's expanded NEGATIVE_PROMPT explicitly names the Western tropes
+      to avoid (Viking, knight, longsword, plate mail, orc, samurai, etc.)
+And reinforced by:
+  (C) Per-subject negatives in CHARACTER_BIBLE.txt (e.g., "Karuppar NOT a
+      Western knight, NOT a Viking warrior...")
+  (D) The reference plate you attach as image reference (--cref / IP-Adapter).
+
+If a generation still drifts Western:
+  - Confirm the cultural token is actually present in the prompt you pasted.
+  - Confirm the negatives are present in the negatives field of your tool.
+  - Increase the weight of the reference plate.
+  - Add the offending Western trope (e.g., "Viking") to the negative list and
+     regenerate.
+  - If you find a Western drift the negatives don't catch, message the producer
+     so we can add it to the global list.
+
+------------------------------------------------------------------------------
+DAILY WORKFLOW  (Stages 2 — sequence frames)
 ------------------------------------------------------------------------------
 1. In GitHub Desktop: Fetch origin, then Pull. (Get the latest prompts.)
-2. Open STATUS.md. Find a sequence whose "Prompts" = DONE but "End img" is blank.
-   Put your name in the WHO column for that row so nobody doubles up. Commit+push
-   that small change so others see you've claimed it.
+2. Open STATUS.md. Confirm all Stage 0 reference plates you need are DONE.
+   Find a sequence whose "Prompts" = DONE but "End img" is blank. Put your name
+   in the WHO column for that row so nobody doubles up. Commit+push that small
+   change so others see you've claimed it.
 3. Open that sequence folder, e.g. Sequences/Sequence_03/.
 4. Open End-image-prompt.txt. Copy the WHOLE prompt into your image tool
-   (Midjourney/Flux/etc.). Generate. Pick the best result.
+   (Midjourney/Flux/etc.). ALSO attach the reference plates listed under
+   IMAGE REFERENCES (--cref / image prompt / IP-Adapter). Generate. Pick the
+   best result.
    - Save it INTO that same folder as:  end.png
 5. If the folder ALSO has Start-image-prompt.txt, do the same for it and save as:
    start.png
@@ -35,13 +89,19 @@ DAILY WORKFLOW
 QUALITY RULES (important)
 ------------------------------------------------------------------------------
 - CONSISTENCY IS EVERYTHING. The prompt already contains the locked character
-  descriptions. Also attach the matching reference image from /Character-Sheets/
-  if your tool supports it (Midjourney --cref, or image prompt / IP-Adapter).
-- Match the ASPECT RATIO in CONFIG.txt (default 9:16 vertical). Don't crop later.
+  and environment descriptions. ATTACH THE REFERENCE PLATES listed in the
+  prompt (Midjourney --cref, or image prompt / IP-Adapter). The plate is the
+  visual ground truth.
+- CULTURAL ANCHOR MUST BE PRESENT. Confirm GLOBAL_CULTURAL_TOKEN language
+  appears in the prompt before you generate. If it doesn't, the prompt is
+  broken — message the producer.
+- Match the ASPECT RATIO in CONFIG.txt (default 9:16 vertical for sequence
+  frames). Reference plates use --ar 1:1. Don't crop later.
 - Respect the per-movement palette noted at the top of each prompt (e.g.
   Movement I is near-monochrome; do not make it colourful).
-- Faces: Karuppar must look like the SAME man every time — amber eyes, white ash
-  brow stripes, red tilak, moustache, turban, cheroot. Reject drifting faces.
+- Faces: Karuppar must look like the SAME man every time — amber eyes, white
+  ash brow stripes, red tilak, moustache, turban, cheroot. Reject drifting
+  faces.
 - Save as PNG, highest quality your tool offers.
 - If a prompt seems wrong or impossible, DON'T improvise — message the producer
   to "REGENERATE" that prompt.

@@ -1,0 +1,38 @@
+==============================================================================
+REFERENCE PLATE — KAILASH  (Shiva's abode)
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for Mount Kailash. Used in Movement II (sequences 06, 07, 08).
+
+Generate as a clean establishing WIDE, no characters in frame (Shiva is added
+in the sequence prompts that use this location). The plate locks the mountain's
+shape, the cosmic backdrop, and the cool blue-white palette.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from ENVIRONMENT_BIBLE.txt):
+Mount Kailash of Hindu mythology, a serene icy Himalayan peak rising into a vast cosmic sky, pristine white snow on towering vertical cliff faces, cool blue-white moonlight, the turning galaxies and stars of the cosmos visible behind the peak, an aura of absolute stillness and divinity, no human structures, no Mediterranean architecture, the air thin and silent, ancient and sacred
+
+REFERENCE COMPOSITION (this is a base plate, not a sequence frame):
+Wide cinematic establishing shot looking up at Mount Kailash centered in frame, snow-capped vertical cliff faces dominating the lower 2/3, vast cosmic starfield and turning galaxies filling the upper 1/3 of the sky, cool blue-white moonlight as primary illumination, no figures, no architecture, no environmental clutter. Total stillness. The peak's shape is the iconic four-faced pyramidal Kailash silhouette (look up Tibetan Plateau Kailash photographs for the correct shape — NOT a Matterhorn pyramid, NOT a Fuji cone).
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal mountain and snow textures, ultra sharp focus, 8k, cinematic color grade, devotional sanctity
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT Mount Olympus (no Greek temple), NOT a Greek temple on a mountaintop, NOT Tolkien's Lonely Mountain (no dragon, no dwarf-king architecture), NOT the Matterhorn shape, NOT Fuji, NOT a Buddhist monastery, NOT a Tibetan-tourism photograph with prayer flags, NOT a Western fantasy ice castle. NOT a generic "snowy mountain" — must clearly be Kailash iconography.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt (adapt for environments).
+2. Save approved image here as: Kailash_master_plate.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /ENVIRONMENT_BIBLE.txt.

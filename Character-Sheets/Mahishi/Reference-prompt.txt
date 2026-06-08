@@ -1,0 +1,38 @@
+==============================================================================
+REFERENCE PLATE — MAHISHI
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for Mahishi. After approval, save as Mahishi_master_sheet.png
+in this folder and run reconciliation.
+
+NOTE: there is an existing Mahishi.png in this folder — iteration history. The
+master plate replaces it as canonical.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from CHARACTER_BIBLE.txt):
+Mahishi, a colossal demoness of Hindu mythology with a fearsome buffalo head, long curved horns, dark leathery hide, glowing red eyes, fanged snarling maw, draped in dark battle ornaments and bone jewelry of Indian iconography, immense and menacing, wreathed in smoke, arrogant cruel expression
+
+REFERENCE COMPOSITION (this is a plate, not a cinematic frame):
+Single isolated figure of Mahishi standing at her full towering height, full body visible from horn-tips to feet, front-facing with a slight 3/4 turn, even diffuse moody lighting that shows her clearly without dramatic chiaroscuro, simple neutral deep-grey background with a thin curl of smoke around her base (her signature) but otherwise no environment, no other characters. Scale should read as massive — she is buffalo-headed and demoness-immense, not human-sized. Skin: dark leathery hide; horns: long, curved, asymmetric like an actual water-buffalo's, NOT a Western Minotaur's symmetric ram-horns. Ornaments: clearly Hindu-mythology bone-and-bronze (NOT Greek bronze, NOT Norse iron).
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal skin and metal textures, ultra sharp focus, 8k, cinematic color grade
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a Western Minotaur, NOT a Greek bull-man, NOT a centaur, NOT a generic fantasy bull-demon, NOT a Warcraft tauren, NOT comic-book Beast, NOT a Picasso bull-figure, NOT a Spanish toreador's bull. The head must read as buffalo (water-buffalo proportions: heavy jowl, lower horns, broader skull), not as a Mediterranean bull.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+1. Tick /Character-Sheets/QA-CHECKLIST.txt.
+2. Save approved image here as: Mahishi_master_sheet.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /CHARACTER_BIBLE.txt.

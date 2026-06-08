@@ -1,0 +1,44 @@
+==============================================================================
+REFERENCE PLATE — RIDGELINE  (Karuppar's arrival — the iconic frame)
+==============================================================================
+Purpose: paste the prompt below into the image tool to generate the master
+reference plate for the high ridge where Karuppar appears at the climax of
+Movement III (sequence 11). This is THE goosebump frame of the reel — the
+Gandalf-at-dawn iconography.
+
+Generate as a clean establishing wide with no characters (Karuppar is added
+in the sequence 11 prompt). The plate locks the ridge silhouette, the parted
+storm-clouds, and the single shaft of pale light.
+
+------------------------------------------------------------------------------
+PROMPT  (copy everything below this line)
+------------------------------------------------------------------------------
+
+CULTURAL ANCHOR (mandatory):
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+SUBJECT (verbatim LOCKED BLOCK from ENVIRONMENT_BIBLE.txt):
+a high jagged ridgeline silhouetted against a torn storm sky, the black thunderheads parted along a single dramatic seam, one shaft of pale impossible light falling through that seam onto the ridge crest, distant South Indian hill country far below, the scale immense and mythological, composition deliberately echoing the iconic Gandalf-at-dawn frame: one ridge, one shaft of light, the promise of arrival, no European castle silhouettes, no Western fantasy landmarks
+
+REFERENCE COMPOSITION (this is the iconic plate — get this one right):
+Wide cinematic locked-off long-lens shot looking across distant terrain toward a high jagged ridge that occupies the upper-middle of the frame. Black storm thunderheads dominate the sky except for a single dramatic seam directly above the ridge, through which one shaft of pale impossible light falls onto the ridge crest. Distant South Indian hill country visible in the foreground / middle ground far below the ridge (Western Ghats / Deccan plateau geography). No characters in frame (Karuppar is added in the sequence prompt that uses this plate). No architecture. The composition deliberately echoes the famous "Gandalf-at-dawn" Helm's Deep frame — one ridge, one seam in the clouds, one shaft of light — but the geography reads as Indian, NOT European.
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, fine film grain, epic mythological scale, photoreal landscape, ultra sharp focus, 8k, cinematic color grade, the promise of rescue
+
+GLOBAL NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, European knight, crusader, plate mail, longsword, Roman legionary, Greek hoplite, samurai, Tolkien orc, generic D&D demon, anime demon, kilt, cowboy
+
+SUBJECT-SPECIFIC NEGATIVE: NOT a Western mesa, NOT the Cliffs of Insanity, NOT Helm's Deep ramparts (the iconography rhymes but the location is wild, not a fortress), NOT Pride Rock, NOT a Western mountain pass with pine forests, NOT a Scottish highland, NOT a Welsh moor, NOT an Andes peak. NO castles, NO towers, NO walls, NO architecture of any kind on or near the ridge.
+
+PARAMS: --ar 1:1 --style raw --stylize 200 --quality 2
+
+------------------------------------------------------------------------------
+AFTER GENERATION
+------------------------------------------------------------------------------
+This is the iconic plate of the reel. Be willing to regenerate multiple times
+to get the silhouette and lighting right. The seam in the clouds + the single
+shaft of light are non-negotiable elements.
+
+1. Tick /Character-Sheets/QA-CHECKLIST.txt (adapt for environments).
+2. Save approved image here as: Ridgeline_master_plate.png
+3. Update /STATUS.md Stage 0.
+4. Run reconciliation against /ENVIRONMENT_BIBLE.txt.
