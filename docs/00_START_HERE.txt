@@ -18,8 +18,21 @@ WHY STAGE 0 EXISTS:
   references they render our Tamil-Hindu warriors as Vikings or knights, and
   our asuras as generic D&D demons. Stage 0 locks an approved reference plate
   for every subject, and CONFIG.txt's GLOBAL_CULTURAL_TOKEN anchors every later
-  prompt to Sanatan-Dharma iconography. Skip Stage 0 and you'll fight Western
-  drift across all 22 sequences.
+  prompt to Sanatan-Dharma iconography.
+
+  STAGE 0 CURRENT STATE:
+  - Character & army plates: DONE (18 plates staged from Final-images)
+  - Environment plates: TODO (4 plates)
+  - Reconciliation: TODO (sync LOCKED BLOCKs to staged plates — see
+    /RECONCILIATION_SPEC.txt, run with "Read RECONCILIATION_SPEC.txt and RUN")
+
+  NEW IN THE TAXONOMY:
+  - Dharma Army has 4 archetypes (was "Ganas" — one undifferentiated group)
+  - Asura Army has 5 archetypes (was 3 variants; +Beast-Blooded + Elite Guard)
+  - Bengal Tiger (Ayyappa's mount) is canonical and has its own bible
+  - Karuppar's character sheet has been updated (with cigar/cheroot)
+  - Shiva has TWO canonical states (meditative + wrathful thigh-strike)
+  - Anti-cloning token added — see CONFIG.txt and use it in crowd shots
 
 WHO READS WHAT:
   - Everyone: this file + docs/GITHUB_FOR_BEGINNERS.txt

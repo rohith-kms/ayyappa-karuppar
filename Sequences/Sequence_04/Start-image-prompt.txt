@@ -1,26 +1,16 @@
 [SEQUENCE 04 — Mahishi spawns asuras — START FRAME]
-[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only. Drained, hopeless.]
 
-CULTURAL ANCHOR:
-ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+CULTURAL ANCHOR: ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
 
-ASURA LOCKED BLOCKS (Asura Foot-Soldier):
-- "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+A low, worshipful tilt up a hill of smoke — the camera begins low to the ground looking up. At the top of the frame, through roiling black smoke backlit by a furnace sky, the massive silhouette of Mahishi is just becoming visible — her scale overwhelming the frame. She is wreathed in smoke, immense, a buffalo-headed silhouette against that sick orange furnace-sky. Her laughter has begun. The hill below her is the cursed Mahishi-Hill — slick and dark, fires at its base.
 
-ENVIRONMENT LOCKED BLOCK:
-"a low cursed black hill rising from the battlefield, wreathed in roiling thick smoke, the slopes slick and wet with dark fluid, a furnace-red sky behind it tinged with sulfurous orange and bruised purple, fires burning at the hill's base, the ground around it churning with the slick wet birth of newborn asuras from cast hair, an evil pulpit of myth, no architectural features, no European geography references"
-Low-angle shot, tilting slowly upward from darkness and smoke. A hill of black smoke and ash rises in the frame. At the peak, backlit against a furnace-orange sky, the SILHOUETTE of Mahishi — colossal, immense, arrogant. She is laughing, a dark laugh echoing across the wasteland.
+ENVIRONMENT: a low cursed black hill rising from the battlefield, wreathed in roiling thick smoke, the slopes slick and wet with dark fluid, a furnace-red sky behind it tinged with sulfurous orange and bruised purple, fires burning at the hill's base, the ground around it churning with the slick wet birth of newborn asuras from cast hair, an evil pulpit of myth, no architectural features, no European geography references
 
-Mahishi: colossal demoness with a fearsome buffalo head, long curved horns, dark leathery hide, glowing red eyes, fanged snarling maw, draped in dark battle ornaments and bone jewelry, immense and menacing, wreathed in smoke, arrogant cruel expression.
+MAHISHI:
+  "Mahishi, the asura queen of the demon legions, a colossal buffalo-demon hybrid of Hindu mythology, approximately 286 cm (9.4 ft) tall, dominant fearless ancient cruel regal relentless bearing, a fearsome water-buffalo head with long curved asymmetric horns (heavy buffalo proportions — broad skull, heavy jowl, low-set horns), dark grey-purple leathery hide, glowing red eyes, fanged snarling maw, a wild dark mane that flows from the head down over the shoulders, heavy ornate dark-bronze and lacquered-bone armor with gold ornamentation and inscribed war-glyphs, layered skull-and-bone jewelry of Indian asura iconography, a long dark battle skirt of layered dark cloth and chain, immense and menacing presence, partly wreathed in thin black smoke (her signature aura)"
 
-The smoke swirls around her. Her silhouette towers against the dying firelight. The mood is horror and dominion — she is the source, the endless plague, the nightmare made flesh.
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-
-IMAGE REFERENCES:
-- Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Mahishi/Mahishi_master_sheet.png
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian', NOT a Western Minotaur, NOT a Greek bull-man, NOT a centaur, NOT a Warcraft tauren, NOT a horned generic demon, NOT Mount Doom, NOT a volcano, NOT a Druidic standing-stone hill, NOT Bald Mountain
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi_master_sheet.png, Character-Sheets/Mahishi/Mahishi_hero_portrait.png, Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png

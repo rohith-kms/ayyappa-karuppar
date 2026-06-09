@@ -1,0 +1,53 @@
+[SEQUENCE 02 — Battlefield descending — duration ~6s]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
+A slow, methodical vertical crane-down from high storm-cloud altitude descending into the battlefield, passing through drifting ash and smoke.
+
+BEGIN (0:00): High altitude, above the storm clouds. The lens is barely visible through heavy grey haze. Ash and smoke drift UPWARD on warm thermals, creating a disorienting, suffocating atmosphere. We are descending but the view is nearly opaque.
+
+GRADUAL DESCENT (2-4s): Slowly, the haze begins to thin. Through the drifting ash, a vast dark plane comes into view below — the color of dried blood and charcoal. Broken shapes emerge: broken chariots, bodies, the dense carpet of the battlefield. The sickly orange glow of guttering fires begins to reveal detail.
+
+END (6s): We have descended enough to see clearly. The full extent of the battlefield unfolds below — an immense, densely packed field of bodies and writhing asuras, broken war machines, guttering fires casting orange light across grey desolation. The scale is overwhelming. The ground appears to BREATHE with movement. Smoke drifts slowly.
+
+Camera motion: One continuous, slow, locked vertical crane-down. No panning, no rotation. Steady descent through opacity into clarity. The mood is dread accumulating as we descend into the nightmare.
+
+Audio note: Low, wet heartbeat (from Sequence_01 cold open) continues faintly, mixed with distant wind and ash drifting.
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+Asura Brute: "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Environment-Sheets/Battlefield/Battlefield_master_plate.png
+- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

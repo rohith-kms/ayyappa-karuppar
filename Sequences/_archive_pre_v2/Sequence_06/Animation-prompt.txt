@@ -1,0 +1,43 @@
+[SEQUENCE 06 — Kailash stillness — duration ~6s]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
+No motion. The frame is held on Shiva in absolute stillness. The only movement is the slow rotation of the cosmos in the background — a subtle, contemplative motion. The power is in the STILLNESS and the contrast from Movement I.
+
+STATIC COMPOSITION: Shiva seated, unmoving, in deep meditation. The cosmos rotates slowly behind him — a subtle, almost imperceptible rotation that creates a sense of vastness and eternal peace.
+
+This is a held moment. The audience, after the drowning despair of Movement I, surfaces here into silence and stillness and breathing room.
+
+Duration: ~6 seconds of meditative hold.
+
+Audio: Total silence except for the softest whisper of cosmic winds, the faintest subsonic tone. Let the silence do the work.
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+- Environment-Sheets/Kailash/Kailash_master_plate.png
+- Character-Sheets/Shiva/Shiva_master_sheet.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

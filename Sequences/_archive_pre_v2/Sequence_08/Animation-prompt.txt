@@ -1,0 +1,43 @@
+[SEQUENCE 08 — The forging (vortex) — duration ~4s]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
+The frame whips UP into the column of black fire rising from Shiva's thigh. Inside the vortex, a warrior form assembles in rapid, fragmented glimpses.
+
+BEGIN: The column of black flame from the thigh-strike fills the lower frame. The camera WHIPS upward into it, into violent motion.
+
+FORGING (0-4s): A CHURNING VORTEX OF BLACK FLAME laced with white lightning. Through roiling smoke, RAPID FRAGMENTED GLIMPSES of assembly: a dark massive hand closing around the vel spear haft; iron chains coiling up a forearm like living serpents; the curved aruval catching light; amber eyes IGNITING; the cheroot GLOWING to life between clenched teeth. Each fragment appears and vanishes within the vortex. The full figure is NEVER shown — only pieces. Power builds but is withheld.
+
+Camera: Rapid violent upward whip into the column, then unstable motion within the vortex. No locked frame.
+
+Audio: Sub-bass continuing from the thigh-strike → roar of black flame igniting → metallic chain sounds, the rasp of the cheroot lighting, divine sound layered in → cut to silence at end (handing off to Sequence 09's roar back into hell).
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+- Environment-Sheets/Kailash/Kailash_master_plate.png
+- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

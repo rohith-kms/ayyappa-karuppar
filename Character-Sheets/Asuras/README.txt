@@ -1,24 +1,14 @@
-ASURAS — REFERENCE PLATES  (3 variants)
-=======================================
-The image team observed that calling everything "asura" makes every demon
-render identical, and the model defaults to Tolkien-orc / D&D-demon imagery.
-Three variants now exist as separate reference subjects:
+DEPRECATED — see Character-Sheets/Asura-Army/
+=============================================
+This folder is kept for archive only. The 3-variant model (Foot-Soldier,
+Brute, Commander) has been superseded by the 5-archetype Asura Army system
+documented in /Character-Sheets/Asura-Army/ and /CHARACTER_BIBLE.txt §4.
 
-  Asura_Foot-Soldier/   — the basic horde unit (most common in crowd shots)
-  Asura_Brute/          — the heavy unit (slab-muscled, two-handed weapon)
-  Asura_Commander/      — the warlord (distinctive, fewer per scene)
+The two NEW archetypes that weren't in the old model:
+  - Beast-Blooded Shock Troop (animal-headed elite vanguard)
+  - Mahishi Elite Guard (her personal guard, distinct from Chieftains)
 
-Each has its own folder with a Reference-prompt.txt and (eventually) a
-master plate. Use the right variant per sequence beat — see the per-beat
-variant table in /SEQUENCE_BACKPATCH_SPEC.txt.
+The old subfolder plates remain for historical reference but are not the
+current canonical plates.
 
-Workflow per variant (do all three before sequence work begins):
-1. Open the variant folder, paste Reference-prompt.txt into the image tool.
-2. Tick /Character-Sheets/QA-CHECKLIST.txt (especially Section A — the
-   asuras are the second-biggest source of Western drift after Ganas).
-3. Save as <Variant>_master_sheet.png in that variant's folder.
-4. Reconcile against /CHARACTER_BIBLE.txt.
-5. Update /STATUS.md Stage 0.
-
-Mix variants in crowd shots for visual variety. A typical battlefield wide
-shot should show ~70% foot-soldiers, ~25% brutes, ~5% commanders.
+DO NOT generate new content here. Use /Character-Sheets/Asura-Army/ instead.

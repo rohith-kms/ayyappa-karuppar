@@ -1,0 +1,53 @@
+[SEQUENCE 04 — Mahishi spawns asuras — duration ~8s]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
+A slow tilt upward from black smoke and darkness, then a signature horror beat of hair-to-asura spawning in macro, then a wide pull-back revealing the multiplied horde.
+
+BEGIN (0:00): Low-angle darkness. Black smoke swirls. We begin a slow, reverent tilt upward, as if gazing at something immense.
+
+REVEAL (2s): Through the smoke, a silhouette emerges — MAHISHI, colossal, arrogant, backlit against a furnace-orange sky. She is LAUGHING, a deep, terrible laugh that echoes across the wasteland.
+
+THE SIGNATURE BEAT (2-6s): In SLOW MOTION, Mahishi rips a fistful of hair from her own arm and CASTS IT TO THE WIND. The camera CUTS to a MACRO CLOSE-UP of a single strand as it hits the wet earth — swells, SPLITS, and UNFOLDS WETLY into a newborn asura, muscle knitting over raw glistening skin, born SCREAMING. Hold on this horror in slow-mo detail.
+
+PULL BACK (6-8s): Camera pulls back to reveal the ridgeline ERUPTING with THOUSANDS of these newborn asuras rising at once, shoulder to shoulder, freshly unfolded, fanged and screaming and endless. An army born from one gesture.
+
+Camera motion: Low-angle slow tilt (0-2s) → macro insert close-up (2-6s, slow-mo) → pull-back wide reveal (6-8s). Composition deliberately moves from intimate horror to overwhelming scale.
+
+Audio note: Mahishi's laugh (0-2s) → wet, organic sounds of spawning, unfurling flesh (2-6s) → sudden chorus of a thousand asura screams (6-8s).
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+- Character-Sheets/Mahishi/Mahishi_master_sheet.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

@@ -4,48 +4,54 @@ Single source of truth for every stage of the production. Each team updates its
 own column when done, then commits + pushes.
 
 ============================================================================
-STAGE 0 — REFERENCE LIBRARY  (must be done before sequence generation begins)
+STAGE 0 — REFERENCE LIBRARY  (the visual ground truth)
 ============================================================================
-Generate the master reference plate for each subject. Workflow per subject:
-  1. Open the subject's folder, read `Reference-prompt.txt`.
-  2. Paste the prompt into Midjourney/Flux/SDXL.
-  3. Run the `Character-Sheets/QA-CHECKLIST.txt` against the output.
-  4. Save the approved image into that folder as `<Subject>_master_sheet.png`
-     (or `_master_plate.png` for environments).
-  5. Reconcile the LOCKED BLOCK in the BIBLE to match what was actually drawn —
-     see `Character-Sheets/RECONCILIATION_GUIDE.txt`.
-  6. Mark DONE in the table below, commit + push.
+Stage 0 is now in TWO halves: the 18 character/army plates (all DONE — staged
+from Final-images by the team) and the 4 environment plates (TODO).
 
-| Subject                 | Type        | Folder                                     | Plate | Reconciled | WHO |
-|-------------------------|-------------|--------------------------------------------|-------|------------|-----|
-| Karuppar                | Character   | Character-Sheets/Karuppar/                 | DONE  | DONE       |     |
-| War-Horse (standalone)  | Character   | Character-Sheets/War-Horse/                | DONE  |            |     |
-| Black-Dog (standalone)  | Character   | Character-Sheets/Black-Dog/                | DONE  |            |     |
-| Shiva                   | Character   | Character-Sheets/Shiva/                    |       |            |     |
-| Ayyappa                 | Character   | Character-Sheets/Ayyappa/                  | partial |          |     |
-| Mahishi                 | Character   | Character-Sheets/Mahishi/                  | partial |          |     |
-| Ganas                   | Character   | Character-Sheets/Ganas/                    |       |            |     |
-| Asura — Foot-Soldier    | Character   | Character-Sheets/Asuras/Asura_Foot-Soldier/|       |            |     |
-| Asura — Brute           | Character   | Character-Sheets/Asuras/Asura_Brute/       |       |            |     |
-| Asura — Commander       | Character   | Character-Sheets/Asuras/Asura_Commander/   |       |            |     |
-| Battlefield             | Environment | Environment-Sheets/Battlefield/            |       |            |     |
-| Kailash                 | Environment | Environment-Sheets/Kailash/                |       |            |     |
-| Mahishi's Hill          | Environment | Environment-Sheets/Mahishi-Hill/           |       |            |     |
-| Ridgeline               | Environment | Environment-Sheets/Ridgeline/              |       |            |     |
+For each plate: tick `Plate` once the file is in its folder. Tick `Reconciled`
+once the matching LOCKED BLOCK in CHARACTER_BIBLE.txt / ENVIRONMENT_BIBLE.txt
+has been updated to describe what the plate actually shows
+(see /Character-Sheets/RECONCILIATION_GUIDE.txt + /RECONCILIATION_SPEC.txt).
 
-Legend: blank = not started · partial = some artwork exists, not a clean
-master plate · DONE = approved master plate saved in the folder · Reconciled
-= LOCKED BLOCK in the relevant BIBLE file has been updated to match the plate.
+| §  | Subject                                       | Folder                                                  | Plate | Reconciled | WHO |
+|----|-----------------------------------------------|---------------------------------------------------------|-------|------------|-----|
+| 1  | Karuppar (with cigar — patch)                 | Character-Sheets/Karuppar/                              | DONE  |            |     |
+| 1  | Ayyappa                                       | Character-Sheets/Ayyappa/                               | DONE  |            |     |
+| 1  | Mahishi                                       | Character-Sheets/Mahishi/                               | DONE  |            |     |
+| 1  | Shiva — MEDITATIVE state                      | Character-Sheets/Shiva/Shiva_meditative.png             | DONE  |            |     |
+| 1  | Shiva — WRATHFUL THIGH-STRIKE state           | Character-Sheets/Shiva/Shiva_thigh-strike.png           | DONE  |            |     |
+| 2  | Bengal Tiger (Ayyappa's mount — NEW)          | Character-Sheets/Bengal-Tiger/                          | DONE  |            |     |
+| 2  | White Horse (Karuppar's mount)                | Character-Sheets/War-Horse/                             | DONE  |            |     |
+| 2  | Black Dog (Karuppar's hound)                  | Character-Sheets/Black-Dog/                             | DONE  |            |     |
+| 3  | Dharma Army — Archetype A (Infantry)          | Character-Sheets/Dharma-Army/                           | DONE  |            |     |
+| 3  | Dharma Army — Archetype B (Veteran)           | Character-Sheets/Dharma-Army/                           | DONE  |            |     |
+| 3  | Dharma Army — Archetype C (Commander)         | Character-Sheets/Dharma-Army/                           | DONE  |            |     |
+| 3  | Dharma Army — Archetype D (Divine General)    | Character-Sheets/Dharma-Army/                           | DONE  |            |     |
+| 4  | Asura Army — Archetype A (Infantry)           | Character-Sheets/Asura-Army/                            | DONE  |            |     |
+| 4  | Asura Army — Archetype B (Beast-Blooded)      | Character-Sheets/Asura-Army/                            | DONE  |            |     |
+| 4  | Asura Army — Archetype C (Giant Breaker)      | Character-Sheets/Asura-Army/                            | DONE  |            |     |
+| 4  | Asura Army — Archetype D (Chieftain)          | Character-Sheets/Asura-Army/                            | DONE  |            |     |
+| 4  | Asura Army — Archetype E (Mahishi Elite Guard) | Character-Sheets/Asura-Army/                           | DONE  |            |     |
+| 5  | Weapons & Standards Catalog                   | Character-Sheets/Weapons-Catalog/                       | DONE  |            |     |
+| Env| Battlefield                                   | Environment-Sheets/Battlefield/                         | DONE  |            |     |
+| Env| Kailash                                       | Environment-Sheets/Kailash/                             | DONE  |            |     |
+| Env| Mahishi's Hill                                | Environment-Sheets/Mahishi-Hill/                        | DONE  |            |     |
+| Env| Ridgeline                                     | Environment-Sheets/Ridgeline/                           | DONE  |            |     |
+
+Legend: blank = not started · DONE = plate saved in folder · Reconciled =
+LOCKED BLOCK in BIBLE has been updated to match the plate.
+
+DEPRECATED FOLDERS (kept for archive, do not generate new plates here):
+  Character-Sheets/Ganas/     → superseded by Character-Sheets/Dharma-Army/
+  Character-Sheets/Asuras/    → superseded by Character-Sheets/Asura-Army/
+                                (with 5 archetypes instead of 3)
 
 ============================================================================
 STAGES 1-4 — SEQUENCES  (assembly order top to bottom)
 ============================================================================
 Stage flow: Prompts (producer) → Start/End images (image team) → Animation
 (video team) → Approved (producer) → Stitch (editing team).
-
-Mark a cell `DONE` (or `N/A` where a start image isn't needed). "Claim" a
-sequence by putting your name in WHO before you start, to avoid two people doing
-the same one.
 
 | Seq | Beat | Prompts | Start img | End img | Animation | Approved | WHO |
 |-----|------|---------|-----------|---------|-----------|----------|-----|
@@ -69,8 +75,9 @@ the same one.
 | 18 | Chain Storm — AERIAL | | | | | | |
 | 19 | The Drag & Beheading | | | | | | |
 | 20 | The Rally | | | | | | |
+| 20.5 | Ayyappa Unleashed — Tiger Rides | | | | | | |
 | 21 | Mahishi's Fear | | | | | | |
 | 22 | Final Frame — Verdict | | | | | | |
 
 **Legend:** blank = not done · DONE = finished & pushed · N/A = not needed
-(sequence continues from the previous end image, so no separate start frame).
+(sequence continues from the previous end image).

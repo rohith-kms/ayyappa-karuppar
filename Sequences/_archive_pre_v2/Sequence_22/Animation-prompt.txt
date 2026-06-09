@@ -1,0 +1,48 @@
+[SEQUENCE 22 — Final Frame — the Verdict — duration ~4s]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
+Slow crane up and back. Karuppar, remounted, rears the white horse atop a hill of the slain. Aruval lowered and dripping. Chains smoking. Vel planted. Dog at his side. Ayyappa's forces rising behind him. Storm breaking. Clean light pouring down. He takes one slow draw of the cheroot and exhales. SMASH TO BLACK. Title: KARUPPAR — THE GUARDIAN OF DHARMA.
+
+CRANE UP (0-3s): Starting close on the hill of the slain. Slow vertical crane upward and back. Karuppar on the rearing white horse comes into frame at the peak of the hill. The aruval is lowered, still dripping. The chains smoke. The vel is planted in the earth like a flag. The dog is at his side, loyal. Behind him, Ayyappa's victorious Ganas are rising in the breaking light. They are alive. They have won.
+
+THE MOMENT (3-4s): Karuppar takes one SLOW draw of the cheroot. The ember glows orange. He EXHALES a plume of smoke. His eyes are looking out over the field of victory — serene, complete, satisfied. The storm above is breaking. Clean gold light is pouring down. The world is healing.
+
+END CUT (on the exhale): SMASH TO BLACK.
+
+TITLE ON BLACK: KARUPPAR — THE GUARDIAN OF DHARMA.
+
+FINAL SOUND: One distant bark of the black dog. Then silence. Cut.
+
+Camera: Slow crane up and back, pulling away from the hill, revealing the scale of victory. This is the hero's moment and the moment of dharma restored.
+
+Audio: Wind, the cheroot smoke curling (audio synesthetic), the dog's bark (final echo), then silence and black.
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+- Environment-Sheets/Battlefield/Battlefield_master_plate.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

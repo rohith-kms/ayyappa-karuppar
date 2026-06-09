@@ -1,7 +1,7 @@
 ==============================================================================
 SEQUENCE_MAP.txt — THE DETERMINISTIC MASTER LIST  (do not re-segment)
 ==============================================================================
-The reel is split into 22 sequences, one per script beat. The engine fills these
+The reel is split into 23 sequences (22 original + Sequence_20.5 inserted between The Rally and Mahishi's Fear), one per script beat. The engine fills these
 folders IN ORDER and never re-numbers or re-splits them. This map is the single
 source of truth for "how many sequences" and "what each one is."
 
@@ -43,10 +43,11 @@ Sequence_17  1:30–1:34    The Ashing (close-up)      FRESH_START   Karuppar, A
 Sequence_18  1:34–1:40    Chain Storm — AERIAL       FRESH_START   Karuppar, Asuras(ashing)
 Sequence_19  1:40–1:46    The Drag & Beheading       FRESH_START   Karuppar, Asuras
 Sequence_20  1:46–1:52    The Rally                  FRESH_START   Ganas, Ayyappa, Karuppar, Asuras
-Sequence_21  1:52–1:56    Mahishi's Fear             FRESH_START   Mahishi, Karuppar, Asuras
-Sequence_22  1:56–2:00    Final Frame — the Verdict  FRESH_START   Karuppar, Horse, Dog, Ganas
+Sequence_20.5 1:52–1:56   Ayyappa Unleashed-Tiger    FRESH_START   Ayyappa, BengalTiger, Karuppar, WhiteHorse, Asuras(C,D)
+Sequence_21  1:56–2:00    Mahishi's Fear             FRESH_START   Mahishi, Karuppar, Asuras
+Sequence_22  2:00–2:04    Final Frame — the Verdict  FRESH_START   Karuppar, Horse, Dog, Ganas
 ------------------------------------------------------------------------------
-TOTAL: 22 sequences  ·  ~2:00 runtime
+TOTAL: 23 sequences (22 main + 1 insert: 20.5)  ·  ~2:04 runtime
 
 The producer may flip any START flag (FRESH_START <-> CONTINUES) before
 generation if they want a different edit. If you flip one to CONTINUES, delete

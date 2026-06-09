@@ -1,0 +1,55 @@
+[SEQUENCE 05 — Ayyappa eyes close->black — duration ~6s]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
+A slow push into extreme close-up on Ayyappa's face, holding on his closing eyes as the world fades to black silence.
+
+BEGIN (0:00): Wide shot of Ayyappa at the center of carnage. Asuras rage around him. His divine aura glows, serene, unmoved.
+
+PUSH (3s): The camera slowly pushes in on his face. Closer, closer, until we are extremely close — we can see the detail of his features, his luminous eyes, the peace in his expression.
+
+THE BEAT (3-6s): In SLOW MOTION, his eyes CLOSE — not in fear or surrender, but in a gesture of profound release. "I release this." As his eyes shut, everything else falls away. The background fades. Sound drops. Only his peaceful face remains, and then even that fades.
+
+END (6s): Fade to BLACK. One full beat of pure silence and dark before Kailash.
+
+Camera: slow push into extreme close-up, locked on the eyes. No movement once the eyes begin closing — just the fade.
+
+Audio: Battle sound (0-3s) → sudden drop to single, slow, heavy breath (3-6s) → complete silence on the black (fade).
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+Asura Brute: "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Environment-Sheets/Battlefield/Battlefield_master_plate.png
+- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

@@ -1,37 +1,53 @@
-CHARACTER SHEETS
-================
-Reference plates for every character (and asura variant). Each subject folder
-contains:
-  Reference-prompt.txt   — paste-ready generation prompt for the master plate
-  README.txt             — short workflow note
-  <Subject>_master_sheet.png — the approved plate (once generated)
-
-The text LOCKED BLOCKS that must go into every later sequence prompt live in
-/CHARACTER_BIBLE.txt. The plate is the visual companion attached as a reference
-(--cref / image prompt / IP-Adapter).
-
-Files at this level:
-  QA-CHECKLIST.txt         — tick every box before approving a plate
-  RECONCILIATION_GUIDE.txt — after approval, sync the locked block to the plate
+CHARACTER SHEETS — VISUAL GROUND TRUTH
+======================================
+Reference plates for every subject in the reel. The text LOCKED BLOCKS that
+must be embedded in every sequence prompt live in /CHARACTER_BIBLE.txt
+(organized into 5 sections). Each plate here is the visual companion attached
+as image reference (--cref / image prompt / IP-Adapter).
 
 ------------------------------------------------------------------------------
-STATUS  (also tracked in /STATUS.md Stage 0)
+ACTIVE FOLDERS
 ------------------------------------------------------------------------------
-Karuppar/                       DONE — 4 master sheets supplied
-Karuppar/War-Horse panel        DONE (also: standalone in War-Horse/)
-Karuppar/Black-Dog panel        DONE (also: standalone in Black-Dog/)
-Shiva/                          TODO — Reference-prompt.txt ready
-Ayyappa/                        TODO — Reference-prompt.txt ready (partial art exists)
-Mahishi/                        TODO — Reference-prompt.txt ready (partial art exists)
-Ganas/                          TODO — Reference-prompt.txt ready
-Asuras/                         TODO — 3 variants (Foot-Soldier, Brute, Commander)
+§1 HEROES
+  Karuppar/         — Karuppaswamy turnaround sheet (with cigar) + pose libs
+  Ayyappa/          — Character sheet + master portrait
+  Mahishi/          — Character sheet + hero portrait
+  Shiva/            — Shiva_meditative.png + Shiva_thigh-strike.png (two states)
+
+§2 DIVINE CREATURES
+  Bengal-Tiger/     — Ayyappa's mount (NEW)
+  War-Horse/        — Karuppar's mount
+  Black-Dog/        — Karuppar's hound
+
+§3 ARMY OF DHARMA
+  Dharma-Army/      — 4 archetypes (Infantry / Veteran / Commander / Divine General)
+
+§4 ARMY OF THE ASURAS
+  Asura-Army/       — 5 archetypes (Infantry / Beast-Blooded / Giant Breaker /
+                      Chieftain / Mahishi Elite Guard)
+
+§5 WEAPONS
+  Weapons-Catalog/  — Named weapon and standard reference
 
 ------------------------------------------------------------------------------
-WORKFLOW  (Stage 0 — must complete before sequence generation)
+SUPPORT FILES
 ------------------------------------------------------------------------------
-1. Open a subject's folder, read Reference-prompt.txt
-2. Paste the prompt into your image tool (Midjourney/Flux/SDXL)
-3. Run QA-CHECKLIST.txt against the output
-4. Save approved image as <Subject>_master_sheet.png in that folder
-5. Run RECONCILIATION_GUIDE.txt — update the LOCKED BLOCK to match the plate
-6. Update STATUS.md, commit + push
+QA-CHECKLIST.txt         — tick every box before approving a new plate
+RECONCILIATION_GUIDE.txt — sync LOCKED BLOCK to plate after generation
+
+------------------------------------------------------------------------------
+DEPRECATED FOLDERS (kept for archive)
+------------------------------------------------------------------------------
+Ganas/    — superseded by Dharma-Army/
+Asuras/   — superseded by Asura-Army/ (5 archetypes instead of 3)
+
+------------------------------------------------------------------------------
+WORKFLOW
+------------------------------------------------------------------------------
+Most Stage 0 work is DONE — plates are sourced from the team's Final-images
+folder and staged into the active subfolders above. The remaining work is:
+
+1. Reconcile LOCKED BLOCKS in CHARACTER_BIBLE.txt against the staged plates
+   (see RECONCILIATION_GUIDE.txt → automated via /RECONCILIATION_SPEC.txt)
+2. Generate the 4 environment plates (Environment-Sheets/)
+3. Begin sequence generation (uses /Sequences/Generate-sequences.txt)

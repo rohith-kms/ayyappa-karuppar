@@ -8,10 +8,30 @@ How to read Script.txt and generate the sequence prompt files, resumably.
 
       "Read Script.txt and RUN"           — generate the NEXT batch (default 5)
       "RUN 10"                            — generate the next 10
-      "RUN ALL"                           — attempt every remaining sequence
+      "RUN ALL"                           — every sequence in generation.log
+                                            whose Status is NOT DONE
+      "REGENERATE Sequence_NN"            — force-rewrite one sequence, ignoring
+                                            its log Status
+      "REGENERATE ALL"                    — force-rewrite EVERY sequence in
+                                            SEQUENCE_MAP.txt, ignoring the log
+                                            (use this after a major spec
+                                            restructuring; treats every
+                                            Sequence_NN/*.txt as stale)
+
+    >>> IMPORTANT: PRE-V2 PROMPT FILES MAY BE STALE.
+    Some Sequence_NN/ folders contain *.txt prompt files written against an
+    older spec (no cultural anchor, no anti-cloning token, no environment
+    locked blocks, old Asura/Ganas vocabulary). If generation.log Status for a
+    sequence is "NOT DONE", any existing *.txt files in that folder MUST be
+    treated as if absent and OVERWRITTEN. Do not preserve their content. Do
+    not use them as a basis for the new prompt. Generate fresh from
+    Script.txt + the BIBLEs + CONFIG + SEQUENCE_BACKPATCH_SPEC tables.
+
+    PNG files in Sequence_NN/ (Start.png, End.png) are real artwork from the
+    image team and MUST NOT be touched. The engine only writes *.txt files.
 
     THIS ENGINE IS FOR GENERATING NEW SEQUENCE PROMPTS. It is NOT for:
-      - Updating existing prompts after a global change → use
+      - Updating existing v2 prompts after a minor global change → use
         /SEQUENCE_BACKPATCH_SPEC.txt instead: "Read SEQUENCE_BACKPATCH_SPEC.txt
         and RUN"
       - Updating BIBLE locked blocks from generated plates → use
@@ -28,10 +48,15 @@ INPUTS YOU READ (all in this repo / project knowledge)
   Script.txt                — the master creative (full beat detail)
   Sequences/SEQUENCE_MAP.txt — the fixed 22-sequence list + continuity flags
   CHARACTER_BIBLE.txt       — locked character descriptors (paste verbatim)
+                              §1 Heroes / §2 Divine Creatures / §3 Dharma Army
+                              (4 archetypes) / §4 Asura Army (5 archetypes) /
+                              §5 Weapons & Standards catalog
   ENVIRONMENT_BIBLE.txt     — locked location descriptors (paste verbatim)
-  CONFIG.txt                — aspect ratio, cultural anchor, style token,
+  CONFIG.txt                — aspect ratio, GLOBAL_CULTURAL_TOKEN,
+                              GLOBAL_ANTI_CLONING_TOKEN, style token,
                               negatives, palette
-  SEQUENCE_BACKPATCH_SPEC.txt — per-beat asura variant map + environment map
+  SEQUENCE_BACKPATCH_SPEC.txt — per-beat archetype map + environment map +
+                              anti-cloning trigger rules
   Sequences/generation.log  — what is already done; where to resume
 
 ------------------------------------------------------------------------------
@@ -80,9 +105,19 @@ STEP 4 — HOW TO WRITE AN IMAGE PROMPT  (Start-image-prompt.txt / End-image-pro
       CHARACTER LOCKED BLOCKS (one per character present, per BIBLE):
       <paste each verbatim>
 
-      ASURA VARIANT LOCKED BLOCKS (if asuras present, per the variant map in
-      SEQUENCE_BACKPATCH_SPEC.txt — embed each variant's LOCKED BLOCK):
-      <paste each verbatim>
+      ARMY ARCHETYPE LOCKED BLOCKS (per the per-beat archetype map in
+      SEQUENCE_BACKPATCH_SPEC.txt):
+        - If Dharma Army present: embed the relevant Dharma Army archetype
+          LOCKED BLOCK(s) verbatim from CHARACTER_BIBLE.txt §3 (Archetypes A,
+          B, C, D as appropriate to the beat — usually a mix).
+        - If Asura Army present: embed the relevant Asura Army archetype
+          LOCKED BLOCK(s) verbatim from CHARACTER_BIBLE.txt §4 (Archetypes A,
+          B, C, D, E as appropriate — typically a mix).
+
+      ANTI-CLONING TOKEN (MANDATORY if the beat shows >=3 figures of the same
+      archetype — most battlefield wides, all aerial shots, every crowd
+      close-up):
+      <paste GLOBAL_ANTI_CLONING_TOKEN positive form from CONFIG.txt verbatim>
 
       <ONE rich natural-language paragraph describing the single frame: the
       subject and exact pose/expression, the composition and camera framing
@@ -94,6 +129,8 @@ STEP 4 — HOW TO WRITE AN IMAGE PROMPT  (Start-image-prompt.txt / End-image-pro
 
       STYLE: <paste GLOBAL_STYLE_TOKEN from CONFIG>
       NEGATIVE: <paste full NEGATIVE_PROMPT from CONFIG — do not abbreviate>
+      ANTI-CLONING NEGATIVES (if anti-cloning token is present above):
+      <paste the GLOBAL_ANTI_CLONING_TOKEN negative additions from CONFIG>
       SUBJECT-SPECIFIC NEGATIVES:
       <one line per subject present, paste its NEGATIVES (specific) from BIBLE>
       PARAMS: <paste IMAGE_PARAMS from CONFIG — sequence frames stay 9:16>
@@ -154,10 +191,15 @@ HARD RULES (do not break)
   - ALWAYS include CULTURAL ANCHOR section in every prompt — without it the
     model defaults to Western martial imagery (Vikings, knights, generic
     D&D demons). This is the most common failure mode of this project.
-  - ALWAYS use the per-beat asura variant from the table in
-    SEQUENCE_BACKPATCH_SPEC.txt — never generic "asuras".
+  - ALWAYS use the per-beat ARMY ARCHETYPE from the table in
+    SEQUENCE_BACKPATCH_SPEC.txt — never generic "asuras" or "Ganas". The
+    5-archetype asura taxonomy and 4-archetype Dharma taxonomy are
+    authoritative.
   - ALWAYS embed ENVIRONMENT_BIBLE.txt locked block when the beat establishes
     a location.
+  - ALWAYS inject the ANTI_CLONING_TOKEN when the beat shows >=3 figures of
+    the same archetype — failure here produces the "regiment of clones" look
+    that breaks every battle wide.
   - NEVER overwrite or rewrite a sequence already marked DONE (unless the
     producer explicitly says "REGENERATE Sequence_NN").
   - NEVER renumber or merge/split sequences. The map is fixed at 22.
@@ -174,5 +216,10 @@ SINGLE-COMMAND REGENERATION
 ------------------------------------------------------------------------------
   "REGENERATE Sequence_07"        -> rewrite only Seq_07's files, keep log status.
   "REGENERATE Sequence_07 END"    -> rewrite only its End-image-prompt.txt.
+  "REGENERATE ALL"                -> rewrite every sequence in SEQUENCE_MAP.txt,
+                                     ignoring the log. Use after a major spec
+                                     restructure (the v2 reset is one such).
+                                     Updates the log to DONE per sequence as
+                                     it goes.
   "RUN from Sequence_11"          -> ignore log, start at 11 (use with care).
 ==============================================================================

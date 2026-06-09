@@ -1,0 +1,54 @@
+[SEQUENCE 17 — The Ashing (close-up) — duration ~4s]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+
+Karuppar plants feet and hurls chains into cluster of asuras. They catch and wrap. Then the white-hot Shakti fire ignites along the links. In slow-mo macro, we watch an asura's entire body turn to grey ash — skin, then muscle, then skeleton, holding shape for half-second as perfect ash-statue mid-scream — then wind takes it and it bursts into drifting cloud.
+
+ACTION (0-4s): Karuppar plants his feet, coiling the chains. He HURLS them forward with explosive force. The chains wrap around necks, torsos, limbs of a cluster of charging asuras.
+
+THE ASHING (1-4s, SLOW-MO): The white-hot Shakti fire along the chain links IGNITES. A line of WHITE FIRE races across each captured asura's body. We follow ONE in macro detail: the transformation is immediate and total.
+- Skin turns to grey ash
+- Muscle turns to grey ash
+- Skeleton emerges, still holding the shape
+- For half a second, it is a perfect ASH-STATUE, mid-scream, frozen in the moment
+- Then the cold wind comes and the statue BURSTS, POOF, into drifting ash clouds
+
+This is a new weapon — not blood and gore, but transformation and erasure.
+
+Audio: Chain whoosh, Shakti ignition crackle, the asura's scream cutting off mid-sound, the whisper-poof of ash dispersing.
+
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Environment-Sheets/Battlefield/Battlefield_master_plate.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

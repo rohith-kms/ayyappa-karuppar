@@ -1,50 +1,11 @@
-[SEQUENCE 16 — Dismount — bare-handed — duration ~4s]
+[SEQUENCE 16 — Dismount — bare-handed — 1:26–1:30  (duration ~4s)]
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
 
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-
-He drops from saddle into thick of them. Handheld, brutal, God-of-War close combat. He catches an asura's skull in one massive hand and HEADBUTTS it to fragments. Grabs another by the jaw and tears, snapping its spine with a wet crack. No weapon — just brute strength of a deity.
-
-DISMOUNT (0-1s): He drops from the saddle directly into a cluster of asuras. The camera is handheld and brutal. Asuras lunge at him immediately.
-
-CLOSE COMBAT (1-4s): Handheld, visceral brutality. He GRABS an asura's skull with one massive hand and HEADBUTTS it — the skull fragments with brutal impact. He GRABS another by the jaw — his grip is absolute — and TEARS, his movement explosive, snapping its spine with a WET CRACK. The violence is intimate and overwhelming. No weapon. Just the brute strength of a being that is more powerful than all his opponents combined.
-
-The scale of the power disparity is made visceral through close-ups and intimate camera work.
-
-Audio: Bone-breaking sounds, wet impacts, asura shrieks, Karuppar's breathing — present, powerful, unstoppable.
-
-
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
-Asura Brute: "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
-extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
-modern clothing, plastic look, oversaturated, blurry, washed out, cute,
-childish, lens flare overload,
-Viking, Norse, horned helmet, fur cloak, Norse runes,
-European knight, crusader, templar, medieval European, plate mail,
-chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
-broadsword, claymore, knight's helm, visor helmet,
-Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-samurai, katana, ronin, ninja, kabuto helmet,
-Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
-Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
-kilt, Celtic warrior, woad face paint, druid,
-cowboy hat, Stetson, Western frontier, leather chaps,
-Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-- Environment-Sheets/Battlefield/Battlefield_master_plate.png
-- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+MOTION: He drops from the saddle into the thick of them. Handheld, brutal, God-of-War close. He catches a Giant Battlefield Breaker's skull in one massive hand and HEADBUTTS it to fragments. Grabs an Asura Infantry by the jaw and tears — snapping its spine with a wet crack you feel in your teeth. No weapon. The brute strength of a deity who does not need one.
+CAMERA: Handheld, shaky, close-quarters. The antithesis of the wide shots — intimate, suffocating, raw. Very short cuts.
+FX: Blood and grey matter on the headbutt. The spine-snap tear. The asuras closest to him backing away — awe replacing aggression. Full crimson Movement IV palette.
+SFX (diegetic): The crunch and burst of a skull headbutted. The wet snap-and-tear of a jaw being ripped. The silence of the nearest asuras suddenly stopping. Brutal, bone-deep sounds.
+VO: (none)
+DURATION: 4 seconds
+NOTES: FRESH_START. The montage accelerates — this is a 4-second beat. Handheld grammar to contrast with the tracking shots of Seq 14-15. The key emotional note: he needs NO WEAPON. The chains are still on his arms, unused. That's the statement.

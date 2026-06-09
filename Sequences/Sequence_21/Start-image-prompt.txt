@@ -1,26 +1,23 @@
 [SEQUENCE 21 — Mahishi's Fear — START FRAME]
-[Movement IV palette: full crimson + black + ash-grey, white fire, wind]
+[Movement IV palette: full crimson + black + ash-grey, hot embers, blood spray, lightning. Maximum saturation of red.]
 
-CULTURAL ANCHOR:
-ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+CULTURAL ANCHOR: ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
 
-ASURA LOCKED BLOCKS (Asura Foot-Soldier):
-- "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+Push in on Mahishi. She stands atop her cursed hill. For the first time — the laugh is GONE. She hurls a fistful of hair to the wind to spawn more asuras — her boon, her weapon, her endless trick. But the START frame shows the moment before the chain arrives: the half-born asuras are mid-formation, rising from the cast hair, when—
 
-ENVIRONMENT LOCKED BLOCK:
-"a low cursed black hill rising from the battlefield, wreathed in roiling thick smoke, the slopes slick and wet with dark fluid, a furnace-red sky behind it tinged with sulfurous orange and bruised purple, fires burning at the hill's base, the ground around it churning with the slick wet birth of newborn asuras from cast hair, an evil pulpit of myth, no architectural features, no European geography references"
-Push in on MAHISHI. For the first time, the laugh is GONE. Fear is visible in her eyes. She is realizing that her army is failing, that numbers have lost their power against this god.
+ENVIRONMENT: a low cursed black hill rising from the battlefield, wreathed in roiling thick smoke, the slopes slick and wet with dark fluid, a furnace-red sky behind it tinged with sulfurous orange and bruised purple, fires burning at the hill's base, the ground around it churning with the slick wet birth of newborn asuras from cast hair, an evil pulpit of myth, no architectural features, no European geography references
 
-Mahishi: colossal demoness with a fearsome buffalo head, long curved horns, dark leathery hide, glowing red eyes, fanged snarling maw, draped in dark battle ornaments and bone jewelry, immense and menacing, wreathed in smoke, but now her arrogance is CRACKING. Fear is visible beneath.
+MAHISHI (laugh gone — focused, still powerful but the first hint of unease):
+  "Mahishi, the asura queen of the demon legions, a colossal buffalo-demon hybrid of Hindu mythology, approximately 286 cm (9.4 ft) tall, dominant fearless ancient cruel regal relentless bearing, a fearsome water-buffalo head with long curved asymmetric horns (heavy buffalo proportions — broad skull, heavy jowl, low-set horns), dark grey-purple leathery hide, glowing red eyes, fanged snarling maw, a wild dark mane that flows from the head down over the shoulders, heavy ornate dark-bronze and lacquered-bone armor with gold ornamentation and inscribed war-glyphs, layered skull-and-bone jewelry of Indian asura iconography, a long dark battle skirt of layered dark cloth and chain, immense and menacing presence, partly wreathed in thin black smoke (her signature aura)"
+  The laugh is gone from her expression. She is hurling a fistful of dark hair to spawn more asuras. Her red eyes are wide — the first flicker of something like alarm.
 
-The moment is the turning point for Mahishi — from dominion to dread.
+NEWBORN ASURA INFANTRY (A-A Newborn variant — mid-formation):
+  "a newborn Asura Infantry unfolding from a strand of Mahishi's hair, raw glistening muscle knitting into ashen grey skin, mid-scream, half-formed"
 
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+MAHISHI ELITE GUARD (A-E — flanking her, two of them):
+  "a Mahishi Elite Guard, the deadliest personal guard of Asura Queen Mahishi, chosen from the fiercest of the asura ranks, 8'0'' to 9'0'' tall, towering dark grey-purple muscular body echoing Mahishi's own hide tone, a massive horned helm in the shape of a buffalo skull (visually echoing Mahishi herself), heavy ornate dark-bronze plate armor with deep-carved asura war-glyphs and gold-leaf inlay, layered dark battle skirts of cloth and chain, a great curved Asura War Axe or a heavy ornate cleaver, a tall ceremonial spear with a Mahishi-skull standard, fanged snarling face, glowing red eyes echoing Mahishi's"
 
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-
-IMAGE REFERENCES:
-- Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Mahishi/Mahishi_master_sheet.png
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian', NOT a Western Minotaur, NOT a Greek bull-man, NOT a Warcraft tauren, NOT Mount Doom, NOT a Star Wars Royal Guard, NOT a Nazgûl, NOT a Praetorian
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Mahishi/Mahishi_master_sheet.png, Character-Sheets/Mahishi/Mahishi_hero_portrait.png, Character-Sheets/Asura-Army/Asura-Army_character_system.png, Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png

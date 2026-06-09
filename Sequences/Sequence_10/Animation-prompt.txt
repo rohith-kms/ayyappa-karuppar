@@ -1,51 +1,11 @@
-[SEQUENCE 10 — The silence, wind, freeze — duration ~4s]
+[SEQUENCE 10 — The silence, wind, freeze — 0:56–1:00  (duration ~4s)]
+START FRAME:  end.png of Sequence_09 — CONTINUES
+END FRAME:    end.png (generated from End-image-prompt.txt)
 
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-
-Everything stops. A cold, clean wind blows BACKWARD across the field. All sound cuts out except the wind. Every fighter, friend and foe, slowly turns to look toward the horizon.
-
-BEGIN: Sound roaring in from Sequence_09 battlefield — then HARD CUT to near-total silence.
-
-THE FREEZE (0-4s): A cold wind blows BACKWARD across the field, pushing flame and smoke FLAT. The asuras freeze mid-surge. Mahishi's laugh dies. The Ganas turn slowly to look toward the horizon. Only the wind and a single, rising, pure note. Everything is held in breath. Waiting.
-
-END: All eyes are turned toward the light breaking through the storm clouds on the distant horizon. The moment is one of collective awareness — something is coming.
-
-Camera: Locked wide shot. No camera movement. The only motion is the unnatural wind pushing smoke and flame backward.
-
-Audio: Hard cut from battle chaos to near-silence. Only: cold wind, a single rising pure note (sub-tone to audible, building), the sound of smoke and flame being pushed backward unnaturally.
-
-
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
-Asura Brute: "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
-extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
-modern clothing, plastic look, oversaturated, blurry, washed out, cute,
-childish, lens flare overload,
-Viking, Norse, horned helmet, fur cloak, Norse runes,
-European knight, crusader, templar, medieval European, plate mail,
-chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
-broadsword, claymore, knight's helm, visor helmet,
-Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-samurai, katana, ronin, ninja, kabuto helmet,
-Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
-Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
-kilt, Celtic warrior, woad face paint, druid,
-cowboy hat, Stetson, Western frontier, leather chaps,
-Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-- Environment-Sheets/Battlefield/Battlefield_master_plate.png
-- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+MOTION: From the charging asuras surging in for the kill — everything stops. A cold, clean wind arrives from the direction of the ridge and blows BACKWARD, pushing flame and smoke flat. The asuras freeze mid-charge. Mahishi's laugh dies in her throat. Every fighter slowly turns their head toward the horizon. The transition from full battle chaos to this absolute frozen stillness happens fast — within 2 seconds — and the HELD STILLNESS is the drama.
+CAMERA: Locked-off wide — the camera itself stops moving at the same moment everything else stops. Emphasizes the total freeze.
+FX: The backward wind blowing all flames and smoke to horizontal streaks. Every figure freezing mid-motion. A visible temperature drop — breath beginning to steam.
+SFX (diegetic): Hard cut to near-total silence — only the cold wind and a single rising pure note (the held breath of the universe before Karuppar's name is spoken). Mahishi's laugh literally cuts off mid-note.
+VO: (none — the silence IS the VO)
+DURATION: 4 seconds
+NOTES: CONTINUES from Sequence_09. The silence-beat must land hard — this is the Thor beat, the held breath before the detonation. Every fighter frozen turning their heads is the visual. The cold wind blowing everything flat is the physical signal that something has changed in the cosmic order.

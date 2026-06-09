@@ -1,47 +1,11 @@
-[SEQUENCE 21 — Mahishi's Fear — duration ~4s]
+[SEQUENCE 21 — Mahishi's Fear — 1:56–2:00  (duration ~4s)]
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
 
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-
-Push in on Mahishi. For first time, laugh is GONE. She HURLS a fistful of hair to spawn more asuras — but Karuppar's CHAIN WHIPS OUT and SCATTERS them before they can fully form, blowing half-born asuras apart in mid-birth. Her power is being NEGATED. Her eyes widen: arrogance meeting its end.
-
-ACTION (0-4s): Close on Mahishi. Her arrogance is cracking. She is watching her army be systematically destroyed. She HURLS a fistful of hair with desperation — strands beginning to unfold, to become new asuras.
-
-THE NEGATION (2-4s): But Karuppar's CHAINS WHIP OUT OF THE SMOKE directly at the spawning point. The white-hot links sweep through the half-formed asuras and SCATTER them before they can even complete their transformation. The newborns are BLOWN APART before birth. This is the negation of her power — the only power that has worked before now fails completely.
-
-Mahishi's eyes WIDEN. Not with rage — with FEAR. She is realizing, in this moment, that she cannot win. That her boon has become useless. That numbers have lost all meaning against a force that is disproportionate.
-
-Audio: Mahishi's scream of desperation, chains whooshing, the half-born asuras being scattered with explosive impact, sudden silence as she realizes the truth.
-
-
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
-extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
-modern clothing, plastic look, oversaturated, blurry, washed out, cute,
-childish, lens flare overload,
-Viking, Norse, horned helmet, fur cloak, Norse runes,
-European knight, crusader, templar, medieval European, plate mail,
-chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
-broadsword, claymore, knight's helm, visor helmet,
-Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-samurai, katana, ronin, ninja, kabuto helmet,
-Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
-Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
-kilt, Celtic warrior, woad face paint, druid,
-cowboy hat, Stetson, Western frontier, leather chaps,
-Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-- Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Mahishi/Mahishi_master_sheet.png
+MOTION: Push in on Mahishi. For the first time, the laugh is gone. She hurls a fistful of hair to spawn more — but Karuppar's chain whips out of the smoke and scatters them before they can fully form, blowing the half-born asuras apart in mid-birth. Her boon made numbers; he brought terror to the numbers. HOLD on her eyes widening: arrogance meeting its end.
+CAMERA: A slow push-in on Mahishi. Then a fast whip to the chain scattering the half-born asuras. Then HOLD close on her widening eyes.
+FX: Karuppar's Shakti chain blazing white-hot out of smoke, striking the half-born asuras and bursting them apart. Mahishi's dark smoke-aura thickening around her as her confidence fractures. Her eyes — the glow of them widening.
+SFX (diegetic): The chain whip-crack out of the smoke. The wet burst of half-born asuras scattered before completing. Then a beat of silence. Then: Mahishi drawing a slow breath. Not a sound she's made before — the start of something like fear.
+VO: (none)
+DURATION: 4 seconds
+NOTES: FRESH_START. This is the narrative payoff for Mahishi's boon — the moment her weapon fails her. The END frame (her widening eyes) must hold for a clear beat. The half-born asuras bursting apart must be viscerally satisfying — the reverse of the birth sequence in Sequence_04.

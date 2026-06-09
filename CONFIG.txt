@@ -39,6 +39,49 @@ every prompt it writes. Reference-prompt.txt files include it explicitly.
 Backpatching the cultural token into older prompts is covered by
 SEQUENCE_BACKPATCH_SPEC.txt at the repo root.
 
+==============================================================================
+GLOBAL_ANTI_CLONING_TOKEN  (MANDATORY for any beat with >=3 same-archetype figures)
+==============================================================================
+Why this exists: image models default to repeating identical figures in crowd
+shots — every Gana looks like the same Gana, every asura wears the same face.
+The Final-images army taxonomies explicitly show variation WITHIN each rank
+(different ages, builds, beards, hair, scars, weapon loadouts). This token
+forces the model to honor that variation.
+
+Inject this into the prompt whenever a frame shows 3 or more figures of the
+same archetype (most battlefield wides, all aerial shots, every crowd close).
+
+  POSITIVE FORM:
+    "each warrior is a distinct individual — varied facial structures, varied
+    skin-tone gradients within the South Indian range, varied builds (lean /
+    heavy / wiry), varied ages (young / scarred-veteran / grey-bearded
+    elder), varied hair (loose / topknot / braided / shaved / balding),
+    varied beard length and grey, varied battle wear and scars, unique
+    ornament and weapon-loadout per soldier, no two warriors share the
+    same face or stance, natural physiognomic variety within each rank"
+
+  NEGATIVE ADDITIONS (append to NEGATIVE_PROMPT when this token is in use):
+    "identical faces, cloned warriors, duplicated soldiers, copy-paste
+    army, regiment of clones, same face on every character, photocopied
+    warriors, repeating mannequin figures, uniform identical fighters,
+    twin army, NPC army"
+
+The engine (Sequences/Generate-sequences.txt) auto-injects this whenever the
+beat's character/archetype count >=3 of the same type. The backpatch spec
+(SEQUENCE_BACKPATCH_SPEC.txt) lists the per-beat trigger explicitly.
+
+ASURA-SPECIFIC ANTI-CLONING NOTE:
+  The Beast-Blooded Shock Troops (Asura Army Archetype B) are the highest
+  cloning risk because the beast-head is a strong visual hook. Vary the
+  beast-head type across figures — some lion-headed, some wolf-headed, some
+  hyena-headed, some boar-tusked. Never repeat the same beast-head twice in
+  adjacent figures.
+
+DHARMA-SPECIFIC ANTI-CLONING NOTE:
+  Dharma Infantry (Archetype A) appears in the largest numbers and is most
+  prone to cloning. Vary age across the rank — include young recruits,
+  middle-aged hardened, and grey-bearded elders.
+
 ------------------------------------------------------------------------------
 GLOBAL_STYLE_TOKEN  (prepended/woven into every image prompt):
   "dark painterly cinematic fantasy, hyper-detailed realism, dramatic

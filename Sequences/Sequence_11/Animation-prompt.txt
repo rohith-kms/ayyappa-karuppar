@@ -1,52 +1,11 @@
-[SEQUENCE 11 — Ridgeline silhouette — duration ~6s]
+[SEQUENCE 11 — Ridgeline silhouette — 1:00–1:06  (duration ~6s)]
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
 
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-
-The camera pulls to a long lens and locks off, looking across the heads of the frozen army toward the high ridge. The black storm-clouds part along a single seam, and through it falls one shaft of pale, impossible light. On the ridge, in that light, a SILHOUETTE: rider on rearing white horse. HOLD 2 FULL SECONDS.
-
-BEGIN: Long lens, locked off, looking across the frozen battlefield toward the distant ridge.
-
-THE PARTING (1-2s): The storm clouds begin to part along a single vertical seam. A shaft of pale gold light begins to pour through, illuminating the ridge.
-
-THE SILHOUETTE (2-6s): ON THE RIDGE, in that light, a REARING WHITE HORSE with a RIDER silhouetted against the glow. The outline is perfect and fearsome — aruval, vel spear, chains, dog at the horse's flank, smoke from the cheroot. HOLD THIS 2 FULL SECONDS. The moment of iconic triumph. The audience holds its breath. This is the frame.
-
-Camera: Locked long lens. No movement. The power is in the stillness and the light.
-
-Audio: Pure note building from Sequence_10 reaches a crescendo → hold silence on the silhouette frame → then begin the VO: "At the edge of the village..."
-
-
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
-Asura Brute: "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
-extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
-modern clothing, plastic look, oversaturated, blurry, washed out, cute,
-childish, lens flare overload,
-Viking, Norse, horned helmet, fur cloak, Norse runes,
-European knight, crusader, templar, medieval European, plate mail,
-chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
-broadsword, claymore, knight's helm, visor helmet,
-Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-samurai, katana, ronin, ninja, kabuto helmet,
-Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
-Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
-kilt, Celtic warrior, woad face paint, druid,
-cowboy hat, Stetson, Western frontier, leather chaps,
-Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-- Environment-Sheets/Ridgeline/Ridgeline_master_plate.png
-- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+MOTION: A long lens locked-off shot. From an empty ridge with the light breaking through the clouds — to the silhouette arriving on the ridge: a rider on a rearing white horse, motionless against the pale shaft of light. The figure arrives and HOLDS. The last 2 full seconds of the clip are the held static frame of the silhouette — the goosebump frame.
+CAMERA: Long lens, absolutely locked-off. No camera movement. The composition is still. Everything moves within the frame — the figure arrives, rears — then holds.
+FX: The pale shaft of light through the cloud seam. The white horse glowing against the dark storm sky. The thin curl of cheroot smoke from the silhouette's lips. The chains hanging motionless.
+SFX (diegetic): Only the cold wind. A single rising pure note swelling toward its peak. Nothing else. Every other sound is absent.
+VO: "At the edge of the village. At the border of the world. The one who watches... had come."
+DURATION: 6 seconds
+NOTES: FRESH_START. This is the Gandalf frame — the emotional center of the reel. Composition must echo: one figure, one horse, one ridge, one dawn. The white horse must be the brightest object in the frame — the first pure white in a reel of grey and charcoal. HOLD the END frame for a full 2 seconds.

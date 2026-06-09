@@ -1,47 +1,11 @@
-[SEQUENCE 07 — Shiva — thigh-strike — duration ~8s]
+[SEQUENCE 07 — Shiva — thigh-strike — 0:38–0:46  (duration ~8s)]
+START FRAME:  end.png of Sequence_06 — CONTINUES
+END FRAME:    end.png (generated from End-image-prompt.txt)
 
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-
-A patient extreme push to macro close-up of Shiva's serene face, then the eyes opening with banked wrath, then a pull back to wide as the palm comes down on the thigh in a sovereign blow — erupting a column of black fire.
-
-BEGIN (0:00): Medium shot of Shiva's face. Absolute serenity. The matted jata and crescent moon are visible. The cosmos turns slowly behind him.
-
-PUSH (0-4s): A slow, patient camera push to an EXTREME MACRO CLOSE-UP. We are studying absolute peace. The camera drifts across his features, finally settling on the closed eyelids. The cosmos behind him slows, then stills entirely — as if the universe has stopped breathing.
-
-THE TURN (4-5s): The eyelids PART. Slowly, deliberately. Beneath them the pupils are no longer calm but burning — banked coals catching their own draft. The jaw sets. A single vein rises at the temple. The serenity has not broken; it has armed itself.
-
-THE STRIKE (5-7s): Pull back rapidly to a CLEAN WIDE. Shiva, seated, lifts his right hand — the palm massive, ash-pale, scarred — and brings it DOWN on his own right thigh in a single sovereign blow. THE IMPACT lands as a thunderclap: snow sheets off the peaks of Kailash, stars in the cosmos behind him jolt out of their orbits, the serpent at his neck flinches awake. From the point where palm meets thigh, a COLUMN OF BLACK FIRE laced with white lightning erupts upward — silent for one frame, then ROARING.
-
-END (7-8s): Hold on the column of black fire rising from the thigh, churning and violent. Inside it, the first faintest hint of a warrior form beginning to take shape.
-
-Camera: patient macro push (0-4s), then a rapid pull-back to wide for the strike (5s onward), then locked for the eruption.
-
-Audio: Sub-bass tone building below hearing (0-5s) — then THE THIGH-STRIKE detonates through the mix at 5s like a struck bell the size of a mountain. After the strike: the roar of black flame igniting.
-
-
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
-extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
-modern clothing, plastic look, oversaturated, blurry, washed out, cute,
-childish, lens flare overload,
-Viking, Norse, horned helmet, fur cloak, Norse runes,
-European knight, crusader, templar, medieval European, plate mail,
-chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
-broadsword, claymore, knight's helm, visor helmet,
-Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-samurai, katana, ronin, ninja, kabuto helmet,
-Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
-Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
-kilt, Celtic warrior, woad face paint, druid,
-cowboy hat, Stetson, Western frontier, leather chaps,
-Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-- Environment-Sheets/Kailash/Kailash_master_plate.png
-- Character-Sheets/Shiva/Shiva_master_sheet.png
+MOTION: An extreme, patient push continues from where Sequence_06 left off — closer and closer to a macro close-up of Shiva's face. We study absolute serenity. THE TURN: his eyes — closed in meditation for centuries — open. Not wide. A slow, deliberate parting of the lids, the pupils beneath them no longer calm but burning, banked coals catching their own draft. The jaw sets. A single vein rises at the temple. The serenity has not broken — it has armed itself. THE STRIKE: pull back to a clean wide. Shiva stands and lifts his right hand — the palm rises with the patience of judgment — and comes down on his own thigh in a single sovereign blow. The IMPACT: a thunderclap that splits the sound design open. Snow sheets off Kailash's peaks. Stars jolt out of their orbits. The serpent at his neck flinches awake. A column of black fire erupts upward.
+CAMERA: Continue the slow patient push-in from Sequence_06 until macro close-up on face. Then pull back to a clean wide for the thigh-strike itself.
+FX: Eyes opening — slow, deliberate, pupils shifting from calm to burning. The thigh-strike impact: white lightning-energy radiating from the point of impact. Snow sheets blasted away from him. Stars jolting in the cosmos. A column of black and white fire erupting upward from the thigh-strike.
+SFX (diegetic): A sub-bass tone building almost below hearing as the eyes open. Then the thigh-strike DETONATES through the mix like a struck bell the size of a mountain — a thunderclap that physically registers.
+VO: "When Adharma will not stay fallen... Dharma does not answer gently."
+DURATION: 8 seconds
+NOTES: CONTINUES from Sequence_06 end.png — no new start frame. The pivot of the whole reel lives in the micro-beat of those eyes opening. The transition from meditative (STATE 1) to wrathful (STATE 2) must be legible and deliberate — not sudden panic but the slow, terrible arming of serenity.

@@ -15,12 +15,11 @@ Mechanical spec for retrofitting EXISTING sequence prompts after global changes.
                                                                 with prompts)
     Default (no variant) = RUN ALL existing sequences with prompt files.
 
->>> WHEN TO RUN: any time CONFIG.txt's GLOBAL_CULTURAL_TOKEN or NEGATIVE_PROMPT
-    changes, or any time CHARACTER_BIBLE.txt / ENVIRONMENT_BIBLE.txt is
-    revised. Today's first run: backpatch Sequence_01 (only sequence that has
-    prompts so far). Future runs apply to whatever sequences exist.
+>>> WHEN TO RUN: any time CONFIG.txt's GLOBAL_CULTURAL_TOKEN,
+    GLOBAL_ANTI_CLONING_TOKEN, or NEGATIVE_PROMPT changes, or any time
+    CHARACTER_BIBLE.txt / ENVIRONMENT_BIBLE.txt is revised.
 
->>> WHAT CHANGES: only the four mandatory injections below. NEVER touch the
+>>> WHAT CHANGES: only the five mandatory injections below. NEVER touch the
     creative content of the prompt (composition, camera, action, VO, timing).
 
 ------------------------------------------------------------------------------
@@ -35,134 +34,167 @@ Do NOT rewrite: image-notes.txt, the engine config, or anything outside
 Sequences/Sequence_NN/.
 
 ------------------------------------------------------------------------------
-THE FOUR MANDATORY INJECTIONS
+THE FIVE MANDATORY INJECTIONS
 ------------------------------------------------------------------------------
 
 INJECTION 1 — CULTURAL ANCHOR  (every image and animation prompt)
-  Every prompt file must contain a "CULTURAL ANCHOR:" section near the top
-  (after the header line but before the "subject paragraph"). The literal
-  text is the current value of GLOBAL_CULTURAL_TOKEN in CONFIG.txt:
+  Every prompt file must contain a "CULTURAL ANCHOR:" section near the top.
+  Paste the current GLOBAL_CULTURAL_TOKEN body from CONFIG.txt verbatim.
 
-    CULTURAL ANCHOR:
-    ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography,
-    South Indian / Dravidian martial culture, Chola-era warrior styling,
-    bronze and brass weaponry of the Indian subcontinent, dhoti / veshti /
-    angavastram garments, temple-fresco and Tanjore-painting aesthetic,
-    dark South Indian skin tones, Tamil epic warfare
+INJECTION 2 — EXPANDED NEGATIVE_PROMPT  (every image prompt)
+  Replace the NEGATIVE: line with the full current NEGATIVE_PROMPT from
+  CONFIG.txt. Do not abbreviate. Then append per-subject negatives from each
+  character/archetype's NEGATIVES (specific) line in CHARACTER_BIBLE.txt as
+  a SUBJECT-SPECIFIC NEGATIVES block.
 
-  If a CULTURAL ANCHOR section already exists, REPLACE its body with the
-  current GLOBAL_CULTURAL_TOKEN text. Do not append.
+INJECTION 3 — ARMY ARCHETYPE SWAP  (per the archetype tables below)
+  Replace any generic "asuras", "asura demons", "asura horde", "Ganas",
+  "soldiers", or single old-spec asura variant ("Asura Foot-Soldier",
+  "Asura Brute", "Asura Commander") with the new ARMY ARCHETYPE vocabulary:
 
-INJECTION 2 — EXPANDED NEGATIVE_PROMPT  (every image prompt; animation
-                                          prompts may keep a shorter form)
-  In every image prompt file, find the "NEGATIVE:" line (or block) and REPLACE
-  it with the full current NEGATIVE_PROMPT from CONFIG.txt. The full list is
-  long — paste it verbatim. Do not abbreviate "etc."
+  DHARMA ARMY (Ayyappa's forces) — 4 archetypes:
+    A — Dharma Infantry         (5'8"-6'0", frontline, spear+shield+sword)
+    B — Veteran Warrior         (6'1"-6'5", battle-hardened, sword/mace+heavy shield)
+    C — Commander               (6'4"-6'10", unit leader, ornate gear + standard)
+    D — Divine General          (6'10"-7'4", supreme rank, royal armor)
 
-  ALSO append per-subject negatives where appropriate: for every character or
-  asura variant present in the prompt, append its SUBJECT-SPECIFIC NEGATIVE
-  from CHARACTER_BIBLE.txt onto a new line labeled:
-    SUBJECT-SPECIFIC NEGATIVES:
-    <one line per subject present in this prompt>
+  ASURA ARMY (Mahishi's legions) — 5 archetypes:
+    A — Asura Infantry              (5'5"-5'8", expendable horde)
+    B — Beast-Blooded Shock Troop   (6'5"-7'0", animal-headed elite vanguard)
+    C — Giant Battlefield Breaker   (10'0"-13'0", towering heavy)
+    D — Asura Chieftain             (7'0"-8'0", commander of legions)
+    E — Mahishi Elite Guard         (8'0"-9'0", Mahishi's personal guard)
 
-INJECTION 3 — ASURA VARIANT SWAP  (per the variant table below)
-  Where the existing prompt says "asuras" generically, replace with the
-  specific variant(s) from the table below. For crowd shots showing mixed
-  variants, list each variant present with its LOCKED BLOCK from
-  CHARACTER_BIBLE.txt.
-
-  Keep all narrative wording around the asura mention intact. Only the noun
-  phrase changes (and the locked block gets embedded).
+  For each archetype present in the beat, embed its full LOCKED BLOCK
+  verbatim from CHARACTER_BIBLE.txt §3 or §4.
 
 INJECTION 4 — ENVIRONMENT LOCKED BLOCK  (per the environment table below)
-  Where the existing prompt describes a location, embed the corresponding
-  ENVIRONMENT_BIBLE.txt LOCKED BLOCK verbatim. The original prose around the
-  location stays — the locked block is ADDED, structurally similar to how
-  character locked blocks are embedded.
+  Embed the matching ENVIRONMENT_BIBLE.txt LOCKED BLOCK verbatim. Add an
+  "IMAGE REFERENCES:" line listing the environment master plate.
 
-  Add an "ENVIRONMENT REFERENCE:" line listing the master plate filename
-  (e.g., Environment-Sheets/Battlefield/Battlefield_master_plate.png) so the
-  image team knows which plate to attach.
+INJECTION 5 — ANTI-CLONING TOKEN  (NEW — for any beat with >=3 same-archetype
+                                    figures; see Anti-Cloning Trigger Table)
+  Inject the GLOBAL_ANTI_CLONING_TOKEN positive form near the bottom of the
+  positive prompt, AND append the GLOBAL_ANTI_CLONING_TOKEN negative
+  additions to the NEGATIVE line. Both from CONFIG.txt verbatim.
 
 ------------------------------------------------------------------------------
-PER-SEQUENCE ASURA VARIANT MAP  (which variant(s) appear per beat)
+PER-SEQUENCE ARMY ARCHETYPE MAP  (which archetype(s) appear per beat)
 ------------------------------------------------------------------------------
-Use this table to decide INJECTION 3 substitutions. Notation:
-  FS = Asura Foot-Soldier  (primary horde)
-  BR = Asura Brute         (the heavy)
-  CM = Asura Commander     (the warlord)
+Use this table to decide INJECTION 3 substitutions. The mix percentages are
+illustrative — choose composition appropriate to the shot scale.
 
-| Seq | Beat                        | Asuras present       | Mix notes              |
-|-----|-----------------------------|----------------------|------------------------|
-| 01  | Cold Open (black)           | none                 | no asuras              |
-| 02  | Battlefield descending      | FS heavy + BR sprinkle | aerial — variety reads |
-| 03  | Soldier POV → aerial        | FS primary, 1-2 BR   | POV-close: FS only     |
-| 04  | Mahishi spawns asuras       | FS newborn variant   | only FS — newborns     |
-| 05  | Ayyappa eyes close → black  | FS at his feet, 1 BR | one falling at feet=FS |
-| 06  | Kailash stillness           | none                 |                        |
-| 07  | Shiva — thigh-strike        | none                 |                        |
-| 08  | The forging (vortex)        | none                 |                        |
-| 09  | Back to hell, lowest point  | FS + BR + CM(distant)| full army shot         |
-| 10  | The silence, freeze         | FS + BR (visible)    | frozen mid-action      |
-| 11  | Ridgeline silhouette        | FS + BR (in army)    | distant — variety reads|
-| 12  | The face — full reveal      | FS distant in horde  |                        |
-| 13  | First strike                | FS + BR              |                        |
-| 14  | The Plow                    | FS primary (cut by aruval) | speed beat — FS  |
-| 15  | The Spear Ride              | FS primary (impaled), 1 CM if impressive | CM optional |
-| 16  | Dismount — bare-handed      | FS + BR (skull crush=BR, jaw tear=FS) | mix       |
-| 17  | The Ashing (close-up)       | FS primary (ashing variant) |                |
-| 18  | Chain Storm — AERIAL        | FS + BR (mass)       | money shot — mix       |
-| 19  | The Drag & Beheading        | FS (fleeing) + 1 CM (beheaded) | CM is dramatic |
-| 20  | The Rally                   | FS + BR (receding)   |                        |
-| 21  | Mahishi's Fear              | FS (newborn, scattered) |                     |
-| 22  | Final Frame — Verdict       | all ashed/dead       | corpses only           |
+DHARMA ARMY notation:
+  D-A = Dharma Infantry · D-B = Veteran Warrior ·
+  D-C = Commander       · D-D = Divine General
+ASURA ARMY notation:
+  A-A = Asura Infantry          · A-B = Beast-Blooded Shock Troop ·
+  A-C = Giant Battlefield Breaker · A-D = Asura Chieftain ·
+  A-E = Mahishi Elite Guard
 
-When a beat has multiple variants, embed the LOCKED BLOCK for each present
-variant (yes, this makes the prompt longer — that's correct; the cultural
-anchor + negatives + reference plates fit within most tools' prompt budget,
-and CONFIG.txt has a PROMPT BUDGET fallback section if not).
+| Seq | Beat                        | Dharma Army present | Asura Army present | Mix notes / focal POV     |
+|-----|-----------------------------|---------------------|--------------------|---------------------------|
+| 01  | Cold Open (black)           | none                | none               | pure black                |
+| 02  | Battlefield descending      | D-A heavy + D-B,D-C | A-A heavy + A-C    | aerial — full mix reads   |
+| 03  | Soldier POV → aerial        | D-A POV (helmeted)  | A-A close, A-B near | POV-close: A-A + A-B     |
+| 04  | Mahishi spawns asuras       | none                | A-A newborn variant + A-E flanking Mahishi | only newborns + Elite Guard nearby |
+| 05  | Ayyappa eyes close → black  | D-A + D-B at feet   | A-A + 1 A-C falling | one falling at feet       |
+| 06  | Kailash stillness           | none                | none               | Shiva alone (meditative)  |
+| 07  | Shiva — thigh-strike        | none                | none               | Shiva alone (transitions to wrathful) |
+| 08  | The forging (vortex)        | none                | none               | column of fire only       |
+| 09  | Back to hell, lowest point  | D-A + D-B + D-C distant | A-A + A-B + A-C + A-D | full army shot — full mix |
+| 10  | The silence, freeze         | D-A + D-B + D-C     | A-A + A-B + A-C    | frozen mid-action         |
+| 11  | Ridgeline silhouette        | D-A + D-B visible   | A-A + A-B distant  | distant — variety reads   |
+| 12  | The face — full reveal      | D-A + D-B distant   | A-A in horde       |                           |
+| 13  | First strike                | D-A + D-B           | A-A + A-B          |                           |
+| 14  | The Plow                    | none                | A-A primary (cut by aruval) | speed beat — A-A     |
+| 15  | The Spear Ride              | none                | A-A primary (impaled) + 1 A-D if dramatic | A-D optional       |
+| 16  | Dismount — bare-handed      | none                | A-A (jaw tear) + A-C (skull crush) | mix     |
+| 17  | The Ashing (close-up)       | none                | A-A primary (ashing variant) | foreground focus    |
+| 18  | Chain Storm — AERIAL        | none                | A-A + A-B + A-C (mass) | money shot — full mix |
+| 19  | The Drag & Beheading        | none                | A-A (fleeing) + 1 A-D (beheaded) | A-D is dramatic |
+| 20  | The Rally                   | D-A + D-B + D-C + D-D | A-A + A-B (receding) | Rally beat — show Dharma full mix |
+| 20.5| Ayyappa Unleashed — Tiger Rides | none           | A-A (running) + A-C (mauled) + A-D (arrow-shot) | Ayyappa+Bengal Tiger, intercut Karuppar+Horse |
+| 21  | Mahishi's Fear              | none                | A-A (newborn, scattered) + A-E (flanking Mahishi) |        |
+| 22  | Final Frame — Verdict       | D-A + D-B + D-C + D-D rising | all ashed/dead | Dharma forces visible behind Karuppar |
+
+When a beat has multiple archetypes, embed the LOCKED BLOCK for EACH present
+archetype (this makes prompts longer — that's correct; see CONFIG.txt
+PROMPT BUDGET if your tool truncates).
+
+------------------------------------------------------------------------------
+ANTI-CLONING TRIGGER TABLE  (which beats need INJECTION 5)
+------------------------------------------------------------------------------
+Inject the anti-cloning token in any beat where >=3 figures of the same
+archetype appear in frame. Per-beat verdicts:
+
+| Seq | Anti-cloning needed? | Reason                                          |
+|-----|----------------------|-------------------------------------------------|
+| 01  | NO                   | no figures                                      |
+| 02  | YES                  | massed army (D-A heavy + A-A heavy)             |
+| 03  | YES                  | A-A close horde (the soldier is surrounded)     |
+| 04  | YES                  | newborn A-A spawning across the ridgeline       |
+| 05  | NO (1 of each at feet) | only one or two figures in focus              |
+| 06  | NO                   | Shiva alone                                     |
+| 07  | NO                   | Shiva alone                                     |
+| 08  | NO                   | column of fire only                             |
+| 09  | YES                  | full army both sides                            |
+| 10  | YES                  | frozen mid-action — many figures visible        |
+| 11  | YES                  | the army frozen looking at the ridgeline        |
+| 12  | YES                  | horde visible below                             |
+| 13  | YES                  | strike into the horde                           |
+| 14  | YES                  | A-A horde being cut down                        |
+| 15  | YES                  | A-A horde being impaled                         |
+| 16  | YES                  | thick of the asuras                             |
+| 17  | NO (focal close-up)  | one A-A in close-up ashing                      |
+| 18  | YES                  | HUNDREDS ashed at once — money shot             |
+| 19  | NO (single A-D focal) | one A-D beheaded; A-A fleeing in bg can read varied |
+| 20  | YES                  | Rally — Ganas surge, asuras recede              |
+| 20.5| YES                  | Tigress in receding asura ranks — multiple A-A in bg + A-C + A-D foreground figures |
+| 21  | NO (Mahishi focal)   | Mahishi-focused; A-E flanking is paired         |
+| 22  | YES                  | Dharma forces visible rising behind Karuppar    |
 
 ------------------------------------------------------------------------------
 PER-SEQUENCE ENVIRONMENT MAP  (which environment plate to embed)
 ------------------------------------------------------------------------------
-| Seq | Beat                        | Environment           | Plate                                  |
-|-----|-----------------------------|-----------------------|----------------------------------------|
-| 01  | Cold Open (black)           | none (pure black)     | n/a                                    |
-| 02  | Battlefield descending      | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 03  | Soldier POV → aerial        | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 04  | Mahishi spawns asuras       | MAHISHI-HILL          | Environment-Sheets/Mahishi-Hill/       |
-| 05  | Ayyappa eyes close → black  | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 06  | Kailash stillness           | KAILASH               | Environment-Sheets/Kailash/            |
-| 07  | Shiva — thigh-strike        | KAILASH               | Environment-Sheets/Kailash/            |
-| 08  | The forging (vortex)        | KAILASH (column from) | Environment-Sheets/Kailash/            |
-| 09  | Back to hell, lowest point  | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 10  | The silence, freeze         | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 11  | Ridgeline silhouette        | RIDGELINE             | Environment-Sheets/Ridgeline/          |
-| 12  | The face — full reveal      | RIDGELINE             | Environment-Sheets/Ridgeline/          |
-| 13  | First strike                | RIDGELINE→BATTLEFIELD | both plates                            |
-| 14  | The Plow                    | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 15  | The Spear Ride              | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 16  | Dismount — bare-handed      | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 17  | The Ashing (close-up)       | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 18  | Chain Storm — AERIAL        | BATTLEFIELD (aerial)  | Environment-Sheets/Battlefield/        |
-| 19  | The Drag & Beheading        | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 20  | The Rally                   | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
-| 21  | Mahishi's Fear              | MAHISHI-HILL          | Environment-Sheets/Mahishi-Hill/       |
-| 22  | Final Frame — Verdict       | BATTLEFIELD           | Environment-Sheets/Battlefield/        |
+| Seq | Environment           | Plate                                          |
+|-----|-----------------------|------------------------------------------------|
+| 01  | none (pure black)     | n/a                                            |
+| 02  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 03  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 04  | MAHISHI-HILL          | Environment-Sheets/Mahishi-Hill/               |
+| 05  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 06  | KAILASH               | Environment-Sheets/Kailash/                    |
+| 07  | KAILASH               | Environment-Sheets/Kailash/                    |
+| 08  | KAILASH (column from) | Environment-Sheets/Kailash/                    |
+| 09  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 10  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 11  | RIDGELINE             | Environment-Sheets/Ridgeline/                  |
+| 12  | RIDGELINE             | Environment-Sheets/Ridgeline/                  |
+| 13  | RIDGELINE→BATTLEFIELD | both plates                                    |
+| 14  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 15  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 16  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 17  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 18  | BATTLEFIELD (aerial)  | Environment-Sheets/Battlefield/                |
+| 19  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 20  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 20.5| BATTLEFIELD           | Environment-Sheets/Battlefield/                |
+| 21  | MAHISHI-HILL          | Environment-Sheets/Mahishi-Hill/               |
+| 22  | BATTLEFIELD           | Environment-Sheets/Battlefield/                |
 
 ------------------------------------------------------------------------------
 WHAT NOT TO TOUCH (hard rules)
 ------------------------------------------------------------------------------
 NEVER modify:
-  - Camera moves, framing language ("CAMERA:", "PUSH:", "WHIP:", etc.)
+  - Camera moves, framing language
   - Timing / duration
-  - Action choreography (who does what, in what order)
+  - Action choreography
   - VO lines
   - The header line  [SEQUENCE NN — <beat> — START/END FRAME]
   - The Movement palette line
-  - PARAMS line (aspect ratio stays 9:16 for sequence frames; only reference
-    plates use 1:1, and those live elsewhere)
-  - Filenames (Start-image-prompt.txt / End-image-prompt.txt / Animation-prompt.txt)
+  - PARAMS line (--ar 9:16 for sequence frames; reference plates use 1:1)
+  - Filenames
   - The START flag in SEQUENCE_MAP.txt (FRESH_START vs CONTINUES)
   - Anything in image-notes.txt
 
@@ -173,122 +205,7 @@ NEVER add:
 
 NEVER remove:
   - The reverence cues for Shiva and Ayyappa
-  - Continuity references (e.g., "carries through from previous sequence's end.png")
-
-------------------------------------------------------------------------------
-WORKED EXAMPLE — BEFORE / AFTER  (using Sequence_01-style structure)
-------------------------------------------------------------------------------
-[Note: Sequence_01 is the Cold Open — black screen, no characters or asuras
-or environment, so it's a degenerate case. The example below is illustrative
-of how a typical battlefield prompt would change, not the actual Seq_01
-prompt.]
-
->>> BEFORE (illustrative — a Sequence_02 style prompt) <<<
-
-  [SEQUENCE 02 — Battlefield descending — END FRAME]
-  [Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight]
-
-  God's-eye descending crane shot over a vast battlefield, the ground packed
-  with bodies and writhing asuras, broken chariots, guttering fires...
-
-  STYLE: dark painterly cinematic fantasy, hyper-detailed realism...
-  NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed
-  anatomy, extra limbs, extra fingers, text, watermark, modern clothing,
-  oversaturated, blurry...
-  PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
-  IMAGE REFERENCES: (none yet)
-
->>> AFTER (post-backpatch) <<<
-
-  [SEQUENCE 02 — Battlefield descending — END FRAME]
-  [Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight]
-
-  CULTURAL ANCHOR:
-  ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography,
-  South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-  and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-  garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-  skin tones, Tamil epic warfare
-
-  ENVIRONMENT LOCKED BLOCK:
-  a vast ancient South Indian battlefield plain at dusk, ground the color of
-  dried blood and cracked black earth, broken Tamil war-chariots and shattered
-  spears half-buried in churned mud, guttering low fires casting sick orange
-  light, towering pillars of black smoke rising into a storm-dark sky, ash
-  drifting upward on the thermals, a desolate plateau ringed by distant
-  jagged hills, the field densely packed with the dead and the dying, the
-  ground itself seeming to breathe, no European or Mediterranean architecture
-  anywhere in frame, the scale epic and mythological
-
-  ASURA LOCKED BLOCKS (foot-soldier primary, brute sprinkle):
-  - "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-
-     skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken
-     eyes and protruding lower tusks, crude leather-and-bone armor wrapped over
-     a scarred muscular torso, jagged iron sickle or crude curved blade,
-     ash-smeared limbs, born slick and steaming from Mahishi's hair, savage
-     and expendable, part of an endless screaming horde"
-  - "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon,
-     slab-muscled grey-and-charcoal hide thick with old scars, low forehead,
-     short curved bull-like horns or bone protrusions, jutting fanged underbite,
-     swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy
-     bronze-and-bone armor plates strapped over the chest and shoulders"
-
-  God's-eye descending crane shot over the battlefield (per environment block
-  above), the ground packed with bodies and the writhing horde of asura foot-
-  soldiers mixed with occasional brutes towering above the others, broken
-  Tamil war-chariots, guttering fires...
-
-  STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic
-  chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic
-  mythological scale, photoreal skin and metal textures, moody crimson-
-  charcoal palette, ultra sharp focus, 8k, cinematic color grade
-
-  NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed
-  anatomy, extra limbs, extra fingers, fused fingers, text, watermark,
-  signature, logo, modern clothing, plastic look, oversaturated, blurry,
-  washed out, cute, childish, lens flare overload, Viking, Norse, horned
-  helmet, fur cloak, Norse runes, European knight, crusader, templar,
-  medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat
-  with cross, longsword, broadsword, claymore, knight's helm, visor helmet,
-  Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-  samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai,
-  generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime
-  demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face
-  paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, generic
-  barbarian
-
-  SUBJECT-SPECIFIC NEGATIVES:
-  - Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos
-    warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with
-    bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-  - Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a
-    Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll
-
-  PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
-
-  IMAGE REFERENCES:
-  - Environment-Sheets/Battlefield/Battlefield_master_plate.png
-  - Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-Soldier_master_sheet.png
-  - Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
-
-------------------------------------------------------------------------------
-SELF-CHECK (run on every file after rewriting)
-------------------------------------------------------------------------------
-[ ] CULTURAL ANCHOR section is present and contains the current
-    GLOBAL_CULTURAL_TOKEN text.
-[ ] If the beat has asuras: the correct variant LOCKED BLOCK(s) per the
-    Asura Variant Map are embedded; the generic word "asuras" no longer
-    appears as a description (it may still appear as a noun in narrative
-    sentences, e.g., "asura demon foot-soldier").
-[ ] If the beat has an environment: the ENVIRONMENT LOCKED BLOCK is embedded
-    verbatim from ENVIRONMENT_BIBLE.txt.
-[ ] The full expanded NEGATIVE_PROMPT from CONFIG.txt is present.
-[ ] SUBJECT-SPECIFIC NEGATIVES are listed for every subject present.
-[ ] PARAMS line is unchanged (--ar 9:16 for sequence frames).
-[ ] IMAGE REFERENCES list every reference plate the prompt needs.
-[ ] Camera moves, action, VO, timing, and Movement palette line are
-    UNCHANGED from the original.
-[ ] No new beats invented. No content removed.
+  - Continuity references (e.g., "carries through from previous end.png")
 
 ------------------------------------------------------------------------------
 OUTPUT FORMAT
@@ -300,3 +217,32 @@ For each rewritten file, output:
 
 After all files in the sequence are rewritten, output a one-line summary:
   "Backpatched Sequence_NN: <N> files updated."
+
+------------------------------------------------------------------------------
+SELF-CHECK (run on every file after rewriting)
+------------------------------------------------------------------------------
+[ ] CULTURAL ANCHOR section present and matches current GLOBAL_CULTURAL_TOKEN.
+[ ] If asuras present: correct Asura Army archetype LOCKED BLOCK(s) embedded
+    from CHARACTER_BIBLE.txt §4. The old "Asura Foot-Soldier / Brute /
+    Commander" wording is NOT present.
+[ ] If Ayyappa's army present: correct Dharma Army archetype LOCKED BLOCK(s)
+    embedded from CHARACTER_BIBLE.txt §3. The old "Ganas" wording is NOT
+    present (use archetype names instead).
+[ ] If beat has an environment: matching ENVIRONMENT_BIBLE.txt LOCKED BLOCK
+    embedded verbatim.
+[ ] Full expanded NEGATIVE_PROMPT from CONFIG.txt present.
+[ ] SUBJECT-SPECIFIC NEGATIVES listed for every subject present.
+[ ] If beat is in the Anti-Cloning Trigger Table as YES: anti-cloning token
+    positive form is embedded AND anti-cloning negative additions are in the
+    NEGATIVE line.
+[ ] PARAMS line unchanged (--ar 9:16 for sequence frames).
+[ ] IMAGE REFERENCES lists every reference plate: hero master sheets,
+    archetype reference plates (from Character-Sheets/Dharma-Army/ or
+    /Asura-Army/), weapons catalog (if a named weapon appears), environment
+    plate(s).
+[ ] Camera moves, action, VO, timing, Movement palette UNCHANGED.
+[ ] No new beats invented. No content removed.
+
+==============================================================================
+END OF SPEC
+==============================================================================

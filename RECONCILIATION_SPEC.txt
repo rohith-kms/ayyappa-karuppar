@@ -4,15 +4,15 @@ Mechanical spec for syncing BIBLE LOCKED BLOCKS to the approved reference plates
 ==============================================================================
 
 >>> WHO RUNS THIS: a multimodal cheap model (e.g., Claude Haiku, GPT-4o-mini).
-    The producer attaches all 14 reference plates listed below AND points the
+    The producer attaches the reference plates listed below AND points the
     model at this spec + CHARACTER_BIBLE.txt + ENVIRONMENT_BIBLE.txt.
 
 >>> TRIGGER PHRASE: "Read RECONCILIATION_SPEC.txt and RUN"
     Optional: "Read RECONCILIATION_SPEC.txt and RUN <subject>" — limit to one
-    subject (e.g., "RUN Karuppar" or "RUN Battlefield").
+    subject (e.g., "RUN Karuppar" or "RUN Bengal Tiger").
 
->>> WHEN: after Stage 0 image generation is complete and the plates have been
-    saved into their folders. Re-run any time a plate is regenerated.
+>>> WHEN: after reference plates are saved into their folders, or after any
+    plate regeneration.
 
 >>> WHAT CHANGES: only the LOCKED BLOCK paragraphs inside CHARACTER_BIBLE.txt
     and ENVIRONMENT_BIBLE.txt. NEVER touches anything else.
@@ -20,230 +20,201 @@ Mechanical spec for syncing BIBLE LOCKED BLOCKS to the approved reference plates
 ==============================================================================
 INPUTS YOU READ
 ==============================================================================
-  CHARACTER_BIBLE.txt    — the canonical LOCKED BLOCKS for characters
-  ENVIRONMENT_BIBLE.txt  — the canonical LOCKED BLOCKS for locations
-  This spec               — the reconciliation rules + subject map
+  CHARACTER_BIBLE.txt    — canonical LOCKED BLOCKS for §1 Heroes, §2 Divine
+                           Creatures, §3 Dharma Army (4 archetypes),
+                           §4 Asura Army (5 archetypes), §5 Weapons catalog
+  ENVIRONMENT_BIBLE.txt  — canonical LOCKED BLOCKS for 4 locations
+  This spec               — reconciliation rules + subject map
 
-  AND the 14 plate images attached by the producer (the actual artwork that
-  was generated and approved in Stage 0).
-
-==============================================================================
-THE SUBJECT MAP  (subject → plate filename → BIBLE file + locked-block heading)
-==============================================================================
-Use this table to know which image belongs with which locked block, and which
-file to write the updated block into.
-
-| # | Subject              | Plate filename                                                                                | BIBLE file              | Locked-block heading in BIBLE                        |
-|---|----------------------|-----------------------------------------------------------------------------------------------|-------------------------|------------------------------------------------------|
-| 1 | Karuppar             | Character-Sheets/Karuppar/Karuppar_master_sheet.png                                           | CHARACTER_BIBLE.txt     | KARUPPAR  (Sangili Karuppaswamy ...)                 |
-| 2 | War-Horse            | Character-Sheets/War-Horse/War-Horse_master_sheet.png                                         | CHARACTER_BIBLE.txt     | THE WAR HORSE  (Karuppar's divine mount)             |
-| 3 | Black-Dog            | Character-Sheets/Black-Dog/Black-Dog_master_sheet.png                                         | CHARACTER_BIBLE.txt     | THE BLACK DOG  (Karuppar's guardian hound)           |
-| 4 | Ayyappa              | Character-Sheets/Ayyappa/Ayappa_master_sheet.png    (note: "Ayappa", single y)                | CHARACTER_BIBLE.txt     | AYYAPPA  (the boy-warrior god ...)                   |
-| 5 | Mahishi              | Character-Sheets/Mahishi/Mahishi_master_sheet.png                                             | CHARACTER_BIBLE.txt     | MAHISHI  (the buffalo-headed demoness ...)           |
-| 6 | Shiva                | Character-Sheets/Shiva/Shiva_master_sheet.png                                                 | CHARACTER_BIBLE.txt     | SHIVA  (Lord Shiva on Kailash)                       |
-| 7 | Ganas                | Character-Sheets/Ganas/Ganas_master_sheet.png                                                 | CHARACTER_BIBLE.txt     | GANAS  (Ayyappa's own soldiers ...)                  |
-| 8 | Asura Foot-Soldier   | Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png  (case-variant) | CHARACTER_BIBLE.txt     | ASURA FOOT-SOLDIER  (the basic horde ...)            |
-| 9 | Asura Brute          | Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png                              | CHARACTER_BIBLE.txt     | ASURA BRUTE  (the heavy ...)                         |
-| 10| Asura Commander      | Character-Sheets/Asuras/Asura_Commander/Asura_Commander_master_sheet.png                      | CHARACTER_BIBLE.txt     | ASURA COMMANDER / CHIEFTAIN  (the warlord rank ...)  |
-| 11| Battlefield          | Environment-Sheets/Battlefield/Battlefield_master_plate.png                                   | ENVIRONMENT_BIBLE.txt   | BATTLEFIELD  (the cursed plain ...)                  |
-| 12| Kailash              | Environment-Sheets/Kailash/Kailash_master_plate.png                                           | ENVIRONMENT_BIBLE.txt   | KAILASH  (Shiva's abode ...)                         |
-| 13| Mahishi's Hill       | Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png                                 | ENVIRONMENT_BIBLE.txt   | MAHISHI'S HILL  (the smoke-wreathed mound ...)       |
-| 14| Ridgeline            | Environment-Sheets/Ridgeline/Ridgeline_master_plate.png                                       | ENVIRONMENT_BIBLE.txt   | RIDGELINE  (the high horizon ...)                    |
-
-FILENAME TOLERANCE: if a plate filename has a minor case or spelling variant
-(e.g., "Foot-soldier" vs "Foot-Soldier", "Ayappa" vs "Ayyappa"), use the file
-that actually exists in the folder — do NOT rename the file. Match by folder
-location, not by exact filename.
+  AND the reference plates attached by the producer (see Subject Map below).
 
 ==============================================================================
-THE PROCEDURE  (do this for EACH of the 14 subjects)
+THE SUBJECT MAP  (subject → plate → BIBLE file → heading)
+==============================================================================
+Match plates to locked blocks using folder location, NOT exact filename.
+
+§1 — HEROES (4 subjects, but Karuppar and Shiva each have multiple states)
+
+| # | Subject                | Plate filename                                                 | BIBLE file              | Heading in BIBLE                                  |
+|---|------------------------|----------------------------------------------------------------|-------------------------|----------------------------------------------------|
+| 1 | Karuppar               | Character-Sheets/Karuppar/Karuppaswamy_master_sheet.png        | CHARACTER_BIBLE.txt §1  | KARUPPAR (Sangili Karuppaswamy...)                |
+| 2 | Ayyappa                | Character-Sheets/Ayyappa/Ayyappa_master_sheet.png + Ayyappa_master_portrait.png | CHARACTER_BIBLE.txt §1 | AYYAPPA (Lord Ayyappa...)                          |
+| 3 | Mahishi                | Character-Sheets/Mahishi/Mahishi_master_sheet.png + Mahishi_hero_portrait.png   | CHARACTER_BIBLE.txt §1 | MAHISHI (the buffalo-headed asura queen...)        |
+| 4 | Shiva (meditative)     | Character-Sheets/Shiva/Shiva_meditative.png                    | CHARACTER_BIBLE.txt §1  | SHIVA — STATE 1 MEDITATIVE                         |
+| 5 | Shiva (wrathful)       | Character-Sheets/Shiva/Shiva_thigh-strike.png                  | CHARACTER_BIBLE.txt §1  | SHIVA — STATE 2 WRATHFUL THIGH-STRIKE              |
+
+§2 — DIVINE CREATURES (3 subjects)
+
+| # | Subject                | Plate filename                                                 | BIBLE file              | Heading in BIBLE                                  |
+|---|------------------------|----------------------------------------------------------------|-------------------------|----------------------------------------------------|
+| 6 | Bengal Tiger           | Character-Sheets/Bengal-Tiger/Bengal-Tiger_master_sheet.png    | CHARACTER_BIBLE.txt §2  | BENGAL TIGER (Ayyappa's divine mount)              |
+| 7 | White Horse            | Character-Sheets/War-Horse/War-Horse_master_sheet.png          | CHARACTER_BIBLE.txt §2  | WHITE HORSE (Karuppar's divine mount)              |
+| 8 | Black Dog              | Character-Sheets/Black-Dog/Black-Dog_master_sheet.png          | CHARACTER_BIBLE.txt §2  | BLACK DOG (Karuppar's guardian hound)              |
+
+§3 — ARMY OF DHARMA (4 archetypes; all share the same character-system plate;
+                      use the labeled panel for each archetype)
+
+| # | Subject                          | Plate                                                              | BIBLE file              | Heading in BIBLE                                  |
+|---|----------------------------------|--------------------------------------------------------------------|-------------------------|----------------------------------------------------|
+| 9 | Dharma Archetype A — Infantry    | Character-Sheets/Dharma-Army/Dharma-Army_character_system.png (panel A — leftmost)  | CHARACTER_BIBLE.txt §3 | ARCHETYPE A — DHARMA INFANTRY    |
+| 10| Dharma Archetype B — Veteran     | same plate (panel B — second from left)                            | CHARACTER_BIBLE.txt §3  | ARCHETYPE B — VETERAN WARRIOR    |
+| 11| Dharma Archetype C — Commander   | same plate (panel C — second from right, with standard)            | CHARACTER_BIBLE.txt §3  | ARCHETYPE C — COMMANDER          |
+| 12| Dharma Archetype D — Divine General | same plate (panel D — rightmost, tallest, ornate standard)      | CHARACTER_BIBLE.txt §3  | ARCHETYPE D — DIVINE GENERAL     |
+
+§4 — ARMY OF THE ASURAS (5 archetypes; same approach)
+
+| # | Subject                                       | Plate                                                              | BIBLE file              | Heading in BIBLE                                  |
+|---|-----------------------------------------------|--------------------------------------------------------------------|-------------------------|----------------------------------------------------|
+| 13| Asura Archetype A — Infantry                  | Character-Sheets/Asura-Army/Asura-Army_character_system.png (panel A — leftmost)    | CHARACTER_BIBLE.txt §4 | ARCHETYPE A — ASURA INFANTRY            |
+| 14| Asura Archetype B — Beast-Blooded Shock Troop | same plate (panel B — second from left, beast-headed)              | CHARACTER_BIBLE.txt §4  | ARCHETYPE B — BEAST-BLOODED SHOCK TROOP |
+| 15| Asura Archetype C — Giant Battlefield Breaker | same plate (panel C — center, the tallest)                         | CHARACTER_BIBLE.txt §4  | ARCHETYPE C — GIANT BATTLEFIELD BREAKER |
+| 16| Asura Archetype D — Asura Chieftain           | same plate (panel D — second from right)                           | CHARACTER_BIBLE.txt §4  | ARCHETYPE D — ASURA CHIEFTAIN           |
+| 17| Asura Archetype E — Mahishi Elite Guard       | same plate (panel E — rightmost, buffalo-skull helm)               | CHARACTER_BIBLE.txt §4  | ARCHETYPE E — MAHISHI ELITE GUARD       |
+
+§5 — WEAPONS & STANDARDS (1 catalog)
+
+| # | Subject                | Plate                                                          | BIBLE file              | Heading in BIBLE                                  |
+|---|------------------------|----------------------------------------------------------------|-------------------------|----------------------------------------------------|
+| 18| Weapons & Standards    | Character-Sheets/Weapons-Catalog/Weapons-and-Standards_catalog.png | CHARACTER_BIBLE.txt §5 | WEAPONS & STANDARDS (full catalog)                 |
+
+§6 — ENVIRONMENTS (4 plates — to be generated separately; not in Final-images)
+
+| # | Subject                | Plate                                                          | BIBLE file              | Heading in BIBLE                                  |
+|---|------------------------|----------------------------------------------------------------|-------------------------|----------------------------------------------------|
+| 19| Battlefield            | Environment-Sheets/Battlefield/Battlefield_master_plate.png    | ENVIRONMENT_BIBLE.txt   | BATTLEFIELD (the cursed plain)                     |
+| 20| Kailash                | Environment-Sheets/Kailash/Kailash_master_plate.png            | ENVIRONMENT_BIBLE.txt   | KAILASH (Shiva's abode)                            |
+| 21| Mahishi's Hill         | Environment-Sheets/Mahishi-Hill/Mahishi-Hill_master_plate.png  | ENVIRONMENT_BIBLE.txt   | MAHISHI'S HILL (the smoke-wreathed mound)          |
+| 22| Ridgeline              | Environment-Sheets/Ridgeline/Ridgeline_master_plate.png        | ENVIRONMENT_BIBLE.txt   | RIDGELINE (the high horizon)                       |
+
+FILENAME TOLERANCE: match by folder location, NOT exact filename. Minor case
+or spelling variations in the filename are fine; do not rename files.
+
+==============================================================================
+THE PROCEDURE  (do this for EACH subject in the map)
 ==============================================================================
 STEP 1 — LOAD THE TEXT.
-  Open the matching BIBLE file (CHARACTER_BIBLE.txt or ENVIRONMENT_BIBLE.txt).
-  Find the subject's locked-block heading (per the Subject Map above) and
-  extract its current LOCKED BLOCK — the paragraph that immediately follows
-  the `LOCKED BLOCK:` line for that subject.
+  Open the matching BIBLE file. Find the heading per the Subject Map. Extract
+  the current LOCKED BLOCK paragraph(s) that follow.
 
 STEP 2 — LOOK AT THE PLATE.
-  Carefully observe the corresponding image:
-   - skin tone / hide texture / animal coat
-   - eye color and luminosity
-   - garment colors, patterns, and exact style (dhoti, veshti, angavastram,
-     armor type)
-   - weapon shape and materials
-   - headgear / hair / horns / face markings
-   - body proportions (height, build)
-   - background palette (for environment plates)
-   - signature features visible on the plate
+  Carefully observe the image. For multi-panel plates (army character systems),
+  focus on the specific panel called out in the Subject Map. For
+  characters with multiple states (Shiva, Karuppar), each state has its own
+  plate and its own LOCKED BLOCK to reconcile.
 
 STEP 3 — COMPARE.
-  Identify every detail where the IMAGE differs from the TEXT. Be specific:
-   - If the text says "amber-orange eyes" but the plate shows them as more
-     "molten gold", that's a change.
-   - If the text says "white sacred ash stripes" but the plate shows them more
-     yellow/cream, that's a change.
-   - If the text doesn't mention an ornament that's clearly on the plate
-     (e.g., an arm band), ADD it.
-   - If the text mentions something not actually visible on the plate (e.g.,
-     "rudraksha beads" but no beads in frame), KEEP it — the plate may have
-     omitted it but the locked block governs all future generations.
+  Identify every detail where the IMAGE differs from the TEXT.
 
-STEP 4 — WRITE THE REPLACEMENT LOCKED BLOCK.
-  Produce one updated paragraph that follows the EXACT same structure and
-  voice as the original. Apply the KEEP / CHANGE rules below.
+STEP 4 — WRITE THE REPLACEMENT.
+  Produce an updated paragraph in the same structure and voice. Apply the
+  KEEP/CHANGE rules below.
 
 STEP 5 — OUTPUT.
-  See OUTPUT FORMAT below.
+  See OUTPUT FORMAT.
 
 ==============================================================================
-KEEP / CHANGE RULES  (the spine of reconciliation)
+KEEP / CHANGE RULES
 ==============================================================================
 
-KEEP (do NOT modify, ever):
-  - The CULTURAL ANCHOR language baked into the locked block. Phrases like
-    "Tamil Hindu mythological", "Sanatan Dharma", "South Indian", "Dravidian
-    martial culture", "Sabarimala tradition", "village-deity tradition" stay
-    as-is.
-  - The REVERENCE cues for Shiva and Ayyappa. Words like "serene", "calm
-    transcendent", "divine", "fearless" stay.
-  - Functional identity markers — Karuppar's cheroot, moustache, chains, vel,
-    aruval; Mahishi's buffalo head; Shiva's crescent moon and Ganga; the
-    Black Dog's amber eyes; the War-Horse's chain barding.
-  - Paragraph length and voice — one paragraph, ~80-150 words, comma-chained
-    descriptive style.
+KEEP (never modify):
+  - Cultural-anchor language ("Tamil Hindu mythological", "Sanatan Dharma",
+    "South Indian", "Dravidian", "Sabarimala tradition", "village-deity
+    tradition", "Karuppar tradition", etc.)
+  - Reverence cues for Shiva and Ayyappa
+  - Functional identity markers (Karuppar's cheroot, chains, aruval; Mahishi's
+    buffalo head, cleaver, lion-shield; Shiva's trident, crescent moon, Ganga;
+    Black Dog's amber-brown eyes; White Horse's red caparison)
+  - Identity-Lock items (paragraph length, voice, comma-chained descriptive)
+  - Archetype rank labels and heights (these are taxonomic, not visual)
 
 CHANGE (sync to what the plate actually shows):
   - Exact skin / hide / coat tone wording
-  - Exact eye color and luminosity wording
+  - Exact eye color and luminosity
   - Specific garment colors, patterns, layering
-  - Specific armor materials, ornaments, jewelry
-  - Headgear style, hair details, horn shape and length
-  - Facial marking placement, color, count
-  - Body proportions if the plate clearly disagrees with the spec
-  - Background / sky / terrain palette (environment plates)
+  - Armor materials, ornaments, jewelry
+  - Headgear style, hair, horn shape/length
+  - Facial-marking placement, color, count
+  - Body proportions if plate clearly disagrees with spec
+  - Background / sky / terrain palette (environments)
   - Any clearly visible detail the locked block did not mention
+
+KARUPPAR SPECIAL RULE:
+  The team will add the cheroot to the plate POST-generation. So even if the
+  current plate version you see lacks the cheroot, KEEP the cheroot
+  description in the locked block. The cheroot is canonical.
+
+SHIVA SPECIAL RULE:
+  Shiva has TWO locked blocks (meditative + wrathful). Reconcile EACH against
+  ITS OWN plate. Do not merge.
+
+ARCHETYPE SPECIAL RULE:
+  When reconciling an archetype block, focus only on the labeled panel for
+  that archetype in the character system plate. Ignore the other panels.
 
 NEVER add to the locked block:
   - Camera framing, lighting direction, lens / depth-of-field language
-  - Compositional notes (the locked block describes WHAT the subject IS, not
-    how it's framed in a specific shot)
-  - Cinematic descriptors ("dramatic chiaroscuro", "god-rays", etc. — those
-    live in the STYLE token, not the locked block)
-  - Negatives (those live in the NEGATIVES line below the locked block)
+  - Compositional notes
+  - Cinematic descriptors (those live in STYLE token)
+  - Negatives (those live in NEGATIVES line below the block)
   - References to specific sequences
 
-NEVER touch (outside the LOCKED BLOCK paragraph):
-  - The `NEGATIVES (specific):` line and its body
-  - The `REFERENCE:` line
-  - The `NOTE:` line
-  - `NEWBORN VARIANT`, `ASHING VARIANT`, weapon definitions, pose-reference
-    sub-blocks
+NEVER touch (outside the LOCKED BLOCK):
+  - The NEGATIVES (specific) line
+  - The REFERENCE line
+  - The IDENTITY LOCKS list
+  - The WEAPONS / MOUNT / COMPANION lines
   - The cultural-anchor preamble at the top of the BIBLE file
   - Any other subject's locked block
 
 ==============================================================================
-WORKED EXAMPLE  (illustrative — not actual; for pattern only)
-==============================================================================
-
->>> CURRENT LOCKED BLOCK (text, from CHARACTER_BIBLE.txt) <<<
-"Karuppar, a towering muscular Tamil folk guardian deity, 8.5 heads tall, deep
-obsidian-black skin slick and glistening, fierce intense face, glowing
-amber-orange eyes, thick curved black handlebar moustache, three horizontal
-white sacred ash (vibhuti) stripes across the forehead with a single red
-vertical tilak between the brows, long matted black hair bound under a dark
-cloth turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing
-thin smoke, heavy layered black iron chains draped across the bare torso and
-coiled around both forearms and wrists, a black-and-deep-crimson layered
-dhoti (veshti), beaded ornaments, bare feet, an aura of righteous wrath"
-
->>> WHAT THE PLATE ACTUALLY SHOWS (hypothetical observations) <<<
-- skin reads as deep blue-black with a wet sheen (slightly more blue-cast
-  than "obsidian-black")
-- eyes are more "molten gold" than "amber-orange"
-- ash stripes are very pale cream rather than pure white
-- moustache is thicker and more upturned than "handlebar"
-- dhoti is deep crimson with thin gold-thread border (the original block said
-  only "black-and-deep-crimson layered dhoti")
-- arm bands of dark bronze on both biceps (not mentioned in original)
-
->>> REPLACEMENT LOCKED BLOCK <<<
-"Karuppar, a towering muscular Tamil folk guardian deity, 8.5 heads tall,
-deep blue-black skin with a wet sheen, fierce intense face, glowing molten-
-gold eyes, a thick upturned black moustache, three horizontal pale-cream
-sacred ash (vibhuti) stripes across the forehead with a single red vertical
-tilak between the brows, long matted black hair bound under a dark cloth
-turban, a lit hand-rolled cheroot cigar clenched in the teeth trailing thin
-smoke, heavy layered black iron chains draped across the bare torso and
-coiled around both forearms and wrists, dark-bronze arm bands on both
-biceps, a deep-crimson dhoti with a thin gold-thread border, beaded
-ornaments, bare feet, an aura of righteous wrath"
-
-[Notice: cultural-anchor phrase "Tamil folk guardian deity" stays. Functional
-markers stay (cheroot, chains, vibhuti, tilak, turban). Visual details that
-differ from the plate are updated. A new detail (arm bands) is ADDED. Voice
-and length are unchanged.]
-
-==============================================================================
 OUTPUT FORMAT
 ==============================================================================
-For EACH of the 14 subjects, output in this exact format:
+For EACH subject, output in this exact format:
 
   ===== <Subject Name> =====
   PLATE: <plate filename>
   BIBLE FILE: <CHARACTER_BIBLE.txt or ENVIRONMENT_BIBLE.txt>
-  LOCATED HEADING: <the heading line that precedes the locked block in the file>
+  HEADING: <exact heading line from the BIBLE>
 
   CURRENT LOCKED BLOCK:
   "<the exact existing paragraph>"
 
-  CHANGES OBSERVED (one bullet per change):
-  - <description of change 1>
-  - <description of change 2>
-  - ...
+  CHANGES OBSERVED:
+  - <bullet per change>
 
   REPLACEMENT LOCKED BLOCK:
-  "<the updated paragraph, ready to paste into the BIBLE file>"
+  "<the updated paragraph>"
 
   ===== end <Subject Name> =====
 
-At the END of the run, output ONE summary table:
-
-  ===== RECONCILIATION SUMMARY =====
-  | Subject              | Plate present | Changes made | Status                  |
-  |----------------------|---------------|--------------|-------------------------|
-  | Karuppar             | yes           | N            | replacement block ready |
-  | War-Horse            | yes           | N            | replacement block ready |
-  | ...                  | ...           | ...          | ...                     |
-  Total subjects processed: N/14
-  ===== end summary =====
+At the END of the run, output ONE summary table listing all 22 subjects, each
+row: subject, plate present (yes/no/N/A — environments may not exist yet),
+changes made (count), status.
 
 ==============================================================================
-SELF-CHECK  (run on each replacement before outputting it)
+SELF-CHECK
 ==============================================================================
-[ ] Replacement block is ONE paragraph, comma-chained, same voice as original.
+[ ] Replacement is ONE paragraph, comma-chained, same voice as original.
 [ ] Cultural-anchor phrases preserved.
 [ ] Reverence cues preserved for Shiva and Ayyappa.
-[ ] Functional identity markers preserved (cheroot, chains, buffalo head, etc).
-[ ] Every change made corresponds to something actually visible on the plate.
-[ ] No camera language, no lighting direction, no compositional notes added.
-[ ] No mention of any other subject or any specific sequence.
-[ ] No negatives added inside the locked block (they live in NEGATIVES line).
-[ ] Length is roughly comparable to the original (within ±30%).
+[ ] Functional identity markers preserved.
+[ ] Karuppar SPECIAL RULE: cheroot KEPT even if plate lacks it.
+[ ] Shiva: two separate reconciliations, one per state.
+[ ] Every change corresponds to something actually visible on the plate.
+[ ] No camera/lighting/composition language added to the locked block.
+[ ] No negatives added inside the locked block.
+[ ] Length within ±30% of original.
 
 ==============================================================================
-HARD RULES (do not break)
+HARD RULES
 ==============================================================================
-  - Output text only — never write files directly. The producer will paste
-    your replacement blocks into the BIBLE files.
-  - If a plate is missing (no image attached for a subject), SKIP that subject
-    and note "PLATE MISSING" in the summary table — do not invent.
-  - If a plate is clearly wrong (e.g., the image shows a horse where Mahishi
-    should be), flag it ("PLATE MISMATCH — image does not match subject") and
-    do not produce a replacement block.
+  - Output text only — never write files directly. Producer pastes manually.
+  - If a plate is missing, SKIP that subject and note "PLATE MISSING".
+  - If a plate clearly does not match the subject, flag "PLATE MISMATCH" and
+    do not produce a replacement.
   - Never invent details not visible on the plate.
-  - Never remove cultural-anchor or reverence language even if the plate is
-    silent on it (the text governs future generations).
-  - If "RUN <subject>" was used, process ONLY that subject and skip the rest.
+  - Never remove cultural-anchor or reverence language.
+  - "RUN <subject>" processes ONLY that subject.
 
 ==============================================================================
 END OF SPEC

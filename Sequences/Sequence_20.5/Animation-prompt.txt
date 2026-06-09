@@ -1,0 +1,11 @@
+[SEQUENCE 20.5 — Ayyappa Unleashed — Tiger Rides — 1:52–1:56  (duration ~4s)]
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
+
+MOTION: Cut from the wordless Ayyappa-Karuppar look. Ayyappa turns. The Bengal Tiger emerges from the smoke at his side and lowers her shoulders. In one fluid motion he is on her back. She LAUNCHES in a single explosive bound. Fast tracking shot as the Tiger charges through the receding asura ranks. Mid-stride she pounces on a Giant Battlefield Breaker — claws raking, her weight folding it down. Ayyappa looses a gold-fletched arrow from atop the running Tiger; it takes an Asura Chieftain through the throat from across the field. INTERCUT: three rapid cuts — (a) the arrow kill, (b) Karuppar mid-aruval-arc on the White Horse, (c) the wide of Tiger and White Horse converging from opposite directions. A second war-horn sounds — the call of the tiger-mount.
+CAMERA: Low fast tracking shot alongside the charging Tiger. Brief slow-mo on the Tiger's pounce. Three rapid intercutting shots for the closing-pincer reveal. The final wide is the poster composition.
+FX: Tiger's claws raking the Giant Breaker — dark blood and grey matter. The gold-fletched arrow in flight, Ayyappa nocking and loosing from the running mount. The Tiger's roar felt as much as heard. The convergence of Tiger and White Horse from opposite ends of the battlefield.
+SFX (diegetic): The Tiger's roar — felt as much as heard. A second war-horn, bright and clear — Ayyappa's tiger-mount riding to war. The arrow-release. The Giant Breaker's impact roar.
+VO: "Two faces of Dharma. One verdict."
+DURATION: 4 seconds
+NOTES: FRESH_START — inserted between Sequence_20 (Rally) and Sequence_21 (Mahishi's Fear). This is Ayyappa's action beat — his physical combat debut alongside Karuppar. The Tiger's face pattern, stripe layout, forehead pattern, muzzle structure, fur coloration, and eye color are LOCKED — do not mutate from Character-Sheets/Bengal-Tiger/Bengal-Tiger_master_sheet.png. Match the cheroot smoke direction from Karuppar's ongoing shots.

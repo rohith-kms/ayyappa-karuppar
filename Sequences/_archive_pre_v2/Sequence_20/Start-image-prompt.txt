@@ -1,0 +1,33 @@
+[SEQUENCE 20 — The Rally — START FRAME]
+[Movement IV palette: full crimson + black + ash-grey, emerging light, hope]
+
+CULTURAL ANCHOR:
+ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+
+ASURA LOCKED BLOCKS (Asura Foot-Soldier, Asura Brute):
+- "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
+- "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
+
+ENVIRONMENT LOCKED BLOCK:
+"a vast ancient South Indian battlefield plain at dusk, ground the color of dried blood and cracked black earth, broken Tamil war-chariots and shattered spears half-buried in churned mud, guttering low fires casting sick orange light, towering pillars of black smoke rising into a storm-dark sky, ash drifting upward on the thermals, a desolate plateau ringed by distant jagged hills, the field densely packed with the dead and the dying, the ground itself seeming to breathe, no European or Mediterranean architecture anywhere in frame, the scale epic and mythological"
+Wide shot. Ayyappa's exhausted Ganas, watching the carnage, their fear visibly draining. They are watching Karuppar's unstoppable slaughter. The moment is the turning of the tide about to become visible. Their eyes are fixed on the god moving through the asura horde.
+
+Ganas: weary battle-worn divine foot-soldiers loyal to Ayyappa, mud-and-blood spattered armor, exhausted determined faces, spears and shields, outnumbered but unbroken. Now they are seeing hope.
+
+Karuppar: in the middle distance, moving through asuras, the chains glowing.
+
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+SUBJECT-SPECIFIC NEGATIVES:
+- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
+- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
+
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+
+IMAGE REFERENCES:
+- Environment-Sheets/Battlefield/Battlefield_master_plate.png
+- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
+- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
+- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

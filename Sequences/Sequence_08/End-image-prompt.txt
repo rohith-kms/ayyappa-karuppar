@@ -1,23 +1,20 @@
 [SEQUENCE 08 — The forging (vortex) — END FRAME]
-[Movement II palette: cool blue-white, cosmic, clean, un-bloodied (transitioning)]
+[Movement II palette: cool blue-white, cosmic, clean, un-bloodied. Calm.]
 
-CULTURAL ANCHOR:
-ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+CULTURAL ANCHOR: ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
 
-ENVIRONMENT LOCKED BLOCK:
-"Mount Kailash of Hindu mythology, a serene icy Himalayan peak rising into a vast cosmic sky, pristine white snow on towering vertical cliff faces, cool blue-white moonlight, the turning galaxies and stars of the cosmos visible behind the peak, an aura of absolute stillness and divinity, no human structures, no Mediterranean architecture, the air thin and silent, ancient and sacred"
-The bead of white fire has fallen and the frame WHIPS DOWN INTO A CHURNING VORTEX OF BLACK FLAME — not orange, not crimson yet — cool black and white fire. A warrior form ASSEMBLES in FRAGMENTS through the smoke, never shown whole:
+The column of black flame from Shiva's thigh-strike has risen into a churning vortex of cool black and white fire. INSIDE the vortex — glimpsed in fragments through the smoke — a warrior form is assembling. The END frame shows the vortex at full height with these fragmentary glimpses: a dark hand closing around the haft of a vel; iron chains uncoiling up a forearm like living serpents; the curve of a glowing aruval blade catching light; amber eyes igniting in the dark; the tiny glow of a lit cheroot between clenched teeth. The full figure is WITHHELD — we see only pieces. The atmosphere is Kailash but the vortex dominates the frame, rising from the point of the thigh-strike.
 
-— A DARK HAND closing with supernatural strength around the haft of the vel spear, the ornate brass visible
-— IRON CHAINS coiling and THREADING UP a massive forearm like living serpents, glowing faintly
-— The CURVED ARUVAL billhook catching light, the blade stained dark
-— AMBER EYES IGNITING like molten fire, piercing through the smoke
-— A CHEROOT glowing to life between clenched teeth, a curl of smoke
+ENVIRONMENT: Mount Kailash of Hindu mythology, a serene icy Himalayan peak rising into a vast cosmic sky, pristine white snow on towering vertical cliff faces, cool blue-white moonlight, the turning galaxies and stars of the cosmos visible behind the peak, an aura of absolute stillness and divinity, no human structures, no Mediterranean architecture, the air thin and silent, ancient and sacred
 
-The composition is deliberate chaos and assembly. The power gathers but is WITHHELD — we never see the full figure yet. Only fragments. The vortex swirls. The moment before revelation.
+KARUPPAR FRAGMENTS (partial — do NOT show the full figure; only these details):
+  — "a dark hand closing around the haft of an ornate long Tamil vel spear with a leaf-shaped polished steel head, brass-and-wood haft, brass bells and a red cloth tassel below the blade"
+  — "heavy black iron chains uncoiling and threading up a dark forearm like living serpents, the links beginning to glow with white-hot Shakti energy"
+  — "the divine Aruval — a massive curved single-edged billhook sword with a glowing golden-bronze blade and ornate brass-and-wood hilt, the blade catching divine light — glimpsed through smoke"
+  — "amber-orange eyes igniting with divine fire in the darkness, glimpsed through churning smoke"
+  — "a lit hand-rolled cheroot cigar glowing to life between clenched dark teeth, a thin thread of smoke curling upward"
 
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-IMAGE REFERENCES:
-- Environment-Sheets/Kailash/Kailash_master_plate.png
-- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian', NOT Mount Olympus, NOT a Buddhist monastery, NOT full body reveal (withhold the complete figure)
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Karuppar/Karuppaswamy_master_sheet.png, Character-Sheets/Weapons-Catalog/Weapons-and-Standards_catalog.png, Environment-Sheets/Kailash/Kailash_master_plate.png

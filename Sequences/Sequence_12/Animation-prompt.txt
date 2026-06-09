@@ -1,49 +1,11 @@
-[SEQUENCE 12 — The face, full reveal — duration ~4s]
+[SEQUENCE 12 — The face — full reveal — 1:06–1:10  (duration ~4s)]
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
 
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-
-The light catches Karuppar fully. A WHIP from silhouette to a hero low-angle close-up: obsidian skin slick with rain, white sacred ash across the brow, red tilak, amber eyes burning, cheroot clenched and glowing. He does not shout. He exhales smoke. His eyes narrow at the horde below — a butcher appraising the work ahead.
-
-BEGIN: Still silhouetted on the ridge.
-
-WHIP (0-1s): The light catches him fully. A rapid whip-cut from silhouette to extreme close-up — his face fills the frame. Obsidian skin, white ash stripes, red tilak, burning amber eyes, glowing cheroot.
-
-HOLD (1-4s): He does not shout. He does not roar. He simply EXHALES A SLOW PLUME OF SMOKE, and his eyes NARROW, looking down at the horde of asuras below. The expression is calculation and certainty. A god appraising his work. The name lands: KARUPPAR.
-
-Camera: Rapid whip from silhouette to extreme close-up, then locked on the face.
-
-Audio: Pure note crescendos → whip-cut sound effect → silence except for the softest wind → the name: KARUPPAR (low, final).
-
-
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
-extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
-modern clothing, plastic look, oversaturated, blurry, washed out, cute,
-childish, lens flare overload,
-Viking, Norse, horned helmet, fur cloak, Norse runes,
-European knight, crusader, templar, medieval European, plate mail,
-chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
-broadsword, claymore, knight's helm, visor helmet,
-Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-samurai, katana, ronin, ninja, kabuto helmet,
-Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
-Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
-kilt, Celtic warrior, woad face paint, druid,
-cowboy hat, Stetson, Western frontier, leather chaps,
-Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-- Environment-Sheets/Ridgeline/Ridgeline_master_plate.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+MOTION: The light catches him fully. WHIP from the silhouette to a hero low-angle close-up: we see his face fully for the first time — obsidian skin slick with rain, the sacred ash, the red tilak, the amber eyes. He does not shout. He exhales a slow plume of cheroot smoke and his eyes narrow at the horde below — a butcher appraising the work ahead. The name lands on screen and in VO: KARUPPAR.
+CAMERA: Whip-cut from silhouette distance to hero low-angle close-up on his face. Then hold on the close-up as he exhales.
+FX: The pale shaft of light catching his face fully. Rain-slick skin. Cheroot smoke exhaled in a slow deliberate plume, drifting in the cold wind.
+SFX (diegetic): The cold wind. The exhale of smoke. Nothing else.
+VO: "KARUPPAR." — low and final. On screen as a title card simultaneously.
+DURATION: 4 seconds
+NOTES: FRESH_START. The whip from silhouette to close-up is a hard cut. This is the first time we see his full face — every locked identity feature must be perfect here: long loose black hair, full dark beard, cheroot, amber eyes, sacred ash + tilak, chains. The exhale of smoke is the only motion. His eyes narrowing is the whole emotional beat.

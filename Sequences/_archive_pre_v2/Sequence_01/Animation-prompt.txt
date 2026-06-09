@@ -1,0 +1,46 @@
+[SEQUENCE 01 — Cold Open — 0:00–0:04  (duration ~4s)]
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
+
+MOTION: Almost imperceptible. The lone ember pulses faintly; ash motes drift
+slowly upward; the thin grey seam of light at the bottom edge creeps in very
+slightly. The frame stays essentially black — the work here is done by SOUND, not
+image. Do NOT reveal anything yet.
+CAMERA: Locked off, dead still. No move.
+FX: Slow drifting ash particles, one faint ember glow, the faintest haze.
+SFX (diegetic): A low, wet, exhausted HEARTBEAT, slowing down. Over it, a single
+distant WAR-HORN that cracks and FAILS mid-note, like a lung giving out. (This
+broken horn is the reel's motif — it returns healed at 1:10.)
+VO: (none)
+DURATION: 4 seconds.
+NOTES: This is the opening. No logo, no title. Pure black patience. The audience
+should feel dread before they see a single thing. Hard cut OUT of this into
+Sequence_02 (the battlefield reveal).
+
+South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
+and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
+garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
+skin tones, Tamil epic warfare
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
+extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
+modern clothing, plastic look, oversaturated, blurry, washed out, cute,
+childish, lens flare overload,
+Viking, Norse, horned helmet, fur cloak, Norse runes,
+European knight, crusader, templar, medieval European, plate mail,
+chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
+broadsword, claymore, knight's helm, visor helmet,
+Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
+samurai, katana, ronin, ninja, kabuto helmet,
+Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
+Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
+kilt, Celtic warrior, woad face paint, druid,
+cowboy hat, Stetson, Western frontier, leather chaps,
+Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
+
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2

@@ -1,50 +1,11 @@
-[SEQUENCE 19 — The Drag & Beheading — duration ~6s]
+[SEQUENCE 19 — The Drag & Beheading — 1:40–1:46  (duration ~6s)]
+START FRAME:  start.png (generated from Start-image-prompt.txt)
+END FRAME:    end.png (generated from End-image-prompt.txt)
 
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-
-He wraps chain around fleeing asura's neck and drags it screaming across wet stone, painting a streak of blood. Then snaps it up into air and aruval takes its head. Slow-mo head spinning past lens, cheroot smoke drifting across frame.
-
-ACTION (0-3s): A fleeing asura — chains wrap around its neck from behind. Karuppar yanks it backward and begins DRAGGING it across the wet stone. The camera rides low behind the asura, intimate with its terror and screams. Blood paints a thick streak across the dark stone as it is dragged.
-
-THE KILL (3-6s): Karuppar SNAPS the chain upward with explosive force, lifting the asura into the air. In one rising motion, the aruval comes up and takes its head. SLOW-MO: The head spins past the lens, still screaming. Cheroot smoke from Karuppar's mouth drifts across the frame. The body falls.
-
-This is execution. Final and total.
-
-Audio: Wet dragging, screams, chain snap, the SOUND of the blade, cheroot smoke curling (visual/audio synesthetic moment).
-
-
-South Indian / Dravidian martial culture, Chola-era warrior styling, bronze
-and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram
-garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian
-skin tones, Tamil epic warfare
-
-Asura Foot-Soldier: "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
-Asura Commander: "an asura warlord commander of Mahishi's army, 7-8ft demon of fearsome bearing, dark obsidian-grey skin streaked with ritual ash markings, long curved horns wrapped in red cloth and trophy bones, a skull or fanged-mask helm of dark bronze, ornate dark-bronze and lacquered-bone armor with inscribed war-glyphs, a heavy curved scimitar-like khanda or long-bladed asura sword, a war-banner of black cloth and bone at the back, fierce intelligent eyes, the bearing of a war chief, jeweled with skulls and blackened gold, fewer of these in any scene"
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy,
-extra limbs, extra fingers, fused fingers, text, watermark, signature, logo,
-modern clothing, plastic look, oversaturated, blurry, washed out, cute,
-childish, lens flare overload,
-Viking, Norse, horned helmet, fur cloak, Norse runes,
-European knight, crusader, templar, medieval European, plate mail,
-chainmail hauberk, gambeson, tabard, surcoat with cross, longsword,
-broadsword, claymore, knight's helm, visor helmet,
-Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata,
-samurai, katana, ronin, ninja, kabuto helmet,
-Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon,
-Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian,
-kilt, Celtic warrior, woad face paint, druid,
-cowboy hat, Stetson, Western frontier, leather chaps,
-Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Commander: NOT a Sauron-style Dark Lord, NOT a Death Knight, NOT a Witch-King of Angmar, NOT a Stormcast, NOT a generic boss monster, NOT a Klingon warrior, NOT a samurai daimyo
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-- Environment-Sheets/Battlefield/Battlefield_master_plate.png
-- Character-Sheets/Asuras/Asura_Commander/Asura_Commander_master_sheet.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Karuppar/Karuppar_master_sheet.png
+MOTION: He wraps a chain around a fleeing asura's neck and drags it screaming across the wet stone — the camera riding low behind it through the streak of blood it paints. Then snaps it up into the air — and in one rising motion, the aruval takes its head. SLOW-MO: the head spinning past the lens. Cheroot smoke drifts across the frame.
+CAMERA: Low behind the dragged asura (ground-level tracking). Then at the snap-up moment, the camera rises with the body — then cuts to slow-mo of the head spinning past lens.
+FX: The blood streak on the wet ground behind the dragged asura. The snap upward — the body airborne. The aruval arc. The head spinning past the lens in slow-mo. The cheroot smoke drifting across frame.
+SFX (diegetic): The screaming asura being dragged. The chain taut. The snap. The aruval impact. Silence in slow-mo on the spinning head — then the cheroot smoke and ambient battle resuming.
+VO: (none)
+DURATION: 6 seconds
+NOTES: FRESH_START. The cheroot smoke drifting across the frame must match the smoke direction established in Sequence_12. The slow-mo head-spinning-past-the-lens is the signature end-beat of this sequence. The beheaded subject should be an Asura Chieftain (A-D) for dramatic weight — confirmed by archetype map.

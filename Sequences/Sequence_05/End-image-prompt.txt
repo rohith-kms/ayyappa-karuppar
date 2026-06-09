@@ -1,28 +1,15 @@
-[SEQUENCE 05 — Ayyappa eyes close->black — END FRAME]
-[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only]
+[SEQUENCE 05 — Ayyappa eyes close → black — END FRAME]
+[Movement I palette: near-monochrome, bruised grey + charcoal, sick orange firelight only. Drained, hopeless.]
 
-CULTURAL ANCHOR:
-ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
+CULTURAL ANCHOR: ancient Tamil Hindu mythological warriors, Sanatan Dharma iconography, South Indian / Dravidian martial culture, Chola-era warrior styling, bronze and brass weaponry of the Indian subcontinent, dhoti / veshti / angavastram garments, temple-fresco and Tanjore-painting aesthetic, dark South Indian skin tones, Tamil epic warfare
 
-ASURA LOCKED BLOCKS (Asura Foot-Soldier, Asura Brute):
-- "an asura demon foot-soldier of Sanatan Dharma mythology, hulking grey-skinned humanoid roughly 6-7ft tall, fanged snarling face with dark sunken eyes and protruding lower tusks, structured bronze-banded leather armor with strapped plates over a scarred muscular torso and decorative gold accents, jagged iron sickle-blade weapon, ash-smeared limbs, born slick and steaming from Mahishi's hair, savage and expendable, part of an endless screaming horde"
-- "an asura brute warrior of Hindu mythology, massive 9-10ft hulking demon, slab-muscled grey-and-charcoal hide thick with old scars, low forehead, short curved bull-like horns or bone protrusions, jutting fanged underbite, swinging an oversized two-handed iron mace or jagged stone bludgeon, heavy bronze-and-bone armor plates strapped over the chest and shoulders, slower than the foot-soldiers but devastating, breath steaming, eyes small and bloodshot"
+The END FRAME is the moment just before the hard cut to black — a close-up on Ayyappa's face as his eyes have just closed. Not defeat — release. A deliberate, chosen act of surrender that is not surrender. His face is radiant even in the monochrome hell of the battlefield. The carnage rages around him but the camera is very close — tight on his face, the chaos softened to blur at the edges of the frame. His eyes are closed. One slow breath visible in the slight parting of his lips.
 
-ENVIRONMENT LOCKED BLOCK:
-"a vast ancient South Indian battlefield plain at dusk, ground the color of dried blood and cracked black earth, broken Tamil war-chariots and shattered spears half-buried in churned mud, guttering low fires casting sick orange light, towering pillars of black smoke rising into a storm-dark sky, ash drifting upward on the thermals, a desolate plateau ringed by distant jagged hills, the field densely packed with the dead and the dying, the ground itself seeming to breathe, no European or Mediterranean architecture anywhere in frame, the scale epic and mythological"
-Extreme close-up on Ayyappa's radiant face. His luminous divine aura is fading. His eyes are CLOSING in a gesture of release, not defeat. The moment is one of profound peace — a decision made, a burden released. His face transitions from serene light to shadow as his eyes shut completely.
+AYYAPPA (close-up, reverently depicted):
+  "Lord Ayyappa, a young adult warrior prince god of the Sabarimala tradition, 18-22 years of age, approximately 188 cm tall, athletic powerful agile battle-ready build, smooth deep golden-brown South Indian complexion, calm serene fearless face with a compassionate confident expression, long dark wavy curly hair worn loose past the shoulders with a small ornamental crown or hair binding, a luminous golden divine aura, layered orange-and-saffron-gold dhoti and angavastram with intricate gold-thread embroidery and jewelled ornaments, gold armlets and a beaded mala, a single sacred bell on a string at the neck, white sacred ash markings across the forehead with a red tilak, dark intense kohl-lined eyes, bare feet with gold anklets, the still point at the center of every storm"
+  Eyes closed. Lips slightly parted on the exhale. Expression: serenity in the eye of destruction.
 
-Lord Ayyappa, a youthful radiant warrior god, serene and fearless face, luminous golden divine aura, smooth dark complexion, a simple gold ornament and bell, warrior's cloth and beads, calm composed expression even amid carnage, soft warm rim-light separating him from the dark battlefield.
-
-The background has gone to near-total black. All color drains. His divine glow is the last light in the frame. This is the moment before the cut to pure black silence.
-
-NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian'
-
-SUBJECT-SPECIFIC NEGATIVES:
-- Asura Foot-Soldier: NOT a Tolkien orc, NOT Uruk-hai, NOT a Warhammer chaos warrior, NOT a goblin, NOT a generic D&D monster, NOT a Western demon with bat wings, NOT zombie, NOT Roman legionary, NOT a comic-book mutant
-- Asura Brute: NOT an ogre, NOT a Warcraft tauren, NOT a Hulk, NOT a Minotaur, NOT a cyclops, NOT a Norse troll, NOT a Tolkien cave-troll, NOT chibi/cartoon
-
-IMAGE REFERENCES:
-- Environment-Sheets/Battlefield/Battlefield_master_plate.png
-- Character-Sheets/Asuras/Asura_Foot-Soldier/Asura_Foot-soldier_master_sheet.png
-- Character-Sheets/Asuras/Asura_Brute/Asura_Brute_master_sheet.png
+STYLE: dark painterly cinematic fantasy, hyper-detailed realism, dramatic chiaroscuro storm lighting, volumetric god-rays, fine film grain, epic mythological scale, photoreal skin and metal textures, moody crimson-charcoal palette, ultra sharp focus, 8k, cinematic color grade
+NEGATIVE: cartoon, anime, cel-shaded, flat lighting, low detail, deformed anatomy, extra limbs, extra fingers, fused fingers, text, watermark, signature, logo, modern clothing, plastic look, oversaturated, blurry, washed out, cute, childish, lens flare overload, Viking, Norse, horned helmet, fur cloak, Norse runes, European knight, crusader, templar, medieval European, plate mail, chainmail hauberk, gambeson, tabard, surcoat with cross, longsword, broadsword, claymore, knight's helm, visor helmet, Roman legionary, Greek hoplite, gladiator, centurion, lorica segmentata, samurai, katana, ronin, ninja, kabuto helmet, Tolkien orc, goblin, Uruk-hai, generic D&D demon, Western fantasy demon, Warhammer chaos warrior, anime demon, devil with bat wings, Lovecraftian, kilt, Celtic warrior, woad face paint, druid, cowboy hat, Stetson, Western frontier, leather chaps, Pacific Islander tribal tattoos, Maori moko, generic 'barbarian', NOT a child (Ayyappa is young adult), NOT a fair-skinned European, NOT a Disney prince, NOT eyes-rolled-back in defeat
+PARAMS: --ar 9:16 --style raw --stylize 250 --quality 2
+IMAGE REFERENCES: Character-Sheets/Ayyappa/Ayyappa_master_sheet.png, Character-Sheets/Ayyappa/Ayyappa_master_portrait.png, Environment-Sheets/Battlefield/Battlefield_master_plate.png
